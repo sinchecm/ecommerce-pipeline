@@ -196,7 +196,7 @@ function buildOverview() {
         { label:'Profit',   data: cats.map(c => c.total_profit),  backgroundColor: 'rgba(16,185,129,0.8)', borderRadius: 4 },
       ],
     },
-    options: { ...chartOpts({ prefix:'$', integer:true }), indexAxis:'y' },
+    options: hBarOpts({ prefix:'$', integer:true }),
   })
 }
 
@@ -241,7 +241,7 @@ function buildRevenue() {
       labels: cats.map(c => c.category),
       datasets: [{ label:'Gross Margin %', data: cats.map(c => c.avg_margin_pct), backgroundColor: cats.map(c => c.avg_margin_pct >= 50 ? 'rgba(16,185,129,0.75)' : 'rgba(245,158,11,0.75)'), borderRadius: 4 }],
     },
-    options: { ...chartOpts({ suffix:'%' }), indexAxis:'y' },
+    options: hBarOpts({ suffix:'%' }),
   })
 
   // Returns chart
@@ -251,7 +251,7 @@ function buildRevenue() {
       labels: cats.map(c => c.category),
       datasets: [{ label:'Return Rate %', data: cats.map(c => c.return_rate_pct), backgroundColor: cats.map(c => c.return_rate_pct >= 13 ? 'rgba(239,68,68,0.75)' : 'rgba(99,102,241,0.65)'), borderRadius: 4 }],
     },
-    options: { ...chartOpts({ suffix:'%' }), indexAxis:'y' },
+    options: hBarOpts({ suffix:'%' }),
   })
 }
 
@@ -413,7 +413,7 @@ function buildGeo() {
       labels: geo.map(r => r.customer_country),
       datasets: [{ label:'Revenue', data: geo.map(r => r.total_revenue), backgroundColor: clrs, borderRadius: 6 }],
     },
-    options: { ...chartOpts({ prefix:'$', integer:true }), indexAxis:'y' },
+    options: hBarOpts({ prefix:'$', integer:true }),
   })
 
   makeChart('chart-geo-customers', {
@@ -499,6 +499,50 @@ function buildQuality() {
       renderTests(tests.filter(t => t.category === cat))
     }
   })
+}
+
+// ── Horizontal bar chart options factory ────────────────────
+function hBarOpts({ prefix = '', suffix = '', integer = false } = {}) {
+  return {
+    responsive: true,
+    maintainAspectRatio: true,
+    indexAxis: 'y',
+    layout: { padding: { left: 0 } },
+    plugins: {
+      legend: { labels: { color: '#9ca3af', boxWidth: 12, padding: 16 } },
+      tooltip: {
+        backgroundColor: '#1f2937',
+        borderColor: '#374151',
+        borderWidth: 1,
+        titleColor: '#f3f4f6',
+        bodyColor: '#d1d5db',
+        callbacks: {
+          label: ctx => {
+            const v = ctx.parsed.x
+            const n = integer ? Math.round(v).toLocaleString('en-US') : Number(v).toLocaleString('en-US', { maximumFractionDigits: 1 })
+            return ` ${ctx.dataset.label}: ${prefix}${n}${suffix}`
+          },
+        },
+      },
+    },
+    scales: {
+      x: {
+        grid: { color: CHART_DEFAULTS.gridColor },
+        ticks: {
+          color: '#6b7280',
+          callback: v => prefix + (integer ? Math.round(v).toLocaleString('en-US') : v) + suffix,
+        },
+      },
+      y: {
+        grid: { color: 'transparent' },
+        ticks: {
+          color: '#d1d5db',
+          font: { size: 12 },
+          autoSkip: false,
+        },
+      },
+    },
+  }
 }
 
 // ── Shared chart options factory ─────────────────────────────
