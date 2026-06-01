@@ -4,6 +4,8 @@ numpy==1.26.4
 faker==40.19.1
 pyarrow==24.0.0
 matplotlib==3.10.3
+seaborn==0.13.2
+scipy==1.13.1
 sqlalchemy==2.0.50
 duckdb-engine==0.17.0
 schedule==1.2.2
