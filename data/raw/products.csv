@@ -1,0 +1,2001 @@
+id,cost,category,name,brand,retail_price,department,sku,distribution_center_id
+1,209.14,Fashion Hoodies & Sweatshirts,Gap Crewneck Sweatshirts #1,Gap,605.79,Men,SKU-000001,2
+2,109.39,Socks,Columbia Crew Socks #2,Columbia,307.4,Men,SKU-000002,6
+3,162.15,Blazers & Jackets,UNIQLO Denim Jackets #3,UNIQLO,384.06,Women,SKU-000003,5
+4,130.45,Shorts,Wrangler Bermuda Shorts #4,Wrangler,273.56,Women,SKU-000004,3
+5,185.52,Intimates,Levi's Underwear #5,Levi's,364.76,Women,SKU-000005,2
+6,231.97,Fashion Hoodies & Sweatshirts,Versace Crewneck Sweatshirts #6,Versace,696.96,Men,SKU-000006,7
+7,167.78,Outerwear & Coats,Columbia Coats #7,Columbia,421.47,Kids,SKU-000007,2
+8,218.18,Jeans,Anthropologie Straight Jeans #8,Anthropologie,590.9,Kids,SKU-000008,6
+9,23.43,Active,Patagonia Yoga Pants #9,Patagonia,73.59,Kids,SKU-000009,7
+10,20.05,Skirts,Under Armour A-Line Skirts #10,Under Armour,41.25,Men,SKU-000010,4
+11,178.76,Jeans,Ralph Lauren Straight Jeans #11,Ralph Lauren,520.22,Kids,SKU-000011,6
+12,168.32,Shirts & Tops,Calvin Klein Casual Shirts #12,Calvin Klein,476.87,Men,SKU-000012,4
+13,30.38,Footwear,Ralph Lauren Boots #13,Ralph Lauren,72.47,Kids,SKU-000013,7
+14,120.0,Outerwear & Coats,Puma Jackets #14,Puma,261.62,Men,SKU-000014,5
+15,215.17,Accessories,Levi's Belts #15,Levi's,592.07,Women,SKU-000015,3
+16,211.14,Shirts & Tops,Hollister Polo Shirts #16,Hollister,436.75,Kids,SKU-000016,9
+17,68.06,Pants & Capris,Free People Jeans #17,Free People,141.95,Women,SKU-000017,8
+18,48.28,Suits,Adidas Business Suits #18,Adidas,149.64,Kids,SKU-000018,9
+19,185.21,Socks,Nike Ankle Socks #19,Nike,394.35,Kids,SKU-000019,8
+20,55.78,Shirts & Tops,Ralph Lauren T-Shirts #20,Ralph Lauren,175.06,Men,SKU-000020,2
+21,184.31,Outerwear & Coats,North Face Coats #21,North Face,585.84,Men,SKU-000021,5
+22,240.94,Socks,Banana Republic Crew Socks #22,Banana Republic,637.92,Men,SKU-000022,2
+23,191.13,Jeans,Free People Skinny Jeans #23,Free People,413.92,Women,SKU-000023,2
+24,64.56,Active,UNIQLO Athletic Shorts #24,UNIQLO,173.96,Women,SKU-000024,9
+25,123.77,Dresses,Ralph Lauren Maxi Dresses #25,Ralph Lauren,293.86,Women,SKU-000025,10
+26,231.15,Accessories,Adidas Belts #26,Adidas,459.09,Men,SKU-000026,10
+27,173.5,Footwear,American Eagle Sandals #27,American Eagle,354.5,Kids,SKU-000027,9
+28,170.2,Tops & Tees,Under Armour Tank Tops #28,Under Armour,405.87,Women,SKU-000028,2
+29,48.12,Sleep & Lounge,Burberry Pajamas #29,Burberry,150.04,Kids,SKU-000029,10
+30,83.95,Underwear,H&M Boxers #30,H&M,236.87,Men,SKU-000030,6
+31,241.76,Shirts & Tops,Forever 21 T-Shirts #31,Forever 21,472.73,Kids,SKU-000031,4
+32,212.93,Skirts,Banana Republic Midi Skirts #32,Banana Republic,407.64,Men,SKU-000032,2
+33,64.05,Skirts,Gucci Mini Skirts #33,Gucci,155.88,Men,SKU-000033,1
+34,24.17,Shorts,Versace Bermuda Shorts #34,Versace,60.36,Men,SKU-000034,5
+35,189.46,Shorts,Burberry Bermuda Shorts #35,Burberry,567.66,Kids,SKU-000035,4
+36,198.41,Pants & Capris,H&M Chinos #36,H&M,583.61,Men,SKU-000036,10
+37,100.03,Tops & Tees,Wrangler Blouses #37,Wrangler,287.83,Kids,SKU-000037,3
+38,214.24,Underwear,Under Armour Briefs #38,Under Armour,467.47,Women,SKU-000038,9
+39,20.97,Skirts,Patagonia Mini Skirts #39,Patagonia,59.94,Women,SKU-000039,2
+40,115.8,Jeans,New Balance Straight Jeans #40,New Balance,328.96,Kids,SKU-000040,9
+41,241.32,Jeans,Tommy Hilfiger Bootcut Jeans #41,Tommy Hilfiger,439.2,Men,SKU-000041,2
+42,89.41,Underwear,North Face Boxers #42,North Face,270.72,Men,SKU-000042,8
+43,68.82,Suits,Hollister Blazers #43,Hollister,204.61,Women,SKU-000043,7
+44,137.67,Shirts & Tops,Banana Republic Casual Shirts #44,Banana Republic,389.12,Women,SKU-000044,5
+45,35.8,Swim,Patagonia Swimwear #45,Patagonia,83.42,Men,SKU-000045,6
+46,205.54,Tops & Tees,Under Armour Tank Tops #46,Under Armour,551.91,Men,SKU-000046,10
+47,92.17,Tops & Tees,Tommy Hilfiger Blouses #47,Tommy Hilfiger,251.08,Women,SKU-000047,1
+48,105.13,Underwear,Versace Briefs #48,Versace,296.86,Women,SKU-000048,4
+49,44.31,Leggings,North Face Casual Leggings #49,North Face,126.64,Men,SKU-000049,3
+50,156.35,Outerwear & Coats,Forever 21 Jackets #50,Forever 21,498.51,Women,SKU-000050,8
+51,54.65,Leggings,Anthropologie Workout Leggings #51,Anthropologie,125.83,Men,SKU-000051,6
+52,118.49,Underwear,UNIQLO Boxers #52,UNIQLO,341.88,Kids,SKU-000052,7
+53,177.39,Socks,Reebok Ankle Socks #53,Reebok,482.59,Men,SKU-000053,3
+54,175.92,Accessories,Banana Republic Hats #54,Banana Republic,383.1,Kids,SKU-000054,8
+55,48.28,Skirts,Burberry Mini Skirts #55,Burberry,120.52,Men,SKU-000055,2
+56,95.87,Blazers & Jackets,Hollister Blazers #56,Hollister,201.04,Men,SKU-000056,6
+57,153.35,Underwear,Prada Briefs #57,Prada,474.67,Women,SKU-000057,1
+58,155.76,Skirts,Columbia A-Line Skirts #58,Columbia,389.96,Kids,SKU-000058,3
+59,62.69,Underwear,New Balance Briefs #59,New Balance,183.24,Men,SKU-000059,10
+60,132.52,Sleep & Lounge,Banana Republic Robes #60,Banana Republic,298.88,Women,SKU-000060,5
+61,176.7,Shirts & Tops,Columbia Casual Shirts #61,Columbia,508.23,Women,SKU-000061,5
+62,177.68,Socks,Ralph Lauren Crew Socks #62,Ralph Lauren,385.32,Kids,SKU-000062,2
+63,218.93,Active,Ralph Lauren Athletic Shorts #63,Ralph Lauren,662.02,Kids,SKU-000063,10
+64,41.02,Jeans,Abercrombie Straight Jeans #64,Abercrombie,126.08,Men,SKU-000064,9
+65,80.76,Active,Tommy Hilfiger Athletic Shorts #65,Tommy Hilfiger,252.61,Women,SKU-000065,6
+66,123.8,Dresses,Wrangler Formal Dresses #66,Wrangler,342.56,Kids,SKU-000066,1
+67,110.6,Outerwear & Coats,Tommy Hilfiger Coats #67,Tommy Hilfiger,343.69,Men,SKU-000067,4
+68,220.97,Swim,Hollister Cover Ups #68,Hollister,574.18,Kids,SKU-000068,10
+69,162.97,Shorts,Zara Athletic Shorts #69,Zara,426.31,Kids,SKU-000069,7
+70,10.66,Active,Patagonia Sports Bras #70,Patagonia,21.72,Men,SKU-000070,4
+71,182.97,Footwear,H&M Flats #71,H&M,399.01,Men,SKU-000071,2
+72,143.08,Shorts,Reebok Bermuda Shorts #72,Reebok,285.42,Women,SKU-000072,10
+73,56.6,Accessories,Zara Hats #73,Zara,104.13,Kids,SKU-000073,3
+74,196.85,Sleep & Lounge,Adidas Robes #74,Adidas,380.14,Women,SKU-000074,8
+75,145.19,Footwear,Gap Flats #75,Gap,405.31,Kids,SKU-000075,6
+76,128.48,Suits,Calvin Klein Business Suits #76,Calvin Klein,356.14,Men,SKU-000076,1
+77,177.05,Footwear,Prada Flats #77,Prada,391.31,Men,SKU-000077,7
+78,207.05,Fashion Hoodies & Sweatshirts,Ralph Lauren Crewneck Sweatshirts #78,Ralph Lauren,439.91,Women,SKU-000078,4
+79,217.3,Socks,Anthropologie Ankle Socks #79,Anthropologie,495.38,Kids,SKU-000079,10
+80,142.56,Swim,Banana Republic Swimwear #80,Banana Republic,414.68,Men,SKU-000080,9
+81,15.08,Accessories,Zara Hats #81,Zara,36.06,Women,SKU-000081,1
+82,167.06,Jeans,American Eagle Bootcut Jeans #82,American Eagle,473.63,Men,SKU-000082,10
+83,187.35,Swim,Prada Swimwear #83,Prada,400.99,Kids,SKU-000083,5
+84,186.13,Shirts & Tops,Wrangler Casual Shirts #84,Wrangler,497.96,Men,SKU-000084,4
+85,164.6,Outerwear & Coats,Banana Republic Coats #85,Banana Republic,511.81,Kids,SKU-000085,1
+86,205.36,Blazers & Jackets,New Balance Blazers #86,New Balance,608.84,Kids,SKU-000086,2
+87,169.28,Fashion Hoodies & Sweatshirts,Zara Hoodies #87,Zara,514.34,Men,SKU-000087,4
+88,134.38,Sleep & Lounge,Calvin Klein Pajamas #88,Calvin Klein,312.66,Women,SKU-000088,9
+89,202.37,Shirts & Tops,Zara Polo Shirts #89,Zara,371.99,Kids,SKU-000089,1
+90,141.49,Accessories,Free People Belts #90,Free People,430.45,Kids,SKU-000090,10
+91,39.41,Shorts,American Eagle Bermuda Shorts #91,American Eagle,117.29,Kids,SKU-000091,6
+92,63.74,Blazers & Jackets,Anthropologie Leather Jackets #92,Anthropologie,146.65,Men,SKU-000092,5
+93,153.4,Footwear,Anthropologie Sneakers #93,Anthropologie,422.5,Women,SKU-000093,6
+94,133.23,Tops & Tees,Banana Republic Tank Tops #94,Banana Republic,286.26,Women,SKU-000094,10
+95,167.57,Jeans,Ralph Lauren Skinny Jeans #95,Ralph Lauren,355.95,Women,SKU-000095,5
+96,22.23,Underwear,Adidas Boxers #96,Adidas,59.74,Women,SKU-000096,10
+97,153.77,Pants & Capris,Gucci Leggings #97,Gucci,406.28,Women,SKU-000097,1
+98,192.94,Outerwear & Coats,Wrangler Vests #98,Wrangler,384.69,Men,SKU-000098,7
+99,62.71,Underwear,Patagonia Boxers #99,Patagonia,196.35,Men,SKU-000099,2
+100,122.8,Intimates,UNIQLO Underwear #100,UNIQLO,258.89,Kids,SKU-000100,9
+101,205.91,Dresses,Versace Maxi Dresses #101,Versace,643.93,Men,SKU-000101,5
+102,174.6,Fashion Hoodies & Sweatshirts,UNIQLO Hoodies #102,UNIQLO,455.2,Women,SKU-000102,7
+103,93.74,Leggings,Calvin Klein Workout Leggings #103,Calvin Klein,214.02,Kids,SKU-000103,6
+104,171.62,Dresses,Zara Mini Dresses #104,Zara,335.8,Women,SKU-000104,6
+105,139.89,Tops & Tees,American Eagle Tank Tops #105,American Eagle,312.52,Men,SKU-000105,10
+106,18.95,Accessories,Under Armour Bags #106,Under Armour,36.89,Men,SKU-000106,9
+107,37.99,Blazers & Jackets,Forever 21 Blazers #107,Forever 21,73.84,Kids,SKU-000107,8
+108,18.39,Blazers & Jackets,Patagonia Denim Jackets #108,Patagonia,41.97,Kids,SKU-000108,5
+109,11.38,Underwear,Columbia Boxers #109,Columbia,36.18,Women,SKU-000109,3
+110,182.16,Intimates,Tommy Hilfiger Lingerie #110,Tommy Hilfiger,386.43,Women,SKU-000110,8
+111,18.42,Accessories,American Eagle Jewelry #111,American Eagle,37.03,Women,SKU-000111,10
+112,205.3,Blazers & Jackets,Patagonia Blazers #112,Patagonia,498.32,Men,SKU-000112,6
+113,118.51,Shirts & Tops,Burberry T-Shirts #113,Burberry,320.1,Women,SKU-000113,8
+114,187.44,Underwear,American Eagle Briefs #114,American Eagle,391.93,Kids,SKU-000114,1
+115,119.41,Dresses,Prada Mini Dresses #115,Prada,286.73,Women,SKU-000115,9
+116,124.83,Underwear,H&M Boxers #116,H&M,297.73,Women,SKU-000116,2
+117,146.39,Outerwear & Coats,Ralph Lauren Jackets #117,Ralph Lauren,410.46,Men,SKU-000117,9
+118,240.68,Dresses,Patagonia Formal Dresses #118,Patagonia,748.86,Men,SKU-000118,7
+119,151.49,Dresses,Columbia Mini Dresses #119,Columbia,426.52,Women,SKU-000119,10
+120,23.4,Swim,UNIQLO Cover Ups #120,UNIQLO,51.9,Men,SKU-000120,6
+121,190.05,Outerwear & Coats,Burberry Coats #121,Burberry,544.53,Women,SKU-000121,3
+122,193.56,Active,Free People Athletic Shorts #122,Free People,444.31,Men,SKU-000122,7
+123,147.97,Tops & Tees,Burberry Tank Tops #123,Burberry,452.51,Men,SKU-000123,6
+124,83.78,Shorts,J.Crew Athletic Shorts #124,J.Crew,216.57,Women,SKU-000124,6
+125,183.78,Swim,Under Armour Cover Ups #125,Under Armour,480.31,Kids,SKU-000125,5
+126,148.54,Suits,H&M Business Suits #126,H&M,268.46,Men,SKU-000126,10
+127,116.81,Accessories,Burberry Hats #127,Burberry,261.02,Kids,SKU-000127,3
+128,127.38,Skirts,Versace Midi Skirts #128,Versace,292.97,Kids,SKU-000128,9
+129,104.77,Swim,Banana Republic Cover Ups #129,Banana Republic,189.57,Men,SKU-000129,7
+130,12.76,Socks,Reebok Crew Socks #130,Reebok,28.25,Men,SKU-000130,7
+131,215.44,Accessories,Gucci Sunglasses #131,Gucci,577.7,Women,SKU-000131,3
+132,49.23,Intimates,Patagonia Lingerie #132,Patagonia,100.66,Women,SKU-000132,3
+133,205.17,Socks,Gap Crew Socks #133,Gap,576.52,Kids,SKU-000133,5
+134,97.62,Jeans,Anthropologie Skinny Jeans #134,Anthropologie,220.02,Men,SKU-000134,2
+135,149.58,Tops & Tees,Under Armour Crop Tops #135,Under Armour,367.94,Men,SKU-000135,2
+136,151.36,Suits,Levi's Business Suits #136,Levi's,342.12,Kids,SKU-000136,6
+137,81.72,Fashion Hoodies & Sweatshirts,J.Crew Hoodies #137,J.Crew,249.78,Kids,SKU-000137,4
+138,158.69,Suits,Columbia Blazers #138,Columbia,419.6,Kids,SKU-000138,10
+139,59.6,Pants & Capris,Columbia Shorts #139,Columbia,136.33,Men,SKU-000139,10
+140,180.3,Suits,Levi's Business Suits #140,Levi's,489.19,Kids,SKU-000140,6
+141,174.79,Pants & Capris,Nike Chinos #141,Nike,330.71,Kids,SKU-000141,2
+142,117.09,Shorts,American Eagle Athletic Shorts #142,American Eagle,336.35,Kids,SKU-000142,2
+143,108.7,Pants & Capris,Anthropologie Leggings #143,Anthropologie,227.61,Kids,SKU-000143,1
+144,82.05,Sleep & Lounge,Free People Pajamas #144,Free People,148.03,Women,SKU-000144,6
+145,156.52,Underwear,North Face Briefs #145,North Face,380.84,Women,SKU-000145,5
+146,93.73,Swim,UNIQLO Swimwear #146,UNIQLO,233.11,Kids,SKU-000146,9
+147,248.06,Outerwear & Coats,Free People Coats #147,Free People,570.7,Kids,SKU-000147,5
+148,78.42,Dresses,Nike Mini Dresses #148,Nike,142.99,Kids,SKU-000148,9
+149,50.81,Tops & Tees,Anthropologie Blouses #149,Anthropologie,136.07,Kids,SKU-000149,7
+150,209.12,Suits,Columbia Blazers #150,Columbia,536.62,Women,SKU-000150,3
+151,96.45,Suits,Adidas Blazers #151,Adidas,189.74,Kids,SKU-000151,2
+152,117.21,Underwear,Columbia Boxers #152,Columbia,347.98,Women,SKU-000152,8
+153,248.85,Intimates,Abercrombie Underwear #153,Abercrombie,676.95,Kids,SKU-000153,1
+154,108.82,Jeans,Free People Skinny Jeans #154,Free People,237.86,Kids,SKU-000154,4
+155,69.33,Active,Gap Sports Bras #155,Gap,208.49,Kids,SKU-000155,4
+156,149.05,Jeans,Gucci Bootcut Jeans #156,Gucci,344.35,Men,SKU-000156,3
+157,174.83,Shorts,J.Crew Athletic Shorts #157,J.Crew,457.4,Women,SKU-000157,3
+158,32.05,Accessories,Patagonia Sunglasses #158,Patagonia,74.5,Kids,SKU-000158,10
+159,213.48,Footwear,Burberry Sneakers #159,Burberry,577.04,Women,SKU-000159,8
+160,46.58,Skirts,Nike Mini Skirts #160,Nike,98.54,Women,SKU-000160,2
+161,191.89,Accessories,Free People Bags #161,Free People,414.93,Kids,SKU-000161,10
+162,238.11,Jeans,H&M Bootcut Jeans #162,H&M,585.05,Men,SKU-000162,5
+163,142.8,Underwear,Anthropologie Briefs #163,Anthropologie,442.42,Women,SKU-000163,7
+164,143.94,Outerwear & Coats,Puma Jackets #164,Puma,362.25,Men,SKU-000164,5
+165,137.45,Sleep & Lounge,Calvin Klein Pajamas #165,Calvin Klein,338.54,Kids,SKU-000165,9
+166,131.39,Shorts,H&M Bermuda Shorts #166,H&M,352.37,Kids,SKU-000166,2
+167,200.11,Shirts & Tops,Calvin Klein Polo Shirts #167,Calvin Klein,531.12,Women,SKU-000167,3
+168,62.61,Outerwear & Coats,H&M Jackets #168,H&M,136.85,Men,SKU-000168,8
+169,40.42,Intimates,Under Armour Lingerie #169,Under Armour,101.23,Women,SKU-000169,10
+170,129.92,Skirts,Calvin Klein Mini Skirts #170,Calvin Klein,371.99,Kids,SKU-000170,10
+171,237.14,Swim,Forever 21 Swimwear #171,Forever 21,484.18,Kids,SKU-000171,1
+172,79.78,Leggings,Gap Workout Leggings #172,Gap,201.58,Women,SKU-000172,4
+173,131.15,Suits,Patagonia Business Suits #173,Patagonia,397.05,Men,SKU-000173,9
+174,148.6,Shirts & Tops,Anthropologie Casual Shirts #174,Anthropologie,366.47,Men,SKU-000174,1
+175,247.95,Tops & Tees,Wrangler Blouses #175,Wrangler,651.53,Men,SKU-000175,1
+176,37.61,Dresses,Ralph Lauren Formal Dresses #176,Ralph Lauren,107.97,Women,SKU-000176,8
+177,208.15,Swim,New Balance Swimwear #177,New Balance,661.57,Kids,SKU-000177,2
+178,72.56,Socks,Puma Ankle Socks #178,Puma,156.76,Kids,SKU-000178,4
+179,120.88,Swim,J.Crew Cover Ups #179,J.Crew,246.45,Kids,SKU-000179,2
+180,230.82,Shorts,Calvin Klein Bermuda Shorts #180,Calvin Klein,583.69,Women,SKU-000180,4
+181,16.48,Skirts,Gap A-Line Skirts #181,Gap,44.16,Women,SKU-000181,6
+182,124.19,Accessories,Free People Jewelry #182,Free People,296.3,Kids,SKU-000182,6
+183,27.64,Tops & Tees,Gap Tank Tops #183,Gap,86.63,Women,SKU-000183,1
+184,130.97,Swim,Gap Cover Ups #184,Gap,409.02,Women,SKU-000184,3
+185,97.49,Footwear,Under Armour Sneakers #185,Under Armour,214.31,Kids,SKU-000185,6
+186,36.33,Outerwear & Coats,Levi's Coats #186,Levi's,103.86,Kids,SKU-000186,4
+187,30.69,Suits,North Face Business Suits #187,North Face,66.88,Women,SKU-000187,10
+188,244.81,Jeans,Free People Bootcut Jeans #188,Free People,742.92,Kids,SKU-000188,10
+189,205.86,Suits,Columbia Business Suits #189,Columbia,394.36,Women,SKU-000189,9
+190,67.86,Tops & Tees,Columbia Crop Tops #190,Columbia,147.95,Kids,SKU-000190,10
+191,77.21,Footwear,Levi's Flats #191,Levi's,230.06,Men,SKU-000191,1
+192,247.95,Tops & Tees,Tommy Hilfiger Tank Tops #192,Tommy Hilfiger,681.97,Men,SKU-000192,8
+193,68.0,Active,Calvin Klein Athletic Shorts #193,Calvin Klein,122.58,Kids,SKU-000193,5
+194,78.76,Jeans,H&M Straight Jeans #194,H&M,175.42,Men,SKU-000194,6
+195,200.56,Shorts,Reebok Athletic Shorts #195,Reebok,568.58,Women,SKU-000195,3
+196,190.27,Suits,Banana Republic Business Suits #196,Banana Republic,484.77,Kids,SKU-000196,7
+197,221.77,Tops & Tees,Gucci Tank Tops #197,Gucci,588.69,Women,SKU-000197,1
+198,232.47,Footwear,Zara Boots #198,Zara,514.05,Men,SKU-000198,2
+199,177.21,Socks,Calvin Klein Crew Socks #199,Calvin Klein,472.16,Men,SKU-000199,8
+200,155.74,Suits,Reebok Blazers #200,Reebok,386.66,Women,SKU-000200,8
+201,249.67,Accessories,J.Crew Sunglasses #201,J.Crew,537.27,Women,SKU-000201,3
+202,248.91,Dresses,H&M Maxi Dresses #202,H&M,786.3,Women,SKU-000202,1
+203,72.39,Outerwear & Coats,Wrangler Vests #203,Wrangler,140.23,Women,SKU-000203,5
+204,243.79,Shorts,Gap Bermuda Shorts #204,Gap,730.8,Women,SKU-000204,3
+205,151.8,Swim,Ralph Lauren Cover Ups #205,Ralph Lauren,346.67,Women,SKU-000205,8
+206,62.87,Swim,UNIQLO Swimwear #206,UNIQLO,133.83,Men,SKU-000206,10
+207,60.4,Fashion Hoodies & Sweatshirts,Under Armour Crewneck Sweatshirts #207,Under Armour,140.25,Women,SKU-000207,2
+208,51.35,Intimates,Gucci Lingerie #208,Gucci,138.45,Kids,SKU-000208,6
+209,223.67,Active,Free People Yoga Pants #209,Free People,648.6,Kids,SKU-000209,7
+210,152.89,Socks,Zara Crew Socks #210,Zara,446.46,Kids,SKU-000210,6
+211,133.21,Shirts & Tops,Adidas Polo Shirts #211,Adidas,382.49,Kids,SKU-000211,10
+212,228.42,Sleep & Lounge,Reebok Pajamas #212,Reebok,666.67,Women,SKU-000212,10
+213,34.43,Underwear,Gap Briefs #213,Gap,101.4,Kids,SKU-000213,9
+214,5.51,Socks,Levi's Ankle Socks #214,Levi's,11.89,Kids,SKU-000214,4
+215,203.64,Sleep & Lounge,Gucci Robes #215,Gucci,422.28,Women,SKU-000215,5
+216,193.32,Sleep & Lounge,Banana Republic Robes #216,Banana Republic,468.36,Women,SKU-000216,1
+217,170.37,Footwear,Abercrombie Sneakers #217,Abercrombie,358.12,Kids,SKU-000217,5
+218,207.85,Accessories,American Eagle Hats #218,American Eagle,656.72,Women,SKU-000218,1
+219,171.77,Intimates,North Face Lingerie #219,North Face,541.44,Women,SKU-000219,8
+220,59.28,Socks,Versace Crew Socks #220,Versace,131.05,Women,SKU-000220,4
+221,200.11,Intimates,Reebok Lingerie #221,Reebok,499.7,Kids,SKU-000221,3
+222,63.58,Tops & Tees,Puma Tank Tops #222,Puma,165.43,Kids,SKU-000222,1
+223,25.47,Shorts,Anthropologie Bermuda Shorts #223,Anthropologie,78.11,Women,SKU-000223,6
+224,246.24,Shorts,Free People Athletic Shorts #224,Free People,460.42,Kids,SKU-000224,5
+225,48.89,Shirts & Tops,Reebok Polo Shirts #225,Reebok,140.38,Kids,SKU-000225,5
+226,48.24,Tops & Tees,Patagonia Crop Tops #226,Patagonia,89.35,Men,SKU-000226,7
+227,204.95,Sleep & Lounge,Prada Pajamas #227,Prada,523.98,Women,SKU-000227,2
+228,146.18,Pants & Capris,Puma Shorts #228,Puma,284.97,Kids,SKU-000228,7
+229,220.41,Active,Free People Sports Bras #229,Free People,411.65,Women,SKU-000229,6
+230,119.36,Footwear,Nike Sandals #230,Nike,279.99,Women,SKU-000230,2
+231,38.72,Accessories,H&M Belts #231,H&M,115.43,Men,SKU-000231,6
+232,57.82,Pants & Capris,Adidas Jeans #232,Adidas,173.71,Women,SKU-000232,9
+233,63.59,Active,UNIQLO Athletic Shorts #233,UNIQLO,183.79,Men,SKU-000233,8
+234,243.03,Socks,UNIQLO Ankle Socks #234,UNIQLO,715.45,Men,SKU-000234,2
+235,128.22,Fashion Hoodies & Sweatshirts,Hollister Crewneck Sweatshirts #235,Hollister,386.21,Men,SKU-000235,4
+236,150.1,Swim,H&M Swimwear #236,H&M,286.53,Women,SKU-000236,3
+237,243.17,Outerwear & Coats,Forever 21 Coats #237,Forever 21,550.12,Men,SKU-000237,2
+238,132.72,Pants & Capris,Patagonia Chinos #238,Patagonia,244.71,Kids,SKU-000238,4
+239,42.46,Pants & Capris,Levi's Jeans #239,Levi's,102.62,Men,SKU-000239,6
+240,169.98,Swim,Hollister Cover Ups #240,Hollister,438.51,Men,SKU-000240,3
+241,146.06,Active,UNIQLO Sports Bras #241,UNIQLO,329.57,Women,SKU-000241,7
+242,59.52,Suits,Puma Blazers #242,Puma,113.54,Men,SKU-000242,10
+243,225.35,Pants & Capris,Prada Leggings #243,Prada,706.03,Men,SKU-000243,1
+244,91.97,Outerwear & Coats,Gucci Coats #244,Gucci,261.84,Women,SKU-000244,5
+245,247.1,Dresses,Under Armour Mini Dresses #245,Under Armour,533.22,Women,SKU-000245,7
+246,46.0,Blazers & Jackets,J.Crew Denim Jackets #246,J.Crew,141.5,Women,SKU-000246,8
+247,162.78,Jeans,Puma Skinny Jeans #247,Puma,427.01,Men,SKU-000247,5
+248,77.09,Active,Gap Athletic Shorts #248,Gap,220.44,Women,SKU-000248,1
+249,68.88,Active,Hollister Yoga Pants #249,Hollister,219.22,Men,SKU-000249,6
+250,17.89,Tops & Tees,Under Armour Crop Tops #250,Under Armour,39.01,Kids,SKU-000250,8
+251,163.47,Pants & Capris,Adidas Shorts #251,Adidas,360.63,Kids,SKU-000251,9
+252,21.93,Underwear,Free People Briefs #252,Free People,52.62,Women,SKU-000252,2
+253,62.47,Active,UNIQLO Athletic Shorts #253,UNIQLO,189.77,Men,SKU-000253,10
+254,28.49,Active,Free People Sports Bras #254,Free People,80.88,Women,SKU-000254,6
+255,27.88,Footwear,Tommy Hilfiger Boots #255,Tommy Hilfiger,51.08,Women,SKU-000255,5
+256,244.05,Outerwear & Coats,Under Armour Vests #256,Under Armour,460.07,Kids,SKU-000256,9
+257,202.13,Skirts,Nike A-Line Skirts #257,Nike,432.02,Kids,SKU-000257,9
+258,237.11,Active,Reebok Athletic Shorts #258,Reebok,501.29,Kids,SKU-000258,5
+259,114.84,Suits,North Face Blazers #259,North Face,329.79,Kids,SKU-000259,8
+260,90.61,Sleep & Lounge,Tommy Hilfiger Robes #260,Tommy Hilfiger,200.2,Women,SKU-000260,3
+261,57.18,Sleep & Lounge,J.Crew Pajamas #261,J.Crew,145.37,Men,SKU-000261,8
+262,148.37,Suits,Reebok Blazers #262,Reebok,369.83,Men,SKU-000262,9
+263,223.01,Suits,Hollister Business Suits #263,Hollister,542.89,Kids,SKU-000263,7
+264,61.98,Shorts,American Eagle Bermuda Shorts #264,American Eagle,177.46,Men,SKU-000264,2
+265,241.04,Suits,New Balance Business Suits #265,New Balance,610.17,Men,SKU-000265,10
+266,212.3,Footwear,H&M Sandals #266,H&M,648.22,Women,SKU-000266,4
+267,22.4,Dresses,Burberry Maxi Dresses #267,Burberry,62.71,Men,SKU-000267,10
+268,46.91,Underwear,Under Armour Boxers #268,Under Armour,113.28,Men,SKU-000268,2
+269,183.41,Intimates,J.Crew Bras & Bralettes #269,J.Crew,490.03,Women,SKU-000269,6
+270,23.07,Underwear,Forever 21 Briefs #270,Forever 21,66.28,Men,SKU-000270,8
+271,54.96,Active,Adidas Athletic Shorts #271,Adidas,112.87,Men,SKU-000271,10
+272,172.58,Socks,Zara Ankle Socks #272,Zara,315.51,Women,SKU-000272,5
+273,157.34,Tops & Tees,Tommy Hilfiger Tank Tops #273,Tommy Hilfiger,389.47,Women,SKU-000273,10
+274,56.78,Tops & Tees,Wrangler Blouses #274,Wrangler,141.4,Women,SKU-000274,9
+275,59.42,Intimates,Columbia Underwear #275,Columbia,165.95,Kids,SKU-000275,9
+276,240.27,Sleep & Lounge,Adidas Robes #276,Adidas,585.9,Women,SKU-000276,4
+277,11.85,Swim,Banana Republic Swimwear #277,Banana Republic,28.96,Men,SKU-000277,9
+278,149.81,Footwear,Abercrombie Flats #278,Abercrombie,385.41,Men,SKU-000278,8
+279,30.87,Socks,Forever 21 Ankle Socks #279,Forever 21,73.55,Kids,SKU-000279,10
+280,46.5,Accessories,Prada Sunglasses #280,Prada,103.85,Kids,SKU-000280,1
+281,161.13,Pants & Capris,Nike Jeans #281,Nike,495.79,Men,SKU-000281,8
+282,150.63,Shorts,Adidas Athletic Shorts #282,Adidas,368.55,Women,SKU-000282,2
+283,159.28,Leggings,Levi's Workout Leggings #283,Levi's,440.36,Men,SKU-000283,7
+284,138.32,Jeans,UNIQLO Bootcut Jeans #284,UNIQLO,322.16,Women,SKU-000284,1
+285,203.64,Leggings,Hollister Casual Leggings #285,Hollister,378.25,Women,SKU-000285,8
+286,230.21,Swim,H&M Swimwear #286,H&M,656.19,Women,SKU-000286,3
+287,142.1,Shirts & Tops,Banana Republic T-Shirts #287,Banana Republic,299.18,Men,SKU-000287,10
+288,13.76,Swim,H&M Cover Ups #288,H&M,42.54,Kids,SKU-000288,2
+289,143.74,Fashion Hoodies & Sweatshirts,J.Crew Hoodies #289,J.Crew,417.65,Men,SKU-000289,10
+290,229.39,Shirts & Tops,Hollister T-Shirts #290,Hollister,553.04,Men,SKU-000290,9
+291,74.0,Shorts,Adidas Bermuda Shorts #291,Adidas,164.79,Women,SKU-000291,2
+292,141.87,Skirts,Abercrombie Mini Skirts #292,Abercrombie,403.08,Women,SKU-000292,6
+293,194.39,Shirts & Tops,Versace Polo Shirts #293,Versace,598.13,Men,SKU-000293,10
+294,114.29,Suits,H&M Blazers #294,H&M,223.09,Men,SKU-000294,8
+295,67.03,Intimates,Abercrombie Bras & Bralettes #295,Abercrombie,148.94,Men,SKU-000295,10
+296,243.16,Jeans,Gucci Straight Jeans #296,Gucci,678.06,Women,SKU-000296,3
+297,209.29,Pants & Capris,Free People Chinos #297,Free People,453.89,Men,SKU-000297,9
+298,237.14,Swim,Banana Republic Cover Ups #298,Banana Republic,631.92,Men,SKU-000298,6
+299,242.26,Intimates,Ralph Lauren Bras & Bralettes #299,Ralph Lauren,656.81,Women,SKU-000299,3
+300,48.96,Skirts,Calvin Klein Mini Skirts #300,Calvin Klein,96.04,Men,SKU-000300,8
+301,126.95,Suits,Reebok Blazers #301,Reebok,250.72,Men,SKU-000301,4
+302,103.15,Accessories,Levi's Bags #302,Levi's,285.34,Women,SKU-000302,10
+303,195.65,Accessories,Calvin Klein Bags #303,Calvin Klein,465.93,Women,SKU-000303,7
+304,221.68,Blazers & Jackets,Ralph Lauren Denim Jackets #304,Ralph Lauren,454.23,Kids,SKU-000304,8
+305,155.66,Fashion Hoodies & Sweatshirts,Puma Hoodies #305,Puma,289.75,Women,SKU-000305,5
+306,176.0,Underwear,Calvin Klein Briefs #306,Calvin Klein,542.13,Women,SKU-000306,7
+307,47.79,Jeans,American Eagle Straight Jeans #307,American Eagle,111.34,Men,SKU-000307,3
+308,211.86,Underwear,North Face Briefs #308,North Face,558.78,Men,SKU-000308,1
+309,77.96,Footwear,H&M Flats #309,H&M,249.22,Men,SKU-000309,6
+310,212.93,Footwear,North Face Sandals #310,North Face,601.76,Kids,SKU-000310,7
+311,236.91,Active,Under Armour Athletic Shorts #311,Under Armour,507.74,Kids,SKU-000311,8
+312,45.99,Shirts & Tops,Forever 21 Casual Shirts #312,Forever 21,115.1,Men,SKU-000312,10
+313,132.68,Outerwear & Coats,Abercrombie Vests #313,Abercrombie,396.51,Women,SKU-000313,4
+314,193.04,Accessories,Hollister Belts #314,Hollister,462.67,Men,SKU-000314,6
+315,216.0,Footwear,Levi's Sandals #315,Levi's,621.19,Men,SKU-000315,5
+316,158.86,Skirts,Ralph Lauren A-Line Skirts #316,Ralph Lauren,429.99,Men,SKU-000316,4
+317,162.58,Intimates,Nike Lingerie #317,Nike,486.07,Women,SKU-000317,4
+318,77.0,Jeans,Gucci Straight Jeans #318,Gucci,235.53,Kids,SKU-000318,4
+319,245.15,Fashion Hoodies & Sweatshirts,Forever 21 Hoodies #319,Forever 21,546.17,Women,SKU-000319,6
+320,107.22,Socks,Prada Crew Socks #320,Prada,314.44,Men,SKU-000320,3
+321,193.74,Leggings,Abercrombie Casual Leggings #321,Abercrombie,530.69,Men,SKU-000321,5
+322,243.43,Underwear,Wrangler Boxers #322,Wrangler,771.4,Women,SKU-000322,10
+323,62.03,Fashion Hoodies & Sweatshirts,H&M Hoodies #323,H&M,166.85,Women,SKU-000323,7
+324,169.64,Pants & Capris,Anthropologie Jeans #324,Anthropologie,419.78,Men,SKU-000324,1
+325,33.22,Shirts & Tops,Anthropologie Casual Shirts #325,Anthropologie,63.47,Women,SKU-000325,9
+326,56.91,Shirts & Tops,Versace Polo Shirts #326,Versace,130.62,Women,SKU-000326,10
+327,32.72,Footwear,New Balance Boots #327,New Balance,83.88,Women,SKU-000327,7
+328,97.21,Suits,Columbia Business Suits #328,Columbia,297.24,Women,SKU-000328,8
+329,205.97,Active,Prada Sports Bras #329,Prada,545.35,Men,SKU-000329,3
+330,165.61,Shirts & Tops,Zara Casual Shirts #330,Zara,438.04,Women,SKU-000330,2
+331,214.46,Swim,North Face Swimwear #331,North Face,474.57,Kids,SKU-000331,1
+332,60.2,Swim,Under Armour Swimwear #332,Under Armour,171.57,Men,SKU-000332,7
+333,40.78,Suits,Columbia Blazers #333,Columbia,110.13,Men,SKU-000333,4
+334,133.91,Fashion Hoodies & Sweatshirts,Abercrombie Hoodies #334,Abercrombie,312.77,Kids,SKU-000334,4
+335,107.21,Dresses,Hollister Maxi Dresses #335,Hollister,226.95,Men,SKU-000335,2
+336,187.92,Pants & Capris,Calvin Klein Leggings #336,Calvin Klein,458.96,Women,SKU-000336,4
+337,31.65,Underwear,Zara Briefs #337,Zara,94.66,Men,SKU-000337,3
+338,37.84,Skirts,Anthropologie A-Line Skirts #338,Anthropologie,79.81,Men,SKU-000338,7
+339,73.92,Footwear,Anthropologie Flats #339,Anthropologie,153.62,Women,SKU-000339,4
+340,78.61,Leggings,Burberry Workout Leggings #340,Burberry,221.2,Men,SKU-000340,9
+341,218.66,Underwear,Free People Briefs #341,Free People,502.5,Men,SKU-000341,5
+342,198.67,Shorts,Calvin Klein Athletic Shorts #342,Calvin Klein,439.05,Kids,SKU-000342,6
+343,201.28,Accessories,Columbia Jewelry #343,Columbia,407.94,Men,SKU-000343,5
+344,141.18,Suits,Free People Blazers #344,Free People,370.66,Kids,SKU-000344,3
+345,174.52,Dresses,Gucci Maxi Dresses #345,Gucci,320.58,Men,SKU-000345,5
+346,32.63,Accessories,Nike Bags #346,Nike,87.8,Women,SKU-000346,10
+347,114.15,Jeans,H&M Skinny Jeans #347,H&M,256.88,Men,SKU-000347,5
+348,209.87,Active,Columbia Sports Bras #348,Columbia,386.98,Kids,SKU-000348,6
+349,98.17,Blazers & Jackets,Patagonia Leather Jackets #349,Patagonia,305.01,Kids,SKU-000349,7
+350,63.04,Underwear,UNIQLO Boxers #350,UNIQLO,143.34,Women,SKU-000350,4
+351,159.06,Intimates,J.Crew Bras & Bralettes #351,J.Crew,314.78,Kids,SKU-000351,6
+352,215.86,Active,Patagonia Sports Bras #352,Patagonia,443.94,Men,SKU-000352,6
+353,211.45,Jeans,Forever 21 Bootcut Jeans #353,Forever 21,524.92,Men,SKU-000353,4
+354,43.74,Shirts & Tops,Abercrombie T-Shirts #354,Abercrombie,100.91,Men,SKU-000354,8
+355,185.83,Swim,Calvin Klein Swimwear #355,Calvin Klein,364.93,Women,SKU-000355,8
+356,168.42,Active,Puma Sports Bras #356,Puma,389.18,Women,SKU-000356,4
+357,208.92,Skirts,Anthropologie Mini Skirts #357,Anthropologie,560.9,Men,SKU-000357,2
+358,146.89,Suits,Gucci Business Suits #358,Gucci,328.45,Men,SKU-000358,9
+359,233.29,Shorts,Zara Athletic Shorts #359,Zara,495.36,Men,SKU-000359,10
+360,168.92,Outerwear & Coats,Anthropologie Coats #360,Anthropologie,465.07,Kids,SKU-000360,2
+361,136.94,Swim,Hollister Cover Ups #361,Hollister,394.36,Men,SKU-000361,3
+362,227.61,Suits,Gap Blazers #362,Gap,477.55,Kids,SKU-000362,7
+363,214.63,Footwear,Wrangler Boots #363,Wrangler,515.68,Women,SKU-000363,3
+364,39.59,Intimates,Patagonia Lingerie #364,Patagonia,101.71,Kids,SKU-000364,9
+365,175.19,Shorts,Levi's Athletic Shorts #365,Levi's,433.42,Kids,SKU-000365,2
+366,112.74,Suits,Versace Business Suits #366,Versace,224.52,Kids,SKU-000366,10
+367,207.59,Blazers & Jackets,Prada Leather Jackets #367,Prada,482.79,Women,SKU-000367,10
+368,36.47,Shirts & Tops,Free People Polo Shirts #368,Free People,103.06,Kids,SKU-000368,6
+369,216.0,Jeans,Gucci Bootcut Jeans #369,Gucci,476.89,Kids,SKU-000369,7
+370,29.34,Tops & Tees,Calvin Klein Crop Tops #370,Calvin Klein,90.0,Women,SKU-000370,2
+371,178.34,Suits,American Eagle Blazers #371,American Eagle,400.34,Kids,SKU-000371,1
+372,29.35,Dresses,J.Crew Maxi Dresses #372,J.Crew,54.53,Women,SKU-000372,1
+373,61.57,Socks,Calvin Klein Ankle Socks #373,Calvin Klein,142.66,Women,SKU-000373,2
+374,40.43,Fashion Hoodies & Sweatshirts,UNIQLO Crewneck Sweatshirts #374,UNIQLO,110.08,Women,SKU-000374,7
+375,175.34,Active,Zara Athletic Shorts #375,Zara,330.79,Women,SKU-000375,8
+376,169.19,Socks,Zara Ankle Socks #376,Zara,425.62,Kids,SKU-000376,6
+377,12.27,Footwear,Free People Sandals #377,Free People,30.06,Women,SKU-000377,5
+378,119.87,Suits,J.Crew Blazers #378,J.Crew,264.6,Men,SKU-000378,5
+379,217.62,Skirts,Abercrombie A-Line Skirts #379,Abercrombie,544.48,Men,SKU-000379,2
+380,221.98,Jeans,Forever 21 Skinny Jeans #380,Forever 21,468.46,Women,SKU-000380,4
+381,116.91,Skirts,Adidas Mini Skirts #381,Adidas,268.25,Men,SKU-000381,9
+382,116.04,Jeans,UNIQLO Straight Jeans #382,UNIQLO,218.35,Women,SKU-000382,6
+383,109.78,Intimates,J.Crew Underwear #383,J.Crew,204.46,Men,SKU-000383,7
+384,234.44,Sleep & Lounge,Nike Robes #384,Nike,655.63,Kids,SKU-000384,7
+385,155.99,Pants & Capris,Burberry Jeans #385,Burberry,362.12,Kids,SKU-000385,4
+386,126.63,Accessories,American Eagle Sunglasses #386,American Eagle,381.4,Men,SKU-000386,5
+387,8.43,Pants & Capris,Wrangler Chinos #387,Wrangler,24.06,Men,SKU-000387,5
+388,74.47,Outerwear & Coats,Burberry Vests #388,Burberry,222.02,Kids,SKU-000388,6
+389,6.31,Sleep & Lounge,Adidas Robes #389,Adidas,11.95,Women,SKU-000389,3
+390,99.93,Intimates,Puma Lingerie #390,Puma,210.2,Women,SKU-000390,9
+391,170.87,Shirts & Tops,Forever 21 Polo Shirts #391,Forever 21,458.61,Kids,SKU-000391,3
+392,128.96,Shorts,Columbia Bermuda Shorts #392,Columbia,336.07,Women,SKU-000392,4
+393,122.08,Fashion Hoodies & Sweatshirts,Patagonia Hoodies #393,Patagonia,322.96,Kids,SKU-000393,2
+394,212.68,Skirts,Nike Midi Skirts #394,Nike,667.21,Women,SKU-000394,8
+395,6.95,Active,Burberry Athletic Shorts #395,Burberry,17.49,Kids,SKU-000395,9
+396,211.34,Skirts,Under Armour A-Line Skirts #396,Under Armour,602.14,Kids,SKU-000396,3
+397,196.76,Skirts,Ralph Lauren Mini Skirts #397,Ralph Lauren,446.12,Kids,SKU-000397,9
+398,31.3,Underwear,Gap Boxers #398,Gap,91.22,Kids,SKU-000398,7
+399,24.7,Skirts,Hollister Midi Skirts #399,Hollister,77.25,Kids,SKU-000399,4
+400,193.1,Pants & Capris,Zara Chinos #400,Zara,472.18,Kids,SKU-000400,5
+401,84.91,Sleep & Lounge,H&M Pajamas #401,H&M,237.62,Women,SKU-000401,8
+402,88.96,Skirts,Hollister Mini Skirts #402,Hollister,190.9,Men,SKU-000402,8
+403,27.74,Skirts,Prada A-Line Skirts #403,Prada,70.08,Women,SKU-000403,3
+404,158.38,Suits,American Eagle Blazers #404,American Eagle,359.93,Men,SKU-000404,7
+405,46.53,Outerwear & Coats,H&M Vests #405,H&M,89.98,Men,SKU-000405,6
+406,136.08,Footwear,Burberry Boots #406,Burberry,410.39,Women,SKU-000406,4
+407,10.76,Tops & Tees,Calvin Klein Blouses #407,Calvin Klein,22.41,Men,SKU-000407,7
+408,247.97,Intimates,Puma Lingerie #408,Puma,590.7,Men,SKU-000408,9
+409,163.2,Blazers & Jackets,Under Armour Denim Jackets #409,Under Armour,361.34,Men,SKU-000409,6
+410,39.89,Tops & Tees,Tommy Hilfiger Crop Tops #410,Tommy Hilfiger,100.58,Kids,SKU-000410,8
+411,48.34,Outerwear & Coats,New Balance Vests #411,New Balance,138.32,Kids,SKU-000411,6
+412,206.25,Suits,Puma Blazers #412,Puma,631.09,Men,SKU-000412,6
+413,88.41,Swim,American Eagle Swimwear #413,American Eagle,184.88,Women,SKU-000413,7
+414,167.37,Active,New Balance Sports Bras #414,New Balance,377.0,Kids,SKU-000414,7
+415,58.69,Underwear,Banana Republic Briefs #415,Banana Republic,145.94,Kids,SKU-000415,5
+416,24.16,Tops & Tees,Anthropologie Tank Tops #416,Anthropologie,53.9,Men,SKU-000416,3
+417,209.78,Suits,North Face Business Suits #417,North Face,648.43,Kids,SKU-000417,4
+418,95.32,Footwear,Nike Sneakers #418,Nike,232.79,Men,SKU-000418,3
+419,94.84,Underwear,Burberry Briefs #419,Burberry,272.21,Men,SKU-000419,1
+420,217.42,Skirts,North Face Midi Skirts #420,North Face,662.86,Women,SKU-000420,4
+421,124.31,Outerwear & Coats,Under Armour Coats #421,Under Armour,268.3,Kids,SKU-000421,2
+422,119.93,Swim,Forever 21 Cover Ups #422,Forever 21,236.36,Kids,SKU-000422,2
+423,226.02,Leggings,Banana Republic Workout Leggings #423,Banana Republic,475.77,Women,SKU-000423,5
+424,190.05,Swim,Gucci Swimwear #424,Gucci,390.83,Kids,SKU-000424,2
+425,230.63,Shorts,Wrangler Bermuda Shorts #425,Wrangler,678.46,Kids,SKU-000425,1
+426,112.1,Outerwear & Coats,Wrangler Jackets #426,Wrangler,263.7,Women,SKU-000426,7
+427,233.36,Active,Abercrombie Sports Bras #427,Abercrombie,575.2,Kids,SKU-000427,9
+428,130.44,Shorts,Reebok Athletic Shorts #428,Reebok,290.41,Kids,SKU-000428,9
+429,147.34,Shorts,Under Armour Athletic Shorts #429,Under Armour,282.81,Kids,SKU-000429,5
+430,211.44,Underwear,Under Armour Boxers #430,Under Armour,503.95,Kids,SKU-000430,10
+431,227.43,Swim,Columbia Cover Ups #431,Columbia,465.71,Kids,SKU-000431,4
+432,137.03,Sleep & Lounge,H&M Robes #432,H&M,371.22,Women,SKU-000432,4
+433,240.73,Accessories,Wrangler Sunglasses #433,Wrangler,565.59,Kids,SKU-000433,7
+434,10.11,Fashion Hoodies & Sweatshirts,Levi's Crewneck Sweatshirts #434,Levi's,20.85,Women,SKU-000434,7
+435,249.03,Suits,North Face Business Suits #435,North Face,754.44,Women,SKU-000435,3
+436,189.95,Footwear,H&M Sneakers #436,H&M,352.37,Men,SKU-000436,8
+437,249.62,Skirts,UNIQLO Midi Skirts #437,UNIQLO,527.23,Women,SKU-000437,6
+438,96.52,Dresses,Ralph Lauren Formal Dresses #438,Ralph Lauren,232.82,Kids,SKU-000438,4
+439,22.31,Sleep & Lounge,UNIQLO Robes #439,UNIQLO,41.1,Kids,SKU-000439,5
+440,149.69,Sleep & Lounge,American Eagle Pajamas #440,American Eagle,280.7,Kids,SKU-000440,6
+441,113.83,Outerwear & Coats,Burberry Vests #441,Burberry,216.03,Kids,SKU-000441,10
+442,42.32,Blazers & Jackets,Puma Denim Jackets #442,Puma,132.45,Men,SKU-000442,4
+443,103.99,Suits,North Face Blazers #443,North Face,197.12,Men,SKU-000443,5
+444,53.36,Socks,Prada Crew Socks #444,Prada,145.74,Kids,SKU-000444,9
+445,141.83,Outerwear & Coats,Anthropologie Vests #445,Anthropologie,421.08,Men,SKU-000445,10
+446,48.67,Sleep & Lounge,Calvin Klein Robes #446,Calvin Klein,154.71,Women,SKU-000446,1
+447,81.39,Swim,Columbia Cover Ups #447,Columbia,257.3,Women,SKU-000447,1
+448,115.54,Dresses,H&M Maxi Dresses #448,H&M,242.74,Kids,SKU-000448,5
+449,182.09,Dresses,Hollister Mini Dresses #449,Hollister,383.27,Men,SKU-000449,4
+450,20.34,Tops & Tees,Levi's Crop Tops #450,Levi's,61.8,Men,SKU-000450,8
+451,218.42,Shirts & Tops,Columbia Polo Shirts #451,Columbia,513.49,Men,SKU-000451,2
+452,204.57,Shorts,Patagonia Athletic Shorts #452,Patagonia,576.49,Kids,SKU-000452,5
+453,13.59,Accessories,Gap Jewelry #453,Gap,26.43,Women,SKU-000453,3
+454,24.82,Shorts,New Balance Athletic Shorts #454,New Balance,56.51,Women,SKU-000454,2
+455,233.63,Shorts,Nike Athletic Shorts #455,Nike,644.21,Kids,SKU-000455,7
+456,72.1,Socks,Calvin Klein Crew Socks #456,Calvin Klein,135.87,Women,SKU-000456,5
+457,157.47,Sleep & Lounge,Abercrombie Robes #457,Abercrombie,375.98,Women,SKU-000457,6
+458,122.95,Pants & Capris,Versace Shorts #458,Versace,268.88,Women,SKU-000458,8
+459,135.17,Swim,Gucci Cover Ups #459,Gucci,373.73,Kids,SKU-000459,9
+460,113.22,Skirts,Abercrombie Mini Skirts #460,Abercrombie,262.77,Women,SKU-000460,8
+461,35.13,Blazers & Jackets,Wrangler Blazers #461,Wrangler,66.47,Men,SKU-000461,10
+462,165.65,Sleep & Lounge,UNIQLO Pajamas #462,UNIQLO,438.49,Kids,SKU-000462,2
+463,122.18,Shorts,J.Crew Athletic Shorts #463,J.Crew,333.82,Kids,SKU-000463,8
+464,163.44,Intimates,Levi's Bras & Bralettes #464,Levi's,426.32,Women,SKU-000464,7
+465,87.52,Dresses,Tommy Hilfiger Formal Dresses #465,Tommy Hilfiger,211.75,Men,SKU-000465,5
+466,58.76,Outerwear & Coats,Banana Republic Jackets #466,Banana Republic,150.61,Women,SKU-000466,9
+467,108.79,Swim,Hollister Cover Ups #467,Hollister,340.74,Men,SKU-000467,10
+468,166.38,Tops & Tees,Patagonia Crop Tops #468,Patagonia,498.72,Women,SKU-000468,7
+469,130.24,Fashion Hoodies & Sweatshirts,Patagonia Crewneck Sweatshirts #469,Patagonia,361.51,Kids,SKU-000469,10
+470,56.33,Outerwear & Coats,Gap Vests #470,Gap,147.24,Women,SKU-000470,3
+471,127.8,Jeans,UNIQLO Bootcut Jeans #471,UNIQLO,234.63,Men,SKU-000471,4
+472,199.17,Shorts,Prada Athletic Shorts #472,Prada,506.65,Kids,SKU-000472,5
+473,224.77,Suits,Banana Republic Blazers #473,Banana Republic,683.65,Kids,SKU-000473,4
+474,188.07,Intimates,Levi's Lingerie #474,Levi's,448.73,Men,SKU-000474,4
+475,36.6,Intimates,H&M Lingerie #475,H&M,74.76,Women,SKU-000475,8
+476,38.84,Active,Tommy Hilfiger Sports Bras #476,Tommy Hilfiger,92.83,Women,SKU-000476,5
+477,145.14,Socks,J.Crew Ankle Socks #477,J.Crew,431.59,Women,SKU-000477,6
+478,113.66,Active,North Face Yoga Pants #478,North Face,220.19,Kids,SKU-000478,10
+479,40.64,Accessories,Burberry Sunglasses #479,Burberry,110.57,Women,SKU-000479,8
+480,245.11,Blazers & Jackets,Nike Denim Jackets #480,Nike,493.43,Women,SKU-000480,9
+481,16.99,Swim,Zara Cover Ups #481,Zara,36.65,Women,SKU-000481,9
+482,159.1,Leggings,Tommy Hilfiger Casual Leggings #482,Tommy Hilfiger,432.33,Women,SKU-000482,4
+483,152.75,Underwear,Patagonia Briefs #483,Patagonia,415.67,Men,SKU-000483,4
+484,52.94,Underwear,Calvin Klein Boxers #484,Calvin Klein,109.81,Kids,SKU-000484,8
+485,140.17,Skirts,Reebok A-Line Skirts #485,Reebok,408.6,Women,SKU-000485,9
+486,35.08,Sleep & Lounge,Prada Pajamas #486,Prada,85.12,Kids,SKU-000486,9
+487,90.41,Skirts,H&M A-Line Skirts #487,H&M,256.75,Men,SKU-000487,4
+488,152.79,Suits,Puma Business Suits #488,Puma,427.07,Kids,SKU-000488,10
+489,62.05,Socks,New Balance Ankle Socks #489,New Balance,166.57,Men,SKU-000489,3
+490,11.14,Shirts & Tops,Patagonia Polo Shirts #490,Patagonia,34.74,Kids,SKU-000490,5
+491,53.26,Underwear,Nike Briefs #491,Nike,111.42,Kids,SKU-000491,5
+492,182.55,Dresses,Free People Formal Dresses #492,Free People,343.29,Kids,SKU-000492,7
+493,105.04,Blazers & Jackets,J.Crew Blazers #493,J.Crew,281.89,Women,SKU-000493,3
+494,115.13,Fashion Hoodies & Sweatshirts,Anthropologie Hoodies #494,Anthropologie,278.21,Women,SKU-000494,8
+495,179.44,Fashion Hoodies & Sweatshirts,Under Armour Crewneck Sweatshirts #495,Under Armour,499.15,Kids,SKU-000495,8
+496,92.93,Pants & Capris,Patagonia Jeans #496,Patagonia,242.24,Women,SKU-000496,5
+497,224.2,Skirts,Hollister A-Line Skirts #497,Hollister,475.02,Kids,SKU-000497,1
+498,73.75,Active,Banana Republic Sports Bras #498,Banana Republic,201.79,Men,SKU-000498,3
+499,18.56,Footwear,Versace Boots #499,Versace,39.52,Women,SKU-000499,3
+500,100.44,Footwear,Puma Flats #500,Puma,196.07,Women,SKU-000500,9
+501,206.84,Footwear,Patagonia Sneakers #501,Patagonia,590.74,Kids,SKU-000501,2
+502,10.25,Outerwear & Coats,Columbia Jackets #502,Columbia,21.87,Men,SKU-000502,6
+503,103.72,Shorts,Tommy Hilfiger Bermuda Shorts #503,Tommy Hilfiger,216.3,Men,SKU-000503,9
+504,202.96,Active,American Eagle Athletic Shorts #504,American Eagle,553.01,Women,SKU-000504,9
+505,39.27,Suits,Nike Business Suits #505,Nike,121.75,Men,SKU-000505,5
+506,11.62,Socks,Reebok Ankle Socks #506,Reebok,31.03,Women,SKU-000506,10
+507,233.55,Leggings,Burberry Casual Leggings #507,Burberry,606.25,Kids,SKU-000507,5
+508,20.88,Suits,Free People Business Suits #508,Free People,45.4,Men,SKU-000508,1
+509,188.17,Tops & Tees,American Eagle Crop Tops #509,American Eagle,429.52,Men,SKU-000509,10
+510,209.9,Shorts,Tommy Hilfiger Athletic Shorts #510,Tommy Hilfiger,657.37,Women,SKU-000510,6
+511,156.56,Socks,Abercrombie Ankle Socks #511,Abercrombie,367.67,Men,SKU-000511,1
+512,153.27,Shorts,J.Crew Athletic Shorts #512,J.Crew,371.29,Kids,SKU-000512,3
+513,110.17,Accessories,Levi's Belts #513,Levi's,332.53,Kids,SKU-000513,7
+514,63.05,Pants & Capris,Free People Leggings #514,Free People,116.5,Women,SKU-000514,3
+515,194.92,Shorts,Levi's Bermuda Shorts #515,Levi's,553.38,Men,SKU-000515,8
+516,112.04,Skirts,Puma A-Line Skirts #516,Puma,289.98,Kids,SKU-000516,9
+517,92.79,Swim,H&M Cover Ups #517,H&M,280.15,Men,SKU-000517,7
+518,131.35,Underwear,H&M Boxers #518,H&M,396.92,Men,SKU-000518,3
+519,18.39,Swim,Gucci Cover Ups #519,Gucci,43.47,Women,SKU-000519,10
+520,221.73,Pants & Capris,Prada Leggings #520,Prada,506.64,Kids,SKU-000520,10
+521,217.32,Socks,UNIQLO Crew Socks #521,UNIQLO,469.11,Women,SKU-000521,6
+522,49.47,Skirts,Gap Midi Skirts #522,Gap,95.69,Women,SKU-000522,9
+523,51.44,Underwear,Tommy Hilfiger Briefs #523,Tommy Hilfiger,150.33,Women,SKU-000523,10
+524,227.93,Sleep & Lounge,North Face Robes #524,North Face,538.56,Women,SKU-000524,10
+525,140.15,Outerwear & Coats,Adidas Jackets #525,Adidas,314.44,Women,SKU-000525,10
+526,90.56,Suits,Puma Business Suits #526,Puma,246.6,Women,SKU-000526,7
+527,8.19,Underwear,Banana Republic Briefs #527,Banana Republic,19.69,Women,SKU-000527,4
+528,202.92,Skirts,North Face Mini Skirts #528,North Face,512.67,Women,SKU-000528,8
+529,163.79,Tops & Tees,Banana Republic Blouses #529,Banana Republic,309.46,Kids,SKU-000529,4
+530,199.73,Intimates,Versace Lingerie #530,Versace,423.6,Kids,SKU-000530,9
+531,37.42,Accessories,Tommy Hilfiger Bags #531,Tommy Hilfiger,90.45,Men,SKU-000531,9
+532,146.19,Sleep & Lounge,Levi's Robes #532,Levi's,455.36,Kids,SKU-000532,1
+533,93.35,Dresses,Ralph Lauren Formal Dresses #533,Ralph Lauren,177.79,Women,SKU-000533,6
+534,142.11,Swim,Versace Cover Ups #534,Versace,293.56,Women,SKU-000534,2
+535,105.06,Sleep & Lounge,Levi's Pajamas #535,Levi's,227.74,Kids,SKU-000535,9
+536,108.15,Active,Reebok Yoga Pants #536,Reebok,234.56,Kids,SKU-000536,9
+537,150.59,Pants & Capris,Tommy Hilfiger Leggings #537,Tommy Hilfiger,322.04,Women,SKU-000537,7
+538,157.44,Active,Under Armour Athletic Shorts #538,Under Armour,324.55,Women,SKU-000538,8
+539,117.05,Swim,Tommy Hilfiger Cover Ups #539,Tommy Hilfiger,297.46,Kids,SKU-000539,1
+540,60.13,Suits,Versace Blazers #540,Versace,180.45,Women,SKU-000540,1
+541,163.94,Active,Nike Athletic Shorts #541,Nike,365.95,Kids,SKU-000541,7
+542,38.94,Shirts & Tops,Nike Casual Shirts #542,Nike,118.59,Women,SKU-000542,4
+543,158.95,Suits,Burberry Business Suits #543,Burberry,477.43,Men,SKU-000543,7
+544,156.31,Swim,Nike Cover Ups #544,Nike,463.96,Men,SKU-000544,6
+545,85.81,Active,Under Armour Yoga Pants #545,Under Armour,219.07,Men,SKU-000545,10
+546,242.0,Outerwear & Coats,Columbia Coats #546,Columbia,633.34,Kids,SKU-000546,10
+547,118.11,Tops & Tees,Tommy Hilfiger Tank Tops #547,Tommy Hilfiger,357.5,Women,SKU-000547,10
+548,25.25,Swim,Gucci Swimwear #548,Gucci,73.4,Women,SKU-000548,10
+549,11.59,Jeans,Columbia Skinny Jeans #549,Columbia,28.25,Women,SKU-000549,5
+550,50.89,Shorts,Free People Bermuda Shorts #550,Free People,139.73,Men,SKU-000550,4
+551,204.28,Dresses,H&M Mini Dresses #551,H&M,533.83,Women,SKU-000551,3
+552,37.75,Skirts,Burberry A-Line Skirts #552,Burberry,93.58,Kids,SKU-000552,4
+553,237.35,Fashion Hoodies & Sweatshirts,Hollister Hoodies #553,Hollister,689.36,Women,SKU-000553,1
+554,95.65,Underwear,H&M Boxers #554,H&M,193.93,Men,SKU-000554,8
+555,99.54,Fashion Hoodies & Sweatshirts,Forever 21 Hoodies #555,Forever 21,290.69,Men,SKU-000555,3
+556,42.59,Leggings,Tommy Hilfiger Casual Leggings #556,Tommy Hilfiger,98.39,Kids,SKU-000556,6
+557,191.3,Jeans,Versace Bootcut Jeans #557,Versace,353.47,Men,SKU-000557,6
+558,180.3,Fashion Hoodies & Sweatshirts,Adidas Hoodies #558,Adidas,553.59,Women,SKU-000558,10
+559,138.4,Active,American Eagle Yoga Pants #559,American Eagle,312.6,Women,SKU-000559,6
+560,71.04,Swim,UNIQLO Swimwear #560,UNIQLO,195.96,Men,SKU-000560,6
+561,160.75,Blazers & Jackets,H&M Leather Jackets #561,H&M,505.71,Kids,SKU-000561,8
+562,230.34,Underwear,Patagonia Briefs #562,Patagonia,672.3,Kids,SKU-000562,9
+563,190.63,Leggings,Prada Workout Leggings #563,Prada,512.5,Kids,SKU-000563,2
+564,27.7,Tops & Tees,Burberry Tank Tops #564,Burberry,73.0,Men,SKU-000564,10
+565,27.83,Suits,H&M Blazers #565,H&M,50.24,Men,SKU-000565,7
+566,228.12,Active,Abercrombie Athletic Shorts #566,Abercrombie,535.45,Women,SKU-000566,9
+567,168.43,Fashion Hoodies & Sweatshirts,Ralph Lauren Crewneck Sweatshirts #567,Ralph Lauren,358.57,Men,SKU-000567,7
+568,109.26,Socks,Free People Ankle Socks #568,Free People,251.82,Men,SKU-000568,10
+569,46.33,Active,Patagonia Yoga Pants #569,Patagonia,98.22,Women,SKU-000569,5
+570,30.06,Accessories,Anthropologie Belts #570,Anthropologie,72.11,Kids,SKU-000570,3
+571,212.34,Jeans,Tommy Hilfiger Straight Jeans #571,Tommy Hilfiger,564.71,Kids,SKU-000571,2
+572,99.31,Leggings,H&M Casual Leggings #572,H&M,201.03,Men,SKU-000572,9
+573,87.11,Socks,Forever 21 Ankle Socks #573,Forever 21,271.49,Kids,SKU-000573,6
+574,93.39,Outerwear & Coats,Zara Jackets #574,Zara,250.47,Kids,SKU-000574,2
+575,204.73,Outerwear & Coats,Burberry Coats #575,Burberry,639.73,Women,SKU-000575,1
+576,121.33,Dresses,Reebok Maxi Dresses #576,Reebok,268.86,Men,SKU-000576,8
+577,188.3,Sleep & Lounge,Under Armour Pajamas #577,Under Armour,398.69,Women,SKU-000577,10
+578,23.66,Shirts & Tops,American Eagle Casual Shirts #578,American Eagle,65.74,Men,SKU-000578,7
+579,89.83,Fashion Hoodies & Sweatshirts,Anthropologie Hoodies #579,Anthropologie,230.4,Women,SKU-000579,9
+580,160.47,Footwear,H&M Boots #580,H&M,457.63,Women,SKU-000580,8
+581,80.32,Tops & Tees,Reebok Blouses #581,Reebok,175.37,Men,SKU-000581,8
+582,145.8,Outerwear & Coats,Puma Vests #582,Puma,348.14,Women,SKU-000582,8
+583,123.85,Active,Gucci Athletic Shorts #583,Gucci,322.06,Men,SKU-000583,1
+584,186.49,Jeans,Reebok Skinny Jeans #584,Reebok,404.23,Women,SKU-000584,6
+585,151.34,Shirts & Tops,Reebok T-Shirts #585,Reebok,327.65,Women,SKU-000585,6
+586,95.44,Pants & Capris,Ralph Lauren Chinos #586,Ralph Lauren,189.08,Women,SKU-000586,7
+587,6.49,Socks,New Balance Ankle Socks #587,New Balance,20.43,Men,SKU-000587,2
+588,168.54,Blazers & Jackets,Anthropologie Blazers #588,Anthropologie,362.81,Kids,SKU-000588,2
+589,249.84,Tops & Tees,Gucci Tank Tops #589,Gucci,621.89,Women,SKU-000589,6
+590,98.39,Dresses,H&M Mini Dresses #590,H&M,190.27,Men,SKU-000590,7
+591,248.46,Shirts & Tops,Wrangler Casual Shirts #591,Wrangler,569.22,Men,SKU-000591,8
+592,224.41,Socks,Puma Crew Socks #592,Puma,566.59,Men,SKU-000592,1
+593,22.57,Underwear,Forever 21 Boxers #593,Forever 21,56.15,Men,SKU-000593,2
+594,32.26,Intimates,Nike Lingerie #594,Nike,74.97,Men,SKU-000594,2
+595,147.8,Tops & Tees,H&M Tank Tops #595,H&M,286.45,Men,SKU-000595,10
+596,137.95,Active,New Balance Athletic Shorts #596,New Balance,413.91,Women,SKU-000596,7
+597,47.84,Fashion Hoodies & Sweatshirts,UNIQLO Hoodies #597,UNIQLO,112.5,Men,SKU-000597,2
+598,64.1,Leggings,New Balance Workout Leggings #598,New Balance,162.09,Men,SKU-000598,2
+599,39.28,Jeans,Ralph Lauren Bootcut Jeans #599,Ralph Lauren,96.46,Kids,SKU-000599,3
+600,206.68,Outerwear & Coats,Anthropologie Vests #600,Anthropologie,546.83,Women,SKU-000600,8
+601,72.49,Intimates,J.Crew Underwear #601,J.Crew,165.03,Men,SKU-000601,4
+602,169.53,Intimates,Nike Lingerie #602,Nike,367.27,Men,SKU-000602,2
+603,210.47,Underwear,Reebok Boxers #603,Reebok,520.11,Women,SKU-000603,4
+604,161.35,Swim,Gap Swimwear #604,Gap,375.73,Men,SKU-000604,3
+605,196.63,Blazers & Jackets,Gap Blazers #605,Gap,415.04,Women,SKU-000605,7
+606,208.63,Underwear,Adidas Briefs #606,Adidas,418.22,Men,SKU-000606,7
+607,68.79,Swim,Columbia Cover Ups #607,Columbia,146.34,Women,SKU-000607,4
+608,190.62,Suits,Gap Business Suits #608,Gap,518.42,Men,SKU-000608,6
+609,216.0,Footwear,Adidas Boots #609,Adidas,679.52,Men,SKU-000609,10
+610,211.65,Blazers & Jackets,American Eagle Blazers #610,American Eagle,409.58,Men,SKU-000610,6
+611,108.1,Underwear,Ralph Lauren Briefs #611,Ralph Lauren,290.45,Women,SKU-000611,1
+612,178.11,Intimates,New Balance Lingerie #612,New Balance,359.58,Kids,SKU-000612,5
+613,68.3,Intimates,Gucci Lingerie #613,Gucci,189.8,Women,SKU-000613,2
+614,153.96,Jeans,Zara Straight Jeans #614,Zara,461.34,Women,SKU-000614,4
+615,180.71,Skirts,Burberry Midi Skirts #615,Burberry,571.56,Men,SKU-000615,3
+616,109.86,Active,Anthropologie Athletic Shorts #616,Anthropologie,204.23,Women,SKU-000616,3
+617,132.56,Fashion Hoodies & Sweatshirts,Gap Hoodies #617,Gap,276.4,Women,SKU-000617,8
+618,151.24,Underwear,New Balance Boxers #618,New Balance,467.83,Kids,SKU-000618,5
+619,43.12,Active,Columbia Yoga Pants #619,Columbia,81.47,Women,SKU-000619,8
+620,151.14,Footwear,Gucci Flats #620,Gucci,403.81,Women,SKU-000620,8
+621,30.02,Active,Prada Athletic Shorts #621,Prada,75.68,Men,SKU-000621,9
+622,136.34,Underwear,Burberry Briefs #622,Burberry,327.14,Women,SKU-000622,7
+623,19.27,Skirts,American Eagle Midi Skirts #623,American Eagle,36.85,Men,SKU-000623,1
+624,22.49,Pants & Capris,Levi's Chinos #624,Levi's,47.55,Kids,SKU-000624,9
+625,162.05,Shorts,Hollister Athletic Shorts #625,Hollister,446.03,Women,SKU-000625,5
+626,185.59,Dresses,Ralph Lauren Mini Dresses #626,Ralph Lauren,389.79,Men,SKU-000626,6
+627,189.86,Tops & Tees,American Eagle Crop Tops #627,American Eagle,462.44,Men,SKU-000627,10
+628,221.96,Leggings,Patagonia Workout Leggings #628,Patagonia,701.13,Men,SKU-000628,9
+629,217.56,Accessories,Levi's Hats #629,Levi's,457.13,Men,SKU-000629,10
+630,233.33,Outerwear & Coats,Banana Republic Coats #630,Banana Republic,530.94,Women,SKU-000630,2
+631,171.67,Active,Puma Sports Bras #631,Puma,377.87,Women,SKU-000631,7
+632,238.45,Skirts,Hollister Mini Skirts #632,Hollister,670.82,Men,SKU-000632,10
+633,240.81,Accessories,Puma Hats #633,Puma,593.87,Women,SKU-000633,6
+634,16.37,Skirts,Nike Mini Skirts #634,Nike,50.32,Kids,SKU-000634,1
+635,223.09,Outerwear & Coats,Gap Jackets #635,Gap,625.11,Women,SKU-000635,4
+636,48.82,Sleep & Lounge,Prada Robes #636,Prada,146.67,Women,SKU-000636,7
+637,42.56,Underwear,Levi's Boxers #637,Levi's,97.77,Women,SKU-000637,5
+638,105.27,Shirts & Tops,Levi's Casual Shirts #638,Levi's,223.48,Women,SKU-000638,3
+639,32.88,Skirts,J.Crew A-Line Skirts #639,J.Crew,71.34,Women,SKU-000639,4
+640,13.91,Shorts,Gucci Bermuda Shorts #640,Gucci,31.31,Kids,SKU-000640,10
+641,125.97,Jeans,New Balance Straight Jeans #641,New Balance,314.93,Men,SKU-000641,1
+642,191.58,Pants & Capris,North Face Jeans #642,North Face,371.78,Men,SKU-000642,3
+643,52.94,Skirts,Ralph Lauren A-Line Skirts #643,Ralph Lauren,108.25,Women,SKU-000643,7
+644,106.56,Outerwear & Coats,Prada Coats #644,Prada,293.32,Men,SKU-000644,4
+645,142.84,Outerwear & Coats,Versace Vests #645,Versace,294.76,Kids,SKU-000645,1
+646,116.47,Suits,Zara Blazers #646,Zara,238.34,Kids,SKU-000646,9
+647,87.94,Shirts & Tops,Ralph Lauren Casual Shirts #647,Ralph Lauren,214.2,Men,SKU-000647,9
+648,159.35,Shorts,North Face Athletic Shorts #648,North Face,288.3,Women,SKU-000648,3
+649,10.37,Outerwear & Coats,Burberry Coats #649,Burberry,28.48,Men,SKU-000649,4
+650,135.85,Intimates,Patagonia Lingerie #650,Patagonia,341.3,Kids,SKU-000650,2
+651,175.49,Underwear,Nike Briefs #651,Nike,423.16,Men,SKU-000651,10
+652,143.72,Jeans,Columbia Bootcut Jeans #652,Columbia,393.08,Kids,SKU-000652,2
+653,144.2,Sleep & Lounge,Anthropologie Pajamas #653,Anthropologie,373.01,Kids,SKU-000653,8
+654,62.45,Footwear,H&M Flats #654,H&M,170.06,Women,SKU-000654,10
+655,27.31,Intimates,Levi's Bras & Bralettes #655,Levi's,62.04,Men,SKU-000655,8
+656,225.17,Suits,Anthropologie Blazers #656,Anthropologie,695.75,Women,SKU-000656,4
+657,220.49,Suits,Forever 21 Business Suits #657,Forever 21,407.46,Women,SKU-000657,9
+658,127.9,Sleep & Lounge,Burberry Robes #658,Burberry,375.13,Men,SKU-000658,9
+659,70.8,Active,Abercrombie Yoga Pants #659,Abercrombie,134.34,Kids,SKU-000659,7
+660,169.45,Dresses,Adidas Mini Dresses #660,Adidas,401.11,Kids,SKU-000660,2
+661,211.38,Tops & Tees,Patagonia Crop Tops #661,Patagonia,441.67,Men,SKU-000661,10
+662,198.66,Jeans,Prada Bootcut Jeans #662,Prada,565.92,Kids,SKU-000662,2
+663,126.34,Intimates,Prada Underwear #663,Prada,344.68,Men,SKU-000663,4
+664,145.45,Swim,Under Armour Swimwear #664,Under Armour,270.26,Men,SKU-000664,9
+665,154.41,Sleep & Lounge,New Balance Robes #665,New Balance,409.35,Men,SKU-000665,6
+666,225.9,Leggings,Forever 21 Casual Leggings #666,Forever 21,466.18,Men,SKU-000666,5
+667,45.93,Sleep & Lounge,American Eagle Robes #667,American Eagle,89.2,Men,SKU-000667,6
+668,39.04,Fashion Hoodies & Sweatshirts,Adidas Crewneck Sweatshirts #668,Adidas,123.23,Men,SKU-000668,1
+669,172.12,Underwear,New Balance Boxers #669,New Balance,321.32,Women,SKU-000669,10
+670,200.55,Underwear,Gucci Boxers #670,Gucci,445.78,Women,SKU-000670,2
+671,141.8,Tops & Tees,Prada Blouses #671,Prada,258.07,Women,SKU-000671,2
+672,71.83,Socks,Puma Ankle Socks #672,Puma,145.54,Kids,SKU-000672,10
+673,67.39,Jeans,Hollister Skinny Jeans #673,Hollister,205.18,Men,SKU-000673,3
+674,83.47,Skirts,Under Armour Midi Skirts #674,Under Armour,181.44,Women,SKU-000674,4
+675,56.91,Sleep & Lounge,Ralph Lauren Pajamas #675,Ralph Lauren,176.39,Men,SKU-000675,7
+676,11.41,Intimates,Levi's Underwear #676,Levi's,35.78,Men,SKU-000676,8
+677,38.87,Tops & Tees,North Face Crop Tops #677,North Face,106.57,Men,SKU-000677,10
+678,189.11,Jeans,North Face Bootcut Jeans #678,North Face,389.57,Men,SKU-000678,7
+679,28.98,Leggings,Nike Workout Leggings #679,Nike,78.44,Kids,SKU-000679,2
+680,100.5,Dresses,Ralph Lauren Mini Dresses #680,Ralph Lauren,312.56,Men,SKU-000680,3
+681,5.39,Fashion Hoodies & Sweatshirts,Patagonia Hoodies #681,Patagonia,9.76,Men,SKU-000681,8
+682,170.15,Sleep & Lounge,Patagonia Pajamas #682,Patagonia,391.54,Men,SKU-000682,2
+683,88.69,Suits,Zara Business Suits #683,Zara,186.12,Men,SKU-000683,2
+684,212.17,Blazers & Jackets,Levi's Blazers #684,Levi's,647.85,Kids,SKU-000684,4
+685,100.37,Shorts,Nike Athletic Shorts #685,Nike,224.0,Kids,SKU-000685,4
+686,139.83,Blazers & Jackets,Free People Denim Jackets #686,Free People,286.95,Men,SKU-000686,6
+687,38.9,Outerwear & Coats,Zara Coats #687,Zara,107.31,Men,SKU-000687,6
+688,6.81,Socks,Calvin Klein Crew Socks #688,Calvin Klein,21.08,Women,SKU-000688,3
+689,71.54,Suits,Columbia Blazers #689,Columbia,205.24,Men,SKU-000689,2
+690,92.41,Outerwear & Coats,Zara Jackets #690,Zara,243.3,Women,SKU-000690,9
+691,78.78,Socks,New Balance Ankle Socks #691,New Balance,157.36,Kids,SKU-000691,7
+692,221.41,Outerwear & Coats,Prada Jackets #692,Prada,404.0,Men,SKU-000692,10
+693,236.21,Intimates,North Face Bras & Bralettes #693,North Face,653.83,Kids,SKU-000693,2
+694,161.95,Socks,Prada Crew Socks #694,Prada,335.95,Men,SKU-000694,7
+695,103.23,Skirts,Zara Midi Skirts #695,Zara,246.33,Women,SKU-000695,4
+696,84.58,Suits,J.Crew Business Suits #696,J.Crew,174.0,Men,SKU-000696,3
+697,173.3,Outerwear & Coats,Anthropologie Jackets #697,Anthropologie,513.49,Men,SKU-000697,9
+698,150.92,Suits,Abercrombie Business Suits #698,Abercrombie,432.71,Kids,SKU-000698,10
+699,212.97,Outerwear & Coats,Tommy Hilfiger Vests #699,Tommy Hilfiger,489.28,Kids,SKU-000699,8
+700,249.64,Blazers & Jackets,New Balance Denim Jackets #700,New Balance,526.66,Women,SKU-000700,3
+701,5.03,Shirts & Tops,Patagonia Polo Shirts #701,Patagonia,13.87,Men,SKU-000701,5
+702,40.2,Intimates,Ralph Lauren Underwear #702,Ralph Lauren,124.68,Women,SKU-000702,2
+703,80.5,Suits,Adidas Blazers #703,Adidas,255.34,Women,SKU-000703,9
+704,223.04,Outerwear & Coats,Anthropologie Jackets #704,Anthropologie,406.01,Men,SKU-000704,7
+705,10.13,Outerwear & Coats,Puma Jackets #705,Puma,20.92,Kids,SKU-000705,5
+706,217.09,Sleep & Lounge,Tommy Hilfiger Pajamas #706,Tommy Hilfiger,596.14,Women,SKU-000706,3
+707,54.25,Jeans,North Face Bootcut Jeans #707,North Face,168.18,Men,SKU-000707,5
+708,183.94,Dresses,Free People Maxi Dresses #708,Free People,379.38,Women,SKU-000708,7
+709,99.94,Footwear,Ralph Lauren Sandals #709,Ralph Lauren,238.4,Women,SKU-000709,8
+710,79.92,Underwear,Puma Briefs #710,Puma,197.49,Kids,SKU-000710,3
+711,178.77,Jeans,Reebok Bootcut Jeans #711,Reebok,322.98,Men,SKU-000711,2
+712,124.61,Socks,Calvin Klein Crew Socks #712,Calvin Klein,359.48,Women,SKU-000712,9
+713,5.29,Accessories,Abercrombie Bags #713,Abercrombie,14.27,Men,SKU-000713,7
+714,99.28,Shorts,Patagonia Bermuda Shorts #714,Patagonia,219.93,Kids,SKU-000714,10
+715,91.2,Tops & Tees,H&M Crop Tops #715,H&M,203.51,Kids,SKU-000715,8
+716,186.06,Active,H&M Athletic Shorts #716,H&M,542.31,Men,SKU-000716,9
+717,41.81,Tops & Tees,Gucci Crop Tops #717,Gucci,76.97,Kids,SKU-000717,7
+718,242.82,Leggings,Abercrombie Workout Leggings #718,Abercrombie,592.91,Women,SKU-000718,6
+719,189.56,Jeans,Ralph Lauren Skinny Jeans #719,Ralph Lauren,491.31,Women,SKU-000719,7
+720,155.68,Jeans,Wrangler Skinny Jeans #720,Wrangler,415.5,Men,SKU-000720,4
+721,134.32,Dresses,Gucci Formal Dresses #721,Gucci,250.42,Men,SKU-000721,9
+722,108.77,Leggings,Hollister Casual Leggings #722,Hollister,198.06,Women,SKU-000722,1
+723,239.15,Socks,J.Crew Ankle Socks #723,J.Crew,677.13,Kids,SKU-000723,2
+724,119.84,Pants & Capris,Adidas Chinos #724,Adidas,219.83,Women,SKU-000724,3
+725,208.94,Socks,North Face Ankle Socks #725,North Face,581.51,Kids,SKU-000725,2
+726,245.48,Accessories,North Face Jewelry #726,North Face,453.96,Women,SKU-000726,3
+727,64.42,Accessories,Adidas Belts #727,Adidas,182.33,Women,SKU-000727,3
+728,156.24,Socks,Columbia Crew Socks #728,Columbia,359.84,Kids,SKU-000728,2
+729,147.73,Shirts & Tops,North Face T-Shirts #729,North Face,423.74,Kids,SKU-000729,8
+730,112.56,Socks,Patagonia Ankle Socks #730,Patagonia,358.82,Women,SKU-000730,7
+731,65.24,Blazers & Jackets,Abercrombie Leather Jackets #731,Abercrombie,118.13,Women,SKU-000731,9
+732,193.74,Tops & Tees,Levi's Blouses #732,Levi's,568.38,Kids,SKU-000732,7
+733,173.14,Suits,Ralph Lauren Business Suits #733,Ralph Lauren,504.66,Men,SKU-000733,7
+734,10.79,Suits,Tommy Hilfiger Blazers #734,Tommy Hilfiger,25.51,Women,SKU-000734,1
+735,170.6,Jeans,Zara Bootcut Jeans #735,Zara,539.61,Men,SKU-000735,9
+736,35.22,Tops & Tees,Patagonia Crop Tops #736,Patagonia,88.33,Kids,SKU-000736,8
+737,130.91,Accessories,Gap Bags #737,Gap,247.18,Kids,SKU-000737,1
+738,230.91,Intimates,Tommy Hilfiger Lingerie #738,Tommy Hilfiger,486.26,Women,SKU-000738,2
+739,139.68,Tops & Tees,Columbia Blouses #739,Columbia,399.03,Kids,SKU-000739,2
+740,223.74,Blazers & Jackets,Burberry Leather Jackets #740,Burberry,409.36,Women,SKU-000740,6
+741,145.01,Intimates,American Eagle Underwear #741,American Eagle,330.0,Men,SKU-000741,5
+742,113.05,Tops & Tees,UNIQLO Blouses #742,UNIQLO,334.19,Women,SKU-000742,10
+743,241.36,Dresses,New Balance Formal Dresses #743,New Balance,482.46,Kids,SKU-000743,9
+744,200.07,Footwear,American Eagle Sandals #744,American Eagle,474.79,Women,SKU-000744,7
+745,203.18,Sleep & Lounge,Wrangler Pajamas #745,Wrangler,443.38,Men,SKU-000745,1
+746,236.39,Leggings,UNIQLO Casual Leggings #746,UNIQLO,642.2,Women,SKU-000746,7
+747,30.42,Socks,Calvin Klein Crew Socks #747,Calvin Klein,75.62,Kids,SKU-000747,6
+748,64.51,Shorts,Zara Athletic Shorts #748,Zara,153.23,Women,SKU-000748,3
+749,86.98,Dresses,UNIQLO Maxi Dresses #749,UNIQLO,189.17,Kids,SKU-000749,6
+750,56.53,Accessories,Free People Hats #750,Free People,129.45,Kids,SKU-000750,7
+751,22.95,Socks,Puma Ankle Socks #751,Puma,66.98,Kids,SKU-000751,7
+752,105.58,Tops & Tees,Banana Republic Tank Tops #752,Banana Republic,264.01,Men,SKU-000752,8
+753,228.11,Shirts & Tops,Gap T-Shirts #753,Gap,429.34,Kids,SKU-000753,2
+754,163.98,Swim,Abercrombie Swimwear #754,Abercrombie,510.94,Kids,SKU-000754,9
+755,139.97,Suits,Abercrombie Business Suits #755,Abercrombie,354.95,Women,SKU-000755,2
+756,16.18,Swim,Ralph Lauren Swimwear #756,Ralph Lauren,33.46,Men,SKU-000756,6
+757,243.06,Socks,North Face Ankle Socks #757,North Face,610.84,Kids,SKU-000757,9
+758,240.65,Sleep & Lounge,H&M Pajamas #758,H&M,614.38,Men,SKU-000758,3
+759,203.97,Socks,Burberry Ankle Socks #759,Burberry,481.11,Women,SKU-000759,7
+760,28.29,Jeans,Levi's Skinny Jeans #760,Levi's,73.14,Men,SKU-000760,3
+761,140.91,Blazers & Jackets,Anthropologie Leather Jackets #761,Anthropologie,307.82,Kids,SKU-000761,8
+762,23.79,Leggings,Zara Casual Leggings #762,Zara,63.33,Kids,SKU-000762,9
+763,225.05,Socks,Puma Ankle Socks #763,Puma,640.5,Kids,SKU-000763,6
+764,180.56,Pants & Capris,North Face Jeans #764,North Face,444.91,Kids,SKU-000764,1
+765,45.33,Fashion Hoodies & Sweatshirts,Gap Hoodies #765,Gap,87.58,Kids,SKU-000765,2
+766,47.31,Pants & Capris,Abercrombie Leggings #766,Abercrombie,126.82,Kids,SKU-000766,2
+767,72.14,Tops & Tees,Calvin Klein Crop Tops #767,Calvin Klein,159.7,Women,SKU-000767,7
+768,149.23,Sleep & Lounge,New Balance Robes #768,New Balance,299.26,Kids,SKU-000768,6
+769,147.01,Sleep & Lounge,Calvin Klein Robes #769,Calvin Klein,436.76,Men,SKU-000769,1
+770,107.85,Intimates,Columbia Bras & Bralettes #770,Columbia,302.86,Men,SKU-000770,10
+771,6.77,Socks,Tommy Hilfiger Crew Socks #771,Tommy Hilfiger,14.63,Men,SKU-000771,10
+772,53.54,Active,Wrangler Sports Bras #772,Wrangler,99.65,Women,SKU-000772,1
+773,22.28,Blazers & Jackets,UNIQLO Denim Jackets #773,UNIQLO,40.23,Men,SKU-000773,2
+774,141.31,Jeans,J.Crew Bootcut Jeans #774,J.Crew,307.3,Men,SKU-000774,7
+775,228.36,Tops & Tees,New Balance Crop Tops #775,New Balance,665.5,Kids,SKU-000775,1
+776,80.83,Underwear,Levi's Briefs #776,Levi's,204.71,Kids,SKU-000776,2
+777,145.65,Leggings,New Balance Workout Leggings #777,New Balance,385.41,Men,SKU-000777,4
+778,18.66,Footwear,Anthropologie Sandals #778,Anthropologie,43.25,Men,SKU-000778,3
+779,46.93,Tops & Tees,American Eagle Tank Tops #779,American Eagle,136.44,Men,SKU-000779,10
+780,42.42,Skirts,North Face Mini Skirts #780,North Face,118.35,Men,SKU-000780,10
+781,242.3,Pants & Capris,Nike Shorts #781,Nike,634.32,Kids,SKU-000781,5
+782,43.6,Shirts & Tops,J.Crew Casual Shirts #782,J.Crew,90.3,Kids,SKU-000782,10
+783,176.2,Intimates,Under Armour Bras & Bralettes #783,Under Armour,413.46,Women,SKU-000783,9
+784,37.87,Jeans,Abercrombie Skinny Jeans #784,Abercrombie,105.15,Men,SKU-000784,6
+785,130.83,Fashion Hoodies & Sweatshirts,Abercrombie Hoodies #785,Abercrombie,281.32,Men,SKU-000785,1
+786,174.99,Tops & Tees,Adidas Tank Tops #786,Adidas,336.63,Men,SKU-000786,3
+787,99.1,Skirts,Versace Midi Skirts #787,Versace,304.2,Men,SKU-000787,5
+788,101.79,Shirts & Tops,Burberry Polo Shirts #788,Burberry,243.02,Men,SKU-000788,2
+789,242.93,Suits,American Eagle Blazers #789,American Eagle,716.9,Women,SKU-000789,3
+790,132.97,Swim,Nike Cover Ups #790,Nike,361.68,Women,SKU-000790,6
+791,144.57,Leggings,American Eagle Workout Leggings #791,American Eagle,359.51,Men,SKU-000791,10
+792,181.75,Dresses,Gap Maxi Dresses #792,Gap,413.43,Men,SKU-000792,6
+793,11.93,Blazers & Jackets,Zara Denim Jackets #793,Zara,33.37,Men,SKU-000793,4
+794,200.53,Outerwear & Coats,UNIQLO Coats #794,UNIQLO,505.05,Kids,SKU-000794,5
+795,107.36,Fashion Hoodies & Sweatshirts,Abercrombie Hoodies #795,Abercrombie,269.0,Kids,SKU-000795,9
+796,55.02,Outerwear & Coats,Abercrombie Jackets #796,Abercrombie,172.5,Men,SKU-000796,3
+797,58.14,Sleep & Lounge,New Balance Robes #797,New Balance,171.9,Men,SKU-000797,2
+798,58.65,Intimates,Banana Republic Bras & Bralettes #798,Banana Republic,153.44,Women,SKU-000798,10
+799,73.74,Outerwear & Coats,Columbia Jackets #799,Columbia,137.63,Women,SKU-000799,8
+800,209.26,Skirts,New Balance Midi Skirts #800,New Balance,646.16,Men,SKU-000800,10
+801,15.38,Intimates,Anthropologie Bras & Bralettes #801,Anthropologie,34.99,Men,SKU-000801,6
+802,115.28,Intimates,Abercrombie Bras & Bralettes #802,Abercrombie,286.33,Men,SKU-000802,10
+803,40.04,Swim,Patagonia Cover Ups #803,Patagonia,123.48,Women,SKU-000803,10
+804,52.26,Sleep & Lounge,Tommy Hilfiger Pajamas #804,Tommy Hilfiger,138.31,Men,SKU-000804,2
+805,193.25,Underwear,Reebok Boxers #805,Reebok,461.47,Women,SKU-000805,5
+806,105.1,Leggings,Versace Workout Leggings #806,Versace,322.99,Women,SKU-000806,7
+807,100.27,Pants & Capris,Banana Republic Shorts #807,Banana Republic,242.96,Women,SKU-000807,8
+808,117.14,Pants & Capris,Free People Shorts #808,Free People,241.23,Kids,SKU-000808,7
+809,198.2,Sleep & Lounge,Free People Robes #809,Free People,547.93,Kids,SKU-000809,10
+810,178.29,Shirts & Tops,UNIQLO Casual Shirts #810,UNIQLO,478.8,Men,SKU-000810,8
+811,69.87,Fashion Hoodies & Sweatshirts,Wrangler Hoodies #811,Wrangler,193.28,Kids,SKU-000811,5
+812,189.3,Suits,Hollister Business Suits #812,Hollister,465.91,Men,SKU-000812,6
+813,15.03,Swim,Gucci Cover Ups #813,Gucci,36.1,Men,SKU-000813,5
+814,186.99,Tops & Tees,Zara Crop Tops #814,Zara,545.63,Kids,SKU-000814,9
+815,240.43,Fashion Hoodies & Sweatshirts,Under Armour Crewneck Sweatshirts #815,Under Armour,673.66,Kids,SKU-000815,1
+816,32.66,Shirts & Tops,Anthropologie T-Shirts #816,Anthropologie,85.17,Kids,SKU-000816,9
+817,210.29,Blazers & Jackets,Under Armour Blazers #817,Under Armour,402.28,Men,SKU-000817,3
+818,209.9,Intimates,Calvin Klein Bras & Bralettes #818,Calvin Klein,617.48,Men,SKU-000818,9
+819,47.74,Tops & Tees,New Balance Blouses #819,New Balance,130.29,Kids,SKU-000819,2
+820,48.34,Tops & Tees,Ralph Lauren Blouses #820,Ralph Lauren,119.14,Men,SKU-000820,7
+821,232.11,Outerwear & Coats,Abercrombie Coats #821,Abercrombie,477.9,Men,SKU-000821,7
+822,61.99,Dresses,Free People Maxi Dresses #822,Free People,155.11,Women,SKU-000822,10
+823,195.26,Intimates,Ralph Lauren Bras & Bralettes #823,Ralph Lauren,436.18,Men,SKU-000823,9
+824,209.6,Tops & Tees,American Eagle Blouses #824,American Eagle,663.83,Women,SKU-000824,1
+825,99.82,Underwear,Ralph Lauren Briefs #825,Ralph Lauren,238.17,Kids,SKU-000825,8
+826,19.02,Blazers & Jackets,Wrangler Leather Jackets #826,Wrangler,58.27,Women,SKU-000826,10
+827,175.3,Intimates,Patagonia Lingerie #827,Patagonia,492.52,Women,SKU-000827,10
+828,107.75,Leggings,Versace Casual Leggings #828,Versace,264.15,Men,SKU-000828,10
+829,189.33,Sleep & Lounge,H&M Robes #829,H&M,397.88,Women,SKU-000829,6
+830,123.2,Jeans,Gap Bootcut Jeans #830,Gap,290.38,Men,SKU-000830,2
+831,11.33,Swim,Levi's Swimwear #831,Levi's,27.59,Kids,SKU-000831,10
+832,202.02,Suits,Nike Blazers #832,Nike,580.04,Women,SKU-000832,5
+833,213.6,Footwear,Prada Sneakers #833,Prada,633.69,Men,SKU-000833,7
+834,183.13,Socks,Free People Crew Socks #834,Free People,559.35,Men,SKU-000834,8
+835,10.33,Active,Levi's Athletic Shorts #835,Levi's,20.24,Women,SKU-000835,6
+836,56.97,Fashion Hoodies & Sweatshirts,Abercrombie Hoodies #836,Abercrombie,158.42,Kids,SKU-000836,6
+837,187.35,Outerwear & Coats,Nike Coats #837,Nike,505.64,Women,SKU-000837,7
+838,6.18,Intimates,Under Armour Lingerie #838,Under Armour,18.33,Women,SKU-000838,3
+839,60.72,Footwear,Abercrombie Boots #839,Abercrombie,148.87,Women,SKU-000839,8
+840,154.78,Active,Puma Athletic Shorts #840,Puma,337.32,Men,SKU-000840,7
+841,208.54,Jeans,Gucci Bootcut Jeans #841,Gucci,456.33,Women,SKU-000841,5
+842,164.14,Leggings,Levi's Casual Leggings #842,Levi's,424.49,Men,SKU-000842,9
+843,113.12,Fashion Hoodies & Sweatshirts,Anthropologie Hoodies #843,Anthropologie,279.04,Men,SKU-000843,5
+844,170.8,Skirts,Reebok Midi Skirts #844,Reebok,412.41,Men,SKU-000844,6
+845,195.05,Jeans,Prada Straight Jeans #845,Prada,509.95,Women,SKU-000845,5
+846,70.01,Accessories,Columbia Sunglasses #846,Columbia,178.77,Women,SKU-000846,3
+847,89.74,Underwear,Zara Briefs #847,Zara,184.6,Men,SKU-000847,9
+848,26.19,Shorts,Gucci Bermuda Shorts #848,Gucci,64.26,Women,SKU-000848,9
+849,21.65,Jeans,Tommy Hilfiger Skinny Jeans #849,Tommy Hilfiger,47.6,Kids,SKU-000849,8
+850,235.49,Shorts,Ralph Lauren Athletic Shorts #850,Ralph Lauren,680.23,Men,SKU-000850,10
+851,238.73,Blazers & Jackets,J.Crew Leather Jackets #851,J.Crew,763.15,Women,SKU-000851,4
+852,126.84,Pants & Capris,UNIQLO Shorts #852,UNIQLO,383.46,Women,SKU-000852,7
+853,128.85,Swim,Wrangler Cover Ups #853,Wrangler,326.08,Kids,SKU-000853,7
+854,183.95,Blazers & Jackets,Banana Republic Leather Jackets #854,Banana Republic,376.1,Men,SKU-000854,1
+855,120.31,Suits,Wrangler Business Suits #855,Wrangler,379.59,Men,SKU-000855,7
+856,104.29,Dresses,Abercrombie Mini Dresses #856,Abercrombie,225.96,Women,SKU-000856,7
+857,104.15,Suits,New Balance Business Suits #857,New Balance,233.84,Kids,SKU-000857,2
+858,20.6,Active,Zara Sports Bras #858,Zara,62.81,Women,SKU-000858,4
+859,127.94,Leggings,North Face Workout Leggings #859,North Face,381.06,Kids,SKU-000859,10
+860,109.67,Swim,Wrangler Cover Ups #860,Wrangler,318.37,Kids,SKU-000860,5
+861,196.92,Skirts,Hollister Midi Skirts #861,Hollister,382.71,Women,SKU-000861,1
+862,106.62,Active,Calvin Klein Yoga Pants #862,Calvin Klein,197.44,Kids,SKU-000862,6
+863,50.07,Active,UNIQLO Yoga Pants #863,UNIQLO,111.73,Women,SKU-000863,3
+864,87.04,Footwear,Anthropologie Flats #864,Anthropologie,240.54,Men,SKU-000864,10
+865,115.82,Active,Puma Yoga Pants #865,Puma,337.21,Kids,SKU-000865,4
+866,63.43,Suits,Versace Business Suits #866,Versace,114.68,Kids,SKU-000866,3
+867,25.22,Dresses,Banana Republic Maxi Dresses #867,Banana Republic,68.43,Women,SKU-000867,9
+868,187.95,Swim,Levi's Swimwear #868,Levi's,496.39,Women,SKU-000868,1
+869,82.19,Swim,Under Armour Cover Ups #869,Under Armour,246.17,Kids,SKU-000869,6
+870,76.08,Blazers & Jackets,Puma Leather Jackets #870,Puma,205.66,Women,SKU-000870,3
+871,21.73,Fashion Hoodies & Sweatshirts,Calvin Klein Hoodies #871,Calvin Klein,42.99,Kids,SKU-000871,2
+872,147.14,Fashion Hoodies & Sweatshirts,Burberry Hoodies #872,Burberry,414.49,Men,SKU-000872,5
+873,130.68,Underwear,Prada Boxers #873,Prada,237.04,Kids,SKU-000873,5
+874,55.55,Jeans,Reebok Bootcut Jeans #874,Reebok,144.91,Men,SKU-000874,8
+875,109.61,Suits,American Eagle Blazers #875,American Eagle,270.06,Men,SKU-000875,4
+876,68.56,Blazers & Jackets,North Face Blazers #876,North Face,152.09,Women,SKU-000876,10
+877,137.74,Leggings,Prada Casual Leggings #877,Prada,366.43,Kids,SKU-000877,1
+878,232.85,Underwear,Versace Boxers #878,Versace,428.29,Men,SKU-000878,5
+879,205.01,Blazers & Jackets,Forever 21 Leather Jackets #879,Forever 21,411.22,Women,SKU-000879,7
+880,128.0,Tops & Tees,J.Crew Tank Tops #880,J.Crew,325.72,Men,SKU-000880,10
+881,70.64,Sleep & Lounge,Gap Robes #881,Gap,156.87,Men,SKU-000881,4
+882,172.66,Pants & Capris,J.Crew Chinos #882,J.Crew,503.37,Kids,SKU-000882,1
+883,148.55,Sleep & Lounge,Under Armour Pajamas #883,Under Armour,409.95,Men,SKU-000883,1
+884,40.09,Sleep & Lounge,Wrangler Pajamas #884,Wrangler,74.3,Women,SKU-000884,2
+885,172.76,Suits,Levi's Business Suits #885,Levi's,396.58,Kids,SKU-000885,4
+886,84.55,Jeans,Tommy Hilfiger Bootcut Jeans #886,Tommy Hilfiger,251.65,Women,SKU-000886,7
+887,6.92,Suits,Calvin Klein Business Suits #887,Calvin Klein,19.88,Men,SKU-000887,8
+888,155.55,Shorts,Prada Athletic Shorts #888,Prada,443.51,Women,SKU-000888,4
+889,11.51,Dresses,J.Crew Mini Dresses #889,J.Crew,24.62,Men,SKU-000889,8
+890,109.41,Leggings,Calvin Klein Casual Leggings #890,Calvin Klein,343.24,Women,SKU-000890,9
+891,58.71,Tops & Tees,Tommy Hilfiger Tank Tops #891,Tommy Hilfiger,169.5,Kids,SKU-000891,4
+892,233.26,Accessories,Calvin Klein Belts #892,Calvin Klein,683.74,Kids,SKU-000892,5
+893,239.85,Socks,Banana Republic Ankle Socks #893,Banana Republic,593.28,Men,SKU-000893,1
+894,47.64,Active,Gucci Yoga Pants #894,Gucci,127.17,Kids,SKU-000894,5
+895,38.96,Suits,New Balance Blazers #895,New Balance,81.37,Women,SKU-000895,3
+896,235.8,Pants & Capris,Prada Chinos #896,Prada,590.1,Men,SKU-000896,9
+897,173.88,Outerwear & Coats,Patagonia Vests #897,Patagonia,318.09,Women,SKU-000897,9
+898,231.17,Shirts & Tops,H&M Casual Shirts #898,H&M,664.78,Women,SKU-000898,8
+899,226.24,Intimates,Burberry Lingerie #899,Burberry,552.07,Men,SKU-000899,10
+900,205.44,Dresses,Tommy Hilfiger Maxi Dresses #900,Tommy Hilfiger,456.2,Kids,SKU-000900,8
+901,61.49,Suits,Zara Blazers #901,Zara,120.17,Women,SKU-000901,7
+902,170.08,Leggings,Forever 21 Casual Leggings #902,Forever 21,337.22,Women,SKU-000902,3
+903,182.68,Jeans,Gucci Straight Jeans #903,Gucci,438.61,Kids,SKU-000903,4
+904,75.24,Sleep & Lounge,Burberry Robes #904,Burberry,189.53,Kids,SKU-000904,2
+905,214.94,Intimates,Nike Lingerie #905,Nike,553.84,Women,SKU-000905,6
+906,51.65,Leggings,Levi's Casual Leggings #906,Levi's,106.52,Men,SKU-000906,8
+907,125.26,Active,Abercrombie Sports Bras #907,Abercrombie,237.91,Women,SKU-000907,3
+908,187.75,Jeans,Gap Straight Jeans #908,Gap,383.42,Women,SKU-000908,9
+909,238.83,Blazers & Jackets,Free People Blazers #909,Free People,612.91,Kids,SKU-000909,8
+910,223.26,Socks,Burberry Ankle Socks #910,Burberry,625.06,Kids,SKU-000910,5
+911,163.92,Sleep & Lounge,Adidas Robes #911,Adidas,484.23,Men,SKU-000911,10
+912,172.4,Underwear,J.Crew Boxers #912,J.Crew,338.56,Kids,SKU-000912,7
+913,248.78,Footwear,J.Crew Boots #913,J.Crew,531.28,Kids,SKU-000913,7
+914,198.11,Accessories,Columbia Belts #914,Columbia,404.35,Men,SKU-000914,2
+915,173.19,Shirts & Tops,Puma Polo Shirts #915,Puma,544.64,Women,SKU-000915,1
+916,247.1,Fashion Hoodies & Sweatshirts,Gap Hoodies #916,Gap,568.95,Women,SKU-000916,3
+917,62.58,Dresses,New Balance Mini Dresses #917,New Balance,175.59,Kids,SKU-000917,7
+918,98.83,Swim,Ralph Lauren Swimwear #918,Ralph Lauren,295.4,Men,SKU-000918,2
+919,216.52,Intimates,Ralph Lauren Bras & Bralettes #919,Ralph Lauren,444.71,Men,SKU-000919,8
+920,29.41,Active,Patagonia Yoga Pants #920,Patagonia,57.95,Kids,SKU-000920,8
+921,107.59,Outerwear & Coats,Adidas Vests #921,Adidas,202.44,Men,SKU-000921,7
+922,110.25,Leggings,Under Armour Casual Leggings #922,Under Armour,204.43,Kids,SKU-000922,8
+923,63.46,Outerwear & Coats,Burberry Jackets #923,Burberry,201.95,Women,SKU-000923,1
+924,8.82,Accessories,Anthropologie Hats #924,Anthropologie,26.03,Men,SKU-000924,4
+925,233.63,Accessories,Hollister Sunglasses #925,Hollister,647.85,Women,SKU-000925,6
+926,166.95,Accessories,Free People Hats #926,Free People,521.09,Women,SKU-000926,10
+927,98.49,Footwear,Burberry Sandals #927,Burberry,234.6,Men,SKU-000927,8
+928,184.35,Jeans,Free People Bootcut Jeans #928,Free People,397.47,Kids,SKU-000928,10
+929,128.73,Shirts & Tops,Gap Casual Shirts #929,Gap,233.22,Kids,SKU-000929,1
+930,191.21,Intimates,H&M Lingerie #930,H&M,602.03,Women,SKU-000930,5
+931,124.83,Outerwear & Coats,Reebok Coats #931,Reebok,241.75,Men,SKU-000931,8
+932,41.08,Socks,Forever 21 Crew Socks #932,Forever 21,122.66,Women,SKU-000932,9
+933,196.2,Socks,Puma Crew Socks #933,Puma,601.35,Men,SKU-000933,3
+934,85.73,Outerwear & Coats,Calvin Klein Vests #934,Calvin Klein,168.19,Men,SKU-000934,5
+935,95.42,Shirts & Tops,Puma Casual Shirts #935,Puma,243.76,Men,SKU-000935,7
+936,164.62,Skirts,Adidas Mini Skirts #936,Adidas,304.55,Kids,SKU-000936,6
+937,134.77,Underwear,UNIQLO Boxers #937,UNIQLO,314.51,Women,SKU-000937,5
+938,158.25,Shorts,Patagonia Bermuda Shorts #938,Patagonia,330.51,Women,SKU-000938,5
+939,36.46,Leggings,Ralph Lauren Workout Leggings #939,Ralph Lauren,115.17,Women,SKU-000939,7
+940,90.17,Socks,Gucci Crew Socks #940,Gucci,206.61,Kids,SKU-000940,9
+941,95.78,Swim,Reebok Swimwear #941,Reebok,275.97,Men,SKU-000941,8
+942,31.86,Suits,Banana Republic Business Suits #942,Banana Republic,98.78,Women,SKU-000942,4
+943,18.28,Fashion Hoodies & Sweatshirts,Forever 21 Hoodies #943,Forever 21,51.89,Men,SKU-000943,5
+944,233.54,Footwear,Versace Sandals #944,Versace,524.89,Kids,SKU-000944,2
+945,64.92,Outerwear & Coats,New Balance Vests #945,New Balance,150.2,Women,SKU-000945,5
+946,155.95,Shirts & Tops,Ralph Lauren Polo Shirts #946,Ralph Lauren,315.83,Women,SKU-000946,7
+947,21.1,Footwear,Under Armour Sandals #947,Under Armour,63.44,Women,SKU-000947,8
+948,166.97,Socks,Abercrombie Crew Socks #948,Abercrombie,316.16,Men,SKU-000948,7
+949,89.77,Active,Versace Sports Bras #949,Versace,260.86,Women,SKU-000949,10
+950,146.51,Shorts,Gap Bermuda Shorts #950,Gap,279.92,Men,SKU-000950,1
+951,45.43,Fashion Hoodies & Sweatshirts,Anthropologie Hoodies #951,Anthropologie,122.99,Men,SKU-000951,8
+952,151.48,Suits,UNIQLO Blazers #952,UNIQLO,421.88,Kids,SKU-000952,1
+953,33.38,Skirts,Nike A-Line Skirts #953,Nike,80.35,Men,SKU-000953,7
+954,103.72,Intimates,Prada Lingerie #954,Prada,308.78,Men,SKU-000954,2
+955,36.77,Fashion Hoodies & Sweatshirts,New Balance Hoodies #955,New Balance,70.66,Kids,SKU-000955,1
+956,79.53,Shorts,Reebok Athletic Shorts #956,Reebok,183.35,Men,SKU-000956,4
+957,59.69,Intimates,Puma Lingerie #957,Puma,124.0,Men,SKU-000957,7
+958,216.89,Outerwear & Coats,Tommy Hilfiger Jackets #958,Tommy Hilfiger,677.15,Kids,SKU-000958,9
+959,131.42,Sleep & Lounge,Columbia Robes #959,Columbia,310.94,Women,SKU-000959,8
+960,58.4,Suits,New Balance Blazers #960,New Balance,178.82,Men,SKU-000960,5
+961,168.54,Sleep & Lounge,Free People Robes #961,Free People,343.39,Men,SKU-000961,1
+962,167.77,Skirts,Anthropologie A-Line Skirts #962,Anthropologie,381.45,Kids,SKU-000962,6
+963,53.55,Leggings,Adidas Workout Leggings #963,Adidas,158.85,Women,SKU-000963,9
+964,158.47,Swim,Prada Cover Ups #964,Prada,496.89,Men,SKU-000964,5
+965,214.9,Tops & Tees,H&M Crop Tops #965,H&M,398.61,Kids,SKU-000965,9
+966,229.13,Active,Ralph Lauren Sports Bras #966,Ralph Lauren,489.42,Kids,SKU-000966,2
+967,247.19,Underwear,Under Armour Boxers #967,Under Armour,768.78,Kids,SKU-000967,8
+968,126.69,Leggings,Ralph Lauren Workout Leggings #968,Ralph Lauren,376.2,Women,SKU-000968,4
+969,26.79,Accessories,Zara Jewelry #969,Zara,73.06,Kids,SKU-000969,2
+970,34.21,Shorts,Wrangler Athletic Shorts #970,Wrangler,72.4,Women,SKU-000970,1
+971,218.57,Dresses,Free People Mini Dresses #971,Free People,527.07,Men,SKU-000971,8
+972,30.84,Tops & Tees,Under Armour Tank Tops #972,Under Armour,82.57,Men,SKU-000972,2
+973,6.41,Leggings,North Face Casual Leggings #973,North Face,18.65,Kids,SKU-000973,1
+974,19.45,Intimates,Calvin Klein Bras & Bralettes #974,Calvin Klein,57.83,Women,SKU-000974,3
+975,149.25,Shirts & Tops,Abercrombie Casual Shirts #975,Abercrombie,321.99,Kids,SKU-000975,1
+976,209.49,Pants & Capris,J.Crew Jeans #976,J.Crew,603.15,Women,SKU-000976,10
+977,160.88,Dresses,Prada Mini Dresses #977,Prada,484.28,Kids,SKU-000977,2
+978,235.06,Sleep & Lounge,Under Armour Pajamas #978,Under Armour,510.83,Men,SKU-000978,4
+979,83.96,Blazers & Jackets,Burberry Leather Jackets #979,Burberry,160.0,Men,SKU-000979,5
+980,96.46,Skirts,Columbia A-Line Skirts #980,Columbia,266.58,Women,SKU-000980,9
+981,236.28,Outerwear & Coats,Free People Jackets #981,Free People,630.74,Men,SKU-000981,8
+982,232.97,Tops & Tees,Anthropologie Tank Tops #982,Anthropologie,624.67,Women,SKU-000982,10
+983,186.82,Shirts & Tops,Reebok Casual Shirts #983,Reebok,516.12,Men,SKU-000983,10
+984,189.7,Dresses,Wrangler Formal Dresses #984,Wrangler,571.37,Kids,SKU-000984,4
+985,97.09,Socks,Abercrombie Crew Socks #985,Abercrombie,232.13,Kids,SKU-000985,10
+986,38.23,Shorts,New Balance Athletic Shorts #986,New Balance,90.39,Women,SKU-000986,10
+987,212.23,Sleep & Lounge,Versace Pajamas #987,Versace,632.76,Kids,SKU-000987,3
+988,170.39,Blazers & Jackets,Wrangler Denim Jackets #988,Wrangler,426.54,Women,SKU-000988,7
+989,231.95,Jeans,Under Armour Straight Jeans #989,Under Armour,655.65,Men,SKU-000989,6
+990,238.61,Underwear,Under Armour Briefs #990,Under Armour,630.09,Kids,SKU-000990,8
+991,174.51,Shorts,Puma Athletic Shorts #991,Puma,507.69,Women,SKU-000991,9
+992,82.94,Intimates,Anthropologie Bras & Bralettes #992,Anthropologie,234.33,Men,SKU-000992,7
+993,184.1,Leggings,Forever 21 Workout Leggings #993,Forever 21,532.51,Kids,SKU-000993,4
+994,194.22,Socks,Tommy Hilfiger Crew Socks #994,Tommy Hilfiger,537.54,Men,SKU-000994,3
+995,104.06,Skirts,New Balance Midi Skirts #995,New Balance,236.52,Kids,SKU-000995,1
+996,226.65,Blazers & Jackets,North Face Blazers #996,North Face,524.77,Kids,SKU-000996,7
+997,43.08,Intimates,J.Crew Lingerie #997,J.Crew,136.23,Men,SKU-000997,4
+998,5.74,Accessories,Calvin Klein Bags #998,Calvin Klein,13.0,Women,SKU-000998,8
+999,129.44,Fashion Hoodies & Sweatshirts,Hollister Hoodies #999,Hollister,393.78,Kids,SKU-000999,3
+1000,86.75,Dresses,Wrangler Formal Dresses #1000,Wrangler,247.46,Men,SKU-001000,8
+1001,18.51,Jeans,American Eagle Bootcut Jeans #1001,American Eagle,46.86,Women,SKU-001001,4
+1002,184.32,Shorts,Under Armour Bermuda Shorts #1002,Under Armour,519.02,Kids,SKU-001002,10
+1003,172.82,Intimates,Levi's Underwear #1003,Levi's,468.16,Women,SKU-001003,6
+1004,76.93,Tops & Tees,American Eagle Blouses #1004,American Eagle,146.95,Men,SKU-001004,8
+1005,138.76,Tops & Tees,Nike Tank Tops #1005,Nike,422.6,Kids,SKU-001005,9
+1006,177.3,Jeans,H&M Straight Jeans #1006,H&M,506.42,Women,SKU-001006,3
+1007,82.47,Tops & Tees,Reebok Crop Tops #1007,Reebok,216.07,Kids,SKU-001007,4
+1008,208.44,Footwear,Burberry Boots #1008,Burberry,659.41,Men,SKU-001008,1
+1009,233.7,Underwear,H&M Briefs #1009,H&M,627.16,Men,SKU-001009,7
+1010,128.83,Blazers & Jackets,Tommy Hilfiger Blazers #1010,Tommy Hilfiger,300.33,Women,SKU-001010,9
+1011,65.42,Shorts,Zara Bermuda Shorts #1011,Zara,195.35,Kids,SKU-001011,6
+1012,20.44,Jeans,Under Armour Straight Jeans #1012,Under Armour,61.57,Women,SKU-001012,2
+1013,32.24,Leggings,H&M Casual Leggings #1013,H&M,70.12,Men,SKU-001013,6
+1014,121.7,Underwear,Banana Republic Boxers #1014,Banana Republic,232.44,Women,SKU-001014,9
+1015,24.3,Underwear,Levi's Boxers #1015,Levi's,47.3,Women,SKU-001015,9
+1016,13.56,Sleep & Lounge,Adidas Robes #1016,Adidas,41.85,Men,SKU-001016,7
+1017,63.29,Shirts & Tops,Zara Polo Shirts #1017,Zara,121.89,Men,SKU-001017,8
+1018,209.68,Footwear,Tommy Hilfiger Sneakers #1018,Tommy Hilfiger,478.83,Men,SKU-001018,5
+1019,239.79,Suits,Hollister Business Suits #1019,Hollister,720.12,Women,SKU-001019,6
+1020,199.48,Active,Zara Yoga Pants #1020,Zara,569.93,Men,SKU-001020,10
+1021,104.51,Pants & Capris,North Face Leggings #1021,North Face,191.56,Men,SKU-001021,4
+1022,105.96,Jeans,Calvin Klein Skinny Jeans #1022,Calvin Klein,236.38,Kids,SKU-001022,7
+1023,234.62,Suits,Adidas Business Suits #1023,Adidas,508.35,Men,SKU-001023,6
+1024,5.35,Dresses,UNIQLO Maxi Dresses #1024,UNIQLO,16.99,Kids,SKU-001024,2
+1025,68.61,Skirts,Calvin Klein Midi Skirts #1025,Calvin Klein,125.39,Men,SKU-001025,7
+1026,196.04,Skirts,Burberry A-Line Skirts #1026,Burberry,484.58,Kids,SKU-001026,9
+1027,80.69,Shirts & Tops,Tommy Hilfiger T-Shirts #1027,Tommy Hilfiger,183.9,Women,SKU-001027,5
+1028,20.88,Footwear,Tommy Hilfiger Flats #1028,Tommy Hilfiger,61.57,Kids,SKU-001028,4
+1029,168.82,Active,Columbia Sports Bras #1029,Columbia,350.28,Women,SKU-001029,6
+1030,234.87,Pants & Capris,Adidas Leggings #1030,Adidas,619.59,Men,SKU-001030,10
+1031,196.02,Footwear,Prada Flats #1031,Prada,408.94,Women,SKU-001031,8
+1032,156.47,Pants & Capris,Adidas Jeans #1032,Adidas,409.32,Men,SKU-001032,3
+1033,241.66,Skirts,American Eagle Midi Skirts #1033,American Eagle,524.74,Women,SKU-001033,8
+1034,29.01,Intimates,Patagonia Lingerie #1034,Patagonia,84.74,Kids,SKU-001034,1
+1035,28.29,Active,Free People Sports Bras #1035,Free People,66.1,Kids,SKU-001035,4
+1036,205.47,Socks,Wrangler Crew Socks #1036,Wrangler,600.18,Women,SKU-001036,3
+1037,109.98,Suits,Levi's Business Suits #1037,Levi's,273.35,Kids,SKU-001037,2
+1038,46.36,Shirts & Tops,UNIQLO Polo Shirts #1038,UNIQLO,102.47,Kids,SKU-001038,10
+1039,227.98,Shirts & Tops,Reebok T-Shirts #1039,Reebok,478.0,Kids,SKU-001039,1
+1040,190.75,Skirts,UNIQLO Mini Skirts #1040,UNIQLO,373.44,Women,SKU-001040,4
+1041,33.4,Underwear,Tommy Hilfiger Boxers #1041,Tommy Hilfiger,83.21,Men,SKU-001041,2
+1042,172.09,Shorts,Versace Athletic Shorts #1042,Versace,447.83,Women,SKU-001042,1
+1043,39.46,Shorts,H&M Bermuda Shorts #1043,H&M,123.44,Men,SKU-001043,3
+1044,143.43,Socks,Banana Republic Crew Socks #1044,Banana Republic,308.15,Men,SKU-001044,4
+1045,65.57,Active,Zara Sports Bras #1045,Zara,157.66,Men,SKU-001045,9
+1046,81.22,Blazers & Jackets,Levi's Leather Jackets #1046,Levi's,186.45,Kids,SKU-001046,1
+1047,30.36,Footwear,Columbia Sneakers #1047,Columbia,88.37,Men,SKU-001047,8
+1048,135.31,Pants & Capris,New Balance Shorts #1048,New Balance,359.09,Women,SKU-001048,3
+1049,99.61,Pants & Capris,Ralph Lauren Chinos #1049,Ralph Lauren,201.76,Men,SKU-001049,2
+1050,151.48,Jeans,Versace Skinny Jeans #1050,Versace,273.49,Women,SKU-001050,9
+1051,217.31,Skirts,Ralph Lauren A-Line Skirts #1051,Ralph Lauren,683.43,Kids,SKU-001051,8
+1052,58.34,Socks,Banana Republic Crew Socks #1052,Banana Republic,116.37,Women,SKU-001052,3
+1053,53.99,Footwear,UNIQLO Boots #1053,UNIQLO,171.63,Men,SKU-001053,9
+1054,24.26,Outerwear & Coats,Reebok Coats #1054,Reebok,55.23,Kids,SKU-001054,2
+1055,195.57,Tops & Tees,Levi's Tank Tops #1055,Levi's,609.78,Kids,SKU-001055,9
+1056,6.82,Footwear,Prada Flats #1056,Prada,14.74,Kids,SKU-001056,5
+1057,57.63,Pants & Capris,Burberry Shorts #1057,Burberry,125.43,Men,SKU-001057,1
+1058,168.59,Active,Columbia Athletic Shorts #1058,Columbia,311.4,Men,SKU-001058,6
+1059,146.86,Dresses,Forever 21 Maxi Dresses #1059,Forever 21,394.3,Women,SKU-001059,5
+1060,189.92,Tops & Tees,Wrangler Tank Tops #1060,Wrangler,415.71,Kids,SKU-001060,6
+1061,83.22,Shirts & Tops,Columbia Polo Shirts #1061,Columbia,150.4,Men,SKU-001061,9
+1062,230.91,Underwear,Puma Briefs #1062,Puma,500.93,Men,SKU-001062,3
+1063,168.86,Fashion Hoodies & Sweatshirts,J.Crew Hoodies #1063,J.Crew,310.47,Men,SKU-001063,7
+1064,5.13,Skirts,Prada Mini Skirts #1064,Prada,14.3,Kids,SKU-001064,3
+1065,166.55,Dresses,Ralph Lauren Mini Dresses #1065,Ralph Lauren,404.39,Women,SKU-001065,2
+1066,45.43,Footwear,New Balance Sandals #1066,New Balance,114.72,Men,SKU-001066,10
+1067,47.11,Accessories,H&M Sunglasses #1067,H&M,119.02,Men,SKU-001067,4
+1068,139.64,Intimates,American Eagle Underwear #1068,American Eagle,393.7,Men,SKU-001068,9
+1069,121.11,Swim,Nike Swimwear #1069,Nike,303.15,Kids,SKU-001069,1
+1070,147.17,Underwear,Gap Boxers #1070,Gap,291.56,Women,SKU-001070,3
+1071,201.38,Shirts & Tops,North Face T-Shirts #1071,North Face,439.66,Kids,SKU-001071,3
+1072,68.51,Outerwear & Coats,Prada Vests #1072,Prada,177.5,Kids,SKU-001072,4
+1073,37.02,Swim,Puma Swimwear #1073,Puma,110.48,Kids,SKU-001073,10
+1074,10.57,Intimates,Gucci Bras & Bralettes #1074,Gucci,30.79,Women,SKU-001074,3
+1075,231.5,Dresses,Patagonia Maxi Dresses #1075,Patagonia,460.84,Kids,SKU-001075,6
+1076,207.92,Blazers & Jackets,Hollister Leather Jackets #1076,Hollister,636.31,Kids,SKU-001076,4
+1077,46.37,Suits,Free People Blazers #1077,Free People,134.74,Women,SKU-001077,4
+1078,139.98,Dresses,Ralph Lauren Mini Dresses #1078,Ralph Lauren,419.65,Women,SKU-001078,8
+1079,122.89,Shorts,Nike Bermuda Shorts #1079,Nike,313.1,Women,SKU-001079,8
+1080,137.81,Shirts & Tops,Adidas Casual Shirts #1080,Adidas,276.69,Men,SKU-001080,7
+1081,200.07,Intimates,Reebok Lingerie #1081,Reebok,463.53,Kids,SKU-001081,10
+1082,85.01,Dresses,Adidas Formal Dresses #1082,Adidas,265.61,Kids,SKU-001082,2
+1083,107.08,Dresses,North Face Mini Dresses #1083,North Face,250.19,Kids,SKU-001083,1
+1084,181.06,Intimates,Columbia Lingerie #1084,Columbia,570.95,Kids,SKU-001084,5
+1085,30.19,Sleep & Lounge,Free People Robes #1085,Free People,73.03,Women,SKU-001085,6
+1086,77.45,Sleep & Lounge,Calvin Klein Pajamas #1086,Calvin Klein,239.28,Men,SKU-001086,8
+1087,89.26,Socks,Levi's Ankle Socks #1087,Levi's,244.79,Kids,SKU-001087,1
+1088,146.07,Shirts & Tops,Gucci T-Shirts #1088,Gucci,366.43,Kids,SKU-001088,9
+1089,176.17,Outerwear & Coats,American Eagle Coats #1089,American Eagle,560.25,Women,SKU-001089,8
+1090,23.23,Fashion Hoodies & Sweatshirts,North Face Crewneck Sweatshirts #1090,North Face,51.97,Men,SKU-001090,3
+1091,231.16,Sleep & Lounge,Wrangler Robes #1091,Wrangler,608.62,Kids,SKU-001091,6
+1092,78.99,Shorts,Hollister Bermuda Shorts #1092,Hollister,216.44,Kids,SKU-001092,8
+1093,152.05,Swim,Under Armour Swimwear #1093,Under Armour,291.46,Women,SKU-001093,1
+1094,103.4,Socks,Forever 21 Ankle Socks #1094,Forever 21,218.37,Women,SKU-001094,6
+1095,233.69,Underwear,H&M Boxers #1095,H&M,479.38,Kids,SKU-001095,5
+1096,26.23,Intimates,American Eagle Underwear #1096,American Eagle,58.98,Kids,SKU-001096,9
+1097,245.94,Skirts,Calvin Klein Midi Skirts #1097,Calvin Klein,666.17,Women,SKU-001097,4
+1098,31.93,Fashion Hoodies & Sweatshirts,Adidas Crewneck Sweatshirts #1098,Adidas,72.8,Men,SKU-001098,3
+1099,132.87,Shirts & Tops,UNIQLO T-Shirts #1099,UNIQLO,332.22,Kids,SKU-001099,6
+1100,224.14,Underwear,Patagonia Briefs #1100,Patagonia,599.25,Kids,SKU-001100,7
+1101,55.3,Suits,H&M Blazers #1101,H&M,130.04,Men,SKU-001101,7
+1102,73.26,Skirts,New Balance Midi Skirts #1102,New Balance,140.91,Women,SKU-001102,8
+1103,5.15,Footwear,American Eagle Sneakers #1103,American Eagle,9.94,Kids,SKU-001103,9
+1104,6.18,Swim,Abercrombie Swimwear #1104,Abercrombie,14.67,Women,SKU-001104,9
+1105,62.62,Dresses,Tommy Hilfiger Mini Dresses #1105,Tommy Hilfiger,146.42,Men,SKU-001105,5
+1106,130.89,Sleep & Lounge,Zara Robes #1106,Zara,350.2,Kids,SKU-001106,9
+1107,127.64,Shirts & Tops,Columbia Polo Shirts #1107,Columbia,348.39,Men,SKU-001107,6
+1108,89.86,Pants & Capris,Patagonia Shorts #1108,Patagonia,271.51,Women,SKU-001108,7
+1109,225.07,Sleep & Lounge,Anthropologie Pajamas #1109,Anthropologie,490.11,Kids,SKU-001109,10
+1110,156.17,Footwear,Nike Boots #1110,Nike,291.91,Men,SKU-001110,1
+1111,107.02,Underwear,Adidas Boxers #1111,Adidas,241.46,Women,SKU-001111,10
+1112,176.87,Fashion Hoodies & Sweatshirts,Patagonia Hoodies #1112,Patagonia,364.97,Kids,SKU-001112,4
+1113,240.07,Pants & Capris,Puma Shorts #1113,Puma,488.74,Kids,SKU-001113,7
+1114,63.23,Tops & Tees,American Eagle Blouses #1114,American Eagle,118.08,Kids,SKU-001114,6
+1115,143.89,Intimates,Columbia Underwear #1115,Columbia,391.05,Kids,SKU-001115,7
+1116,19.74,Footwear,Reebok Sneakers #1116,Reebok,47.9,Women,SKU-001116,1
+1117,97.08,Sleep & Lounge,Under Armour Pajamas #1117,Under Armour,188.06,Kids,SKU-001117,6
+1118,137.38,Underwear,Abercrombie Boxers #1118,Abercrombie,310.4,Women,SKU-001118,8
+1119,174.19,Tops & Tees,Tommy Hilfiger Crop Tops #1119,Tommy Hilfiger,487.37,Men,SKU-001119,4
+1120,94.26,Underwear,Zara Boxers #1120,Zara,280.81,Kids,SKU-001120,7
+1121,67.74,Jeans,Banana Republic Bootcut Jeans #1121,Banana Republic,175.49,Men,SKU-001121,4
+1122,199.3,Footwear,Reebok Flats #1122,Reebok,573.3,Women,SKU-001122,7
+1123,158.79,Leggings,Nike Workout Leggings #1123,Nike,463.07,Men,SKU-001123,9
+1124,63.38,Jeans,North Face Bootcut Jeans #1124,North Face,119.31,Kids,SKU-001124,10
+1125,10.61,Blazers & Jackets,North Face Blazers #1125,North Face,28.42,Women,SKU-001125,9
+1126,36.5,Shirts & Tops,J.Crew Casual Shirts #1126,J.Crew,115.0,Men,SKU-001126,3
+1127,138.35,Suits,Free People Blazers #1127,Free People,265.47,Kids,SKU-001127,10
+1128,118.52,Shirts & Tops,J.Crew T-Shirts #1128,J.Crew,229.68,Men,SKU-001128,6
+1129,249.38,Shirts & Tops,Nike Polo Shirts #1129,Nike,749.02,Men,SKU-001129,5
+1130,111.51,Accessories,Versace Hats #1130,Versace,309.98,Men,SKU-001130,1
+1131,235.98,Swim,UNIQLO Cover Ups #1131,UNIQLO,690.54,Kids,SKU-001131,6
+1132,82.31,Underwear,Anthropologie Briefs #1132,Anthropologie,158.81,Men,SKU-001132,6
+1133,138.54,Footwear,UNIQLO Sandals #1133,UNIQLO,404.04,Men,SKU-001133,8
+1134,100.78,Sleep & Lounge,Zara Robes #1134,Zara,217.28,Kids,SKU-001134,10
+1135,177.4,Intimates,Abercrombie Bras & Bralettes #1135,Abercrombie,326.29,Kids,SKU-001135,10
+1136,78.67,Intimates,Ralph Lauren Underwear #1136,Ralph Lauren,235.88,Kids,SKU-001136,7
+1137,40.45,Dresses,J.Crew Formal Dresses #1137,J.Crew,79.01,Men,SKU-001137,6
+1138,58.19,Socks,Abercrombie Ankle Socks #1138,Abercrombie,152.16,Kids,SKU-001138,1
+1139,103.57,Blazers & Jackets,Versace Denim Jackets #1139,Versace,238.14,Kids,SKU-001139,3
+1140,242.0,Footwear,Gap Sandals #1140,Gap,517.12,Women,SKU-001140,6
+1141,230.66,Shorts,Nike Athletic Shorts #1141,Nike,527.3,Men,SKU-001141,9
+1142,95.35,Pants & Capris,Levi's Jeans #1142,Levi's,179.42,Men,SKU-001142,8
+1143,59.82,Blazers & Jackets,Calvin Klein Leather Jackets #1143,Calvin Klein,111.25,Men,SKU-001143,10
+1144,219.23,Skirts,Reebok A-Line Skirts #1144,Reebok,569.2,Women,SKU-001144,3
+1145,106.71,Blazers & Jackets,American Eagle Blazers #1145,American Eagle,222.9,Men,SKU-001145,10
+1146,5.3,Socks,Gap Ankle Socks #1146,Gap,12.96,Men,SKU-001146,8
+1147,128.71,Dresses,Gucci Maxi Dresses #1147,Gucci,382.66,Men,SKU-001147,4
+1148,87.19,Accessories,H&M Sunglasses #1148,H&M,253.88,Women,SKU-001148,3
+1149,246.89,Blazers & Jackets,Zara Blazers #1149,Zara,779.95,Kids,SKU-001149,9
+1150,194.79,Accessories,Forever 21 Belts #1150,Forever 21,386.79,Kids,SKU-001150,1
+1151,59.58,Swim,Gucci Swimwear #1151,Gucci,130.22,Kids,SKU-001151,7
+1152,28.0,Shorts,Nike Athletic Shorts #1152,Nike,86.62,Men,SKU-001152,6
+1153,88.33,Socks,H&M Crew Socks #1153,H&M,195.48,Women,SKU-001153,9
+1154,48.54,Socks,UNIQLO Ankle Socks #1154,UNIQLO,144.48,Men,SKU-001154,9
+1155,31.09,Blazers & Jackets,Forever 21 Denim Jackets #1155,Forever 21,78.12,Kids,SKU-001155,9
+1156,142.86,Socks,Versace Crew Socks #1156,Versace,279.3,Men,SKU-001156,3
+1157,238.05,Sleep & Lounge,Tommy Hilfiger Robes #1157,Tommy Hilfiger,584.07,Men,SKU-001157,2
+1158,154.82,Jeans,Forever 21 Straight Jeans #1158,Forever 21,434.44,Kids,SKU-001158,4
+1159,190.75,Accessories,H&M Belts #1159,H&M,490.78,Men,SKU-001159,9
+1160,130.41,Swim,Nike Cover Ups #1160,Nike,393.46,Women,SKU-001160,2
+1161,242.38,Suits,Puma Blazers #1161,Puma,715.68,Men,SKU-001161,2
+1162,30.44,Accessories,H&M Hats #1162,H&M,78.07,Women,SKU-001162,4
+1163,24.1,Tops & Tees,UNIQLO Blouses #1163,UNIQLO,62.78,Kids,SKU-001163,2
+1164,178.74,Sleep & Lounge,Tommy Hilfiger Robes #1164,Tommy Hilfiger,479.26,Kids,SKU-001164,8
+1165,190.03,Skirts,Versace A-Line Skirts #1165,Versace,442.3,Kids,SKU-001165,6
+1166,30.09,Outerwear & Coats,Under Armour Coats #1166,Under Armour,59.34,Women,SKU-001166,3
+1167,174.04,Swim,Ralph Lauren Swimwear #1167,Ralph Lauren,430.12,Men,SKU-001167,5
+1168,98.25,Shirts & Tops,Under Armour Polo Shirts #1168,Under Armour,311.58,Men,SKU-001168,10
+1169,234.07,Dresses,Nike Mini Dresses #1169,Nike,481.92,Women,SKU-001169,3
+1170,103.59,Accessories,Under Armour Belts #1170,Under Armour,242.31,Women,SKU-001170,4
+1171,185.31,Outerwear & Coats,J.Crew Vests #1171,J.Crew,554.73,Women,SKU-001171,6
+1172,44.16,Pants & Capris,North Face Shorts #1172,North Face,83.53,Kids,SKU-001172,2
+1173,113.27,Suits,Patagonia Business Suits #1173,Patagonia,337.82,Women,SKU-001173,10
+1174,108.31,Sleep & Lounge,J.Crew Pajamas #1174,J.Crew,266.4,Women,SKU-001174,5
+1175,176.11,Accessories,North Face Bags #1175,North Face,345.75,Kids,SKU-001175,2
+1176,24.06,Shorts,Zara Bermuda Shorts #1176,Zara,63.94,Women,SKU-001176,2
+1177,101.13,Intimates,American Eagle Lingerie #1177,American Eagle,188.84,Men,SKU-001177,6
+1178,81.28,Dresses,Free People Formal Dresses #1178,Free People,185.04,Women,SKU-001178,7
+1179,178.97,Skirts,Hollister A-Line Skirts #1179,Hollister,344.43,Men,SKU-001179,4
+1180,172.98,Fashion Hoodies & Sweatshirts,Forever 21 Crewneck Sweatshirts #1180,Forever 21,355.34,Men,SKU-001180,8
+1181,226.93,Leggings,Abercrombie Workout Leggings #1181,Abercrombie,642.88,Kids,SKU-001181,1
+1182,49.44,Dresses,Hollister Maxi Dresses #1182,Hollister,107.53,Women,SKU-001182,9
+1183,151.65,Fashion Hoodies & Sweatshirts,Puma Hoodies #1183,Puma,426.92,Men,SKU-001183,7
+1184,82.04,Active,Puma Athletic Shorts #1184,Puma,172.18,Men,SKU-001184,6
+1185,29.5,Underwear,New Balance Boxers #1185,New Balance,70.6,Kids,SKU-001185,2
+1186,88.91,Dresses,American Eagle Formal Dresses #1186,American Eagle,189.47,Men,SKU-001186,8
+1187,13.35,Footwear,Zara Sneakers #1187,Zara,33.55,Men,SKU-001187,8
+1188,40.52,Fashion Hoodies & Sweatshirts,New Balance Hoodies #1188,New Balance,85.05,Women,SKU-001188,5
+1189,198.31,Footwear,Tommy Hilfiger Sandals #1189,Tommy Hilfiger,542.32,Men,SKU-001189,5
+1190,197.36,Fashion Hoodies & Sweatshirts,Reebok Crewneck Sweatshirts #1190,Reebok,464.41,Men,SKU-001190,10
+1191,176.41,Tops & Tees,Gucci Tank Tops #1191,Gucci,361.28,Women,SKU-001191,6
+1192,148.67,Blazers & Jackets,Patagonia Blazers #1192,Patagonia,321.04,Kids,SKU-001192,7
+1193,54.73,Swim,Zara Cover Ups #1193,Zara,142.9,Women,SKU-001193,5
+1194,197.51,Socks,Under Armour Crew Socks #1194,Under Armour,538.88,Men,SKU-001194,2
+1195,91.14,Accessories,J.Crew Belts #1195,J.Crew,197.73,Kids,SKU-001195,3
+1196,113.17,Suits,Abercrombie Business Suits #1196,Abercrombie,336.61,Women,SKU-001196,1
+1197,215.87,Skirts,Under Armour Midi Skirts #1197,Under Armour,454.37,Kids,SKU-001197,10
+1198,213.97,Blazers & Jackets,Nike Leather Jackets #1198,Nike,568.44,Women,SKU-001198,4
+1199,44.42,Footwear,New Balance Flats #1199,New Balance,124.38,Men,SKU-001199,6
+1200,26.37,Outerwear & Coats,H&M Vests #1200,H&M,71.81,Kids,SKU-001200,10
+1201,131.66,Outerwear & Coats,Free People Vests #1201,Free People,363.08,Women,SKU-001201,2
+1202,83.51,Leggings,Anthropologie Workout Leggings #1202,Anthropologie,202.04,Kids,SKU-001202,10
+1203,235.14,Leggings,New Balance Casual Leggings #1203,New Balance,535.09,Kids,SKU-001203,6
+1204,89.7,Swim,Reebok Cover Ups #1204,Reebok,247.44,Women,SKU-001204,5
+1205,86.75,Skirts,Under Armour Mini Skirts #1205,Under Armour,249.61,Kids,SKU-001205,7
+1206,189.62,Dresses,Puma Mini Dresses #1206,Puma,587.13,Kids,SKU-001206,8
+1207,207.91,Dresses,Calvin Klein Maxi Dresses #1207,Calvin Klein,653.2,Kids,SKU-001207,5
+1208,25.4,Footwear,Burberry Sandals #1208,Burberry,75.8,Men,SKU-001208,5
+1209,164.3,Sleep & Lounge,Gucci Robes #1209,Gucci,311.77,Women,SKU-001209,5
+1210,138.3,Jeans,Forever 21 Bootcut Jeans #1210,Forever 21,311.18,Women,SKU-001210,5
+1211,165.58,Suits,Zara Business Suits #1211,Zara,330.45,Women,SKU-001211,10
+1212,55.1,Leggings,New Balance Casual Leggings #1212,New Balance,109.06,Women,SKU-001212,1
+1213,140.65,Active,Calvin Klein Yoga Pants #1213,Calvin Klein,355.64,Women,SKU-001213,4
+1214,165.16,Intimates,Banana Republic Lingerie #1214,Banana Republic,340.14,Women,SKU-001214,1
+1215,219.86,Dresses,Free People Formal Dresses #1215,Free People,644.89,Men,SKU-001215,7
+1216,205.93,Skirts,Under Armour A-Line Skirts #1216,Under Armour,634.76,Women,SKU-001216,7
+1217,43.93,Leggings,Banana Republic Workout Leggings #1217,Banana Republic,89.2,Kids,SKU-001217,7
+1218,232.92,Blazers & Jackets,Adidas Denim Jackets #1218,Adidas,636.51,Kids,SKU-001218,10
+1219,174.25,Shorts,Calvin Klein Athletic Shorts #1219,Calvin Klein,385.28,Men,SKU-001219,7
+1220,90.76,Dresses,Wrangler Maxi Dresses #1220,Wrangler,165.68,Kids,SKU-001220,2
+1221,86.44,Accessories,Forever 21 Bags #1221,Forever 21,178.45,Men,SKU-001221,2
+1222,172.72,Dresses,Calvin Klein Maxi Dresses #1222,Calvin Klein,358.9,Men,SKU-001222,5
+1223,118.93,Jeans,Columbia Straight Jeans #1223,Columbia,285.04,Women,SKU-001223,6
+1224,56.58,Skirts,Ralph Lauren Midi Skirts #1224,Ralph Lauren,108.68,Women,SKU-001224,9
+1225,156.79,Dresses,H&M Mini Dresses #1225,H&M,339.37,Women,SKU-001225,6
+1226,96.87,Shorts,Nike Bermuda Shorts #1226,Nike,307.36,Men,SKU-001226,3
+1227,185.62,Shirts & Tops,Hollister Casual Shirts #1227,Hollister,569.63,Kids,SKU-001227,9
+1228,42.76,Suits,Gucci Blazers #1228,Gucci,126.28,Women,SKU-001228,10
+1229,241.91,Tops & Tees,Nike Tank Tops #1229,Nike,711.93,Men,SKU-001229,7
+1230,246.4,Swim,Gap Cover Ups #1230,Gap,617.0,Women,SKU-001230,10
+1231,199.36,Sleep & Lounge,Columbia Pajamas #1231,Columbia,589.49,Women,SKU-001231,9
+1232,134.46,Skirts,Reebok Midi Skirts #1232,Reebok,260.47,Kids,SKU-001232,7
+1233,74.85,Suits,Reebok Business Suits #1233,Reebok,167.39,Men,SKU-001233,4
+1234,56.77,Swim,Gap Cover Ups #1234,Gap,181.33,Kids,SKU-001234,2
+1235,164.89,Footwear,Burberry Sneakers #1235,Burberry,300.93,Women,SKU-001235,3
+1236,224.54,Shorts,Banana Republic Athletic Shorts #1236,Banana Republic,418.34,Women,SKU-001236,6
+1237,76.98,Swim,North Face Swimwear #1237,North Face,223.32,Kids,SKU-001237,8
+1238,121.05,Sleep & Lounge,Patagonia Pajamas #1238,Patagonia,312.95,Men,SKU-001238,2
+1239,148.5,Swim,Reebok Cover Ups #1239,Reebok,462.38,Men,SKU-001239,10
+1240,46.81,Intimates,Prada Lingerie #1240,Prada,138.27,Men,SKU-001240,9
+1241,15.79,Blazers & Jackets,Ralph Lauren Leather Jackets #1241,Ralph Lauren,30.74,Kids,SKU-001241,5
+1242,171.57,Shorts,Tommy Hilfiger Bermuda Shorts #1242,Tommy Hilfiger,515.29,Women,SKU-001242,9
+1243,191.05,Blazers & Jackets,Abercrombie Denim Jackets #1243,Abercrombie,570.46,Kids,SKU-001243,2
+1244,208.37,Suits,Patagonia Blazers #1244,Patagonia,414.1,Kids,SKU-001244,2
+1245,13.3,Outerwear & Coats,North Face Coats #1245,North Face,25.11,Kids,SKU-001245,9
+1246,80.5,Leggings,Wrangler Casual Leggings #1246,Wrangler,198.74,Women,SKU-001246,7
+1247,174.44,Socks,Nike Crew Socks #1247,Nike,541.22,Kids,SKU-001247,5
+1248,226.43,Shorts,Ralph Lauren Bermuda Shorts #1248,Ralph Lauren,615.04,Women,SKU-001248,10
+1249,119.48,Dresses,Ralph Lauren Formal Dresses #1249,Ralph Lauren,373.07,Women,SKU-001249,7
+1250,111.19,Shorts,Tommy Hilfiger Athletic Shorts #1250,Tommy Hilfiger,237.81,Women,SKU-001250,8
+1251,192.01,Footwear,J.Crew Flats #1251,J.Crew,464.1,Men,SKU-001251,6
+1252,29.83,Skirts,Wrangler Mini Skirts #1252,Wrangler,66.08,Men,SKU-001252,7
+1253,202.25,Pants & Capris,H&M Jeans #1253,H&M,468.55,Men,SKU-001253,6
+1254,33.83,Accessories,Zara Hats #1254,Zara,85.62,Men,SKU-001254,5
+1255,161.33,Shorts,Gucci Bermuda Shorts #1255,Gucci,352.03,Men,SKU-001255,4
+1256,35.03,Dresses,Zara Maxi Dresses #1256,Zara,67.07,Women,SKU-001256,3
+1257,197.31,Fashion Hoodies & Sweatshirts,Banana Republic Hoodies #1257,Banana Republic,513.06,Women,SKU-001257,2
+1258,26.99,Footwear,Adidas Sneakers #1258,Adidas,53.47,Women,SKU-001258,2
+1259,176.57,Blazers & Jackets,Under Armour Denim Jackets #1259,Under Armour,340.88,Men,SKU-001259,6
+1260,218.11,Shorts,H&M Athletic Shorts #1260,H&M,476.29,Kids,SKU-001260,3
+1261,186.04,Outerwear & Coats,Adidas Vests #1261,Adidas,379.88,Women,SKU-001261,6
+1262,188.64,Fashion Hoodies & Sweatshirts,Tommy Hilfiger Hoodies #1262,Tommy Hilfiger,473.96,Men,SKU-001262,1
+1263,118.03,Shorts,Columbia Bermuda Shorts #1263,Columbia,318.83,Women,SKU-001263,6
+1264,105.38,Blazers & Jackets,J.Crew Denim Jackets #1264,J.Crew,232.19,Women,SKU-001264,6
+1265,171.34,Footwear,Wrangler Boots #1265,Wrangler,322.99,Men,SKU-001265,3
+1266,159.18,Jeans,Anthropologie Bootcut Jeans #1266,Anthropologie,470.13,Women,SKU-001266,5
+1267,158.33,Jeans,Burberry Straight Jeans #1267,Burberry,489.33,Kids,SKU-001267,1
+1268,41.54,Shorts,Columbia Bermuda Shorts #1268,Columbia,120.35,Men,SKU-001268,4
+1269,163.75,Shirts & Tops,Free People Polo Shirts #1269,Free People,518.58,Kids,SKU-001269,9
+1270,207.8,Skirts,Calvin Klein A-Line Skirts #1270,Calvin Klein,462.06,Women,SKU-001270,5
+1271,236.77,Active,Columbia Sports Bras #1271,Columbia,715.94,Men,SKU-001271,1
+1272,9.99,Fashion Hoodies & Sweatshirts,Columbia Hoodies #1272,Columbia,20.8,Kids,SKU-001272,9
+1273,127.9,Suits,Banana Republic Blazers #1273,Banana Republic,401.47,Kids,SKU-001273,9
+1274,115.43,Tops & Tees,Nike Tank Tops #1274,Nike,240.12,Women,SKU-001274,3
+1275,227.51,Jeans,Free People Bootcut Jeans #1275,Free People,606.34,Kids,SKU-001275,5
+1276,221.01,Shirts & Tops,Anthropologie Polo Shirts #1276,Anthropologie,647.71,Kids,SKU-001276,8
+1277,116.65,Underwear,Tommy Hilfiger Boxers #1277,Tommy Hilfiger,223.35,Men,SKU-001277,4
+1278,9.38,Shorts,Versace Bermuda Shorts #1278,Versace,26.86,Kids,SKU-001278,1
+1279,131.81,Fashion Hoodies & Sweatshirts,Calvin Klein Hoodies #1279,Calvin Klein,239.36,Kids,SKU-001279,1
+1280,150.55,Intimates,North Face Lingerie #1280,North Face,384.03,Women,SKU-001280,7
+1281,108.37,Shorts,North Face Bermuda Shorts #1281,North Face,290.88,Men,SKU-001281,4
+1282,49.34,Intimates,Levi's Lingerie #1282,Levi's,100.56,Women,SKU-001282,3
+1283,10.12,Leggings,Versace Workout Leggings #1283,Versace,29.48,Kids,SKU-001283,6
+1284,180.64,Fashion Hoodies & Sweatshirts,American Eagle Hoodies #1284,American Eagle,362.95,Women,SKU-001284,3
+1285,68.47,Shorts,Calvin Klein Bermuda Shorts #1285,Calvin Klein,148.93,Men,SKU-001285,7
+1286,233.86,Swim,New Balance Swimwear #1286,New Balance,639.49,Kids,SKU-001286,5
+1287,45.85,Fashion Hoodies & Sweatshirts,New Balance Crewneck Sweatshirts #1287,New Balance,125.57,Kids,SKU-001287,4
+1288,235.16,Outerwear & Coats,Gap Jackets #1288,Gap,522.42,Kids,SKU-001288,7
+1289,113.95,Shirts & Tops,Columbia Polo Shirts #1289,Columbia,212.35,Kids,SKU-001289,2
+1290,234.49,Leggings,Forever 21 Casual Leggings #1290,Forever 21,719.84,Women,SKU-001290,4
+1291,82.91,Socks,Free People Ankle Socks #1291,Free People,258.92,Kids,SKU-001291,3
+1292,92.51,Pants & Capris,Prada Leggings #1292,Prada,205.62,Kids,SKU-001292,8
+1293,180.03,Accessories,Puma Belts #1293,Puma,544.16,Women,SKU-001293,9
+1294,194.21,Underwear,Hollister Briefs #1294,Hollister,394.52,Men,SKU-001294,3
+1295,58.5,Suits,Forever 21 Blazers #1295,Forever 21,126.03,Women,SKU-001295,6
+1296,210.76,Swim,Hollister Swimwear #1296,Hollister,629.17,Men,SKU-001296,3
+1297,6.09,Swim,Versace Swimwear #1297,Versace,16.49,Kids,SKU-001297,9
+1298,124.44,Socks,North Face Crew Socks #1298,North Face,390.36,Men,SKU-001298,7
+1299,147.48,Shorts,Reebok Athletic Shorts #1299,Reebok,356.68,Men,SKU-001299,8
+1300,60.44,Pants & Capris,Under Armour Leggings #1300,Under Armour,136.92,Women,SKU-001300,4
+1301,241.79,Leggings,Puma Workout Leggings #1301,Puma,497.62,Kids,SKU-001301,9
+1302,18.72,Sleep & Lounge,Hollister Robes #1302,Hollister,45.14,Kids,SKU-001302,5
+1303,238.23,Blazers & Jackets,American Eagle Denim Jackets #1303,American Eagle,485.1,Women,SKU-001303,9
+1304,225.86,Shirts & Tops,J.Crew T-Shirts #1304,J.Crew,552.45,Kids,SKU-001304,7
+1305,220.43,Accessories,New Balance Hats #1305,New Balance,642.91,Women,SKU-001305,6
+1306,37.54,Dresses,Tommy Hilfiger Mini Dresses #1306,Tommy Hilfiger,91.46,Kids,SKU-001306,7
+1307,225.0,Shirts & Tops,Banana Republic Casual Shirts #1307,Banana Republic,545.68,Women,SKU-001307,1
+1308,174.86,Pants & Capris,UNIQLO Shorts #1308,UNIQLO,545.49,Kids,SKU-001308,2
+1309,85.88,Shirts & Tops,Gucci Casual Shirts #1309,Gucci,237.97,Kids,SKU-001309,8
+1310,95.25,Blazers & Jackets,Puma Denim Jackets #1310,Puma,177.2,Women,SKU-001310,7
+1311,68.8,Blazers & Jackets,Ralph Lauren Leather Jackets #1311,Ralph Lauren,182.1,Men,SKU-001311,10
+1312,125.28,Leggings,Hollister Workout Leggings #1312,Hollister,247.33,Kids,SKU-001312,7
+1313,179.36,Shorts,Reebok Athletic Shorts #1313,Reebok,335.98,Kids,SKU-001313,1
+1314,212.94,Dresses,American Eagle Maxi Dresses #1314,American Eagle,448.61,Kids,SKU-001314,1
+1315,79.15,Intimates,Forever 21 Lingerie #1315,Forever 21,242.01,Women,SKU-001315,8
+1316,198.55,Shirts & Tops,Banana Republic Casual Shirts #1316,Banana Republic,362.46,Men,SKU-001316,4
+1317,129.84,Underwear,Adidas Boxers #1317,Adidas,389.32,Women,SKU-001317,1
+1318,30.83,Outerwear & Coats,Tommy Hilfiger Coats #1318,Tommy Hilfiger,95.27,Women,SKU-001318,8
+1319,144.94,Socks,Levi's Crew Socks #1319,Levi's,422.41,Kids,SKU-001319,1
+1320,137.57,Footwear,American Eagle Sneakers #1320,American Eagle,382.79,Kids,SKU-001320,10
+1321,175.08,Sleep & Lounge,Calvin Klein Robes #1321,Calvin Klein,472.54,Women,SKU-001321,3
+1322,40.1,Shorts,Patagonia Bermuda Shorts #1322,Patagonia,101.48,Kids,SKU-001322,10
+1323,28.07,Fashion Hoodies & Sweatshirts,Forever 21 Crewneck Sweatshirts #1323,Forever 21,52.06,Kids,SKU-001323,3
+1324,142.64,Intimates,Burberry Underwear #1324,Burberry,438.6,Men,SKU-001324,1
+1325,146.81,Socks,UNIQLO Crew Socks #1325,UNIQLO,451.97,Men,SKU-001325,5
+1326,119.58,Fashion Hoodies & Sweatshirts,Puma Crewneck Sweatshirts #1326,Puma,278.83,Women,SKU-001326,10
+1327,71.78,Fashion Hoodies & Sweatshirts,UNIQLO Crewneck Sweatshirts #1327,UNIQLO,156.75,Men,SKU-001327,2
+1328,15.36,Shirts & Tops,Prada Polo Shirts #1328,Prada,35.02,Women,SKU-001328,3
+1329,222.53,Blazers & Jackets,Gucci Blazers #1329,Gucci,471.76,Men,SKU-001329,2
+1330,38.22,Leggings,Reebok Workout Leggings #1330,Reebok,95.72,Men,SKU-001330,3
+1331,161.96,Socks,Levi's Crew Socks #1331,Levi's,399.32,Women,SKU-001331,3
+1332,173.38,Shorts,Gap Athletic Shorts #1332,Gap,516.61,Women,SKU-001332,3
+1333,216.99,Shorts,Calvin Klein Bermuda Shorts #1333,Calvin Klein,603.56,Women,SKU-001333,4
+1334,99.01,Tops & Tees,J.Crew Blouses #1334,J.Crew,297.93,Men,SKU-001334,9
+1335,190.49,Dresses,Under Armour Maxi Dresses #1335,Under Armour,554.8,Men,SKU-001335,8
+1336,31.85,Accessories,Under Armour Sunglasses #1336,Under Armour,82.83,Men,SKU-001336,5
+1337,177.1,Skirts,Prada Mini Skirts #1337,Prada,393.46,Women,SKU-001337,7
+1338,155.37,Suits,Ralph Lauren Blazers #1338,Ralph Lauren,452.03,Women,SKU-001338,4
+1339,150.89,Footwear,Hollister Flats #1339,Hollister,375.06,Kids,SKU-001339,7
+1340,155.49,Tops & Tees,Hollister Tank Tops #1340,Hollister,402.86,Women,SKU-001340,8
+1341,84.78,Shorts,Versace Bermuda Shorts #1341,Versace,242.35,Women,SKU-001341,10
+1342,25.92,Intimates,Free People Lingerie #1342,Free People,47.12,Women,SKU-001342,1
+1343,243.31,Shorts,New Balance Athletic Shorts #1343,New Balance,477.78,Women,SKU-001343,9
+1344,121.77,Dresses,Burberry Formal Dresses #1344,Burberry,261.83,Women,SKU-001344,10
+1345,16.68,Fashion Hoodies & Sweatshirts,Wrangler Crewneck Sweatshirts #1345,Wrangler,51.31,Kids,SKU-001345,3
+1346,26.67,Suits,J.Crew Business Suits #1346,J.Crew,55.43,Kids,SKU-001346,10
+1347,163.87,Accessories,Puma Belts #1347,Puma,495.4,Men,SKU-001347,5
+1348,228.48,Active,Ralph Lauren Yoga Pants #1348,Ralph Lauren,714.25,Men,SKU-001348,8
+1349,209.92,Leggings,Banana Republic Casual Leggings #1349,Banana Republic,463.13,Kids,SKU-001349,8
+1350,10.81,Blazers & Jackets,Under Armour Blazers #1350,Under Armour,33.46,Men,SKU-001350,9
+1351,187.7,Jeans,Columbia Straight Jeans #1351,Columbia,370.88,Kids,SKU-001351,1
+1352,110.12,Jeans,Forever 21 Skinny Jeans #1352,Forever 21,348.32,Men,SKU-001352,3
+1353,206.44,Outerwear & Coats,Versace Coats #1353,Versace,409.43,Women,SKU-001353,10
+1354,131.86,Outerwear & Coats,New Balance Jackets #1354,New Balance,379.76,Men,SKU-001354,10
+1355,127.57,Intimates,Zara Lingerie #1355,Zara,243.32,Women,SKU-001355,2
+1356,200.52,Dresses,Forever 21 Maxi Dresses #1356,Forever 21,631.55,Men,SKU-001356,9
+1357,23.37,Shirts & Tops,Burberry Casual Shirts #1357,Burberry,47.73,Men,SKU-001357,7
+1358,190.21,Dresses,Banana Republic Mini Dresses #1358,Banana Republic,538.4,Men,SKU-001358,10
+1359,36.98,Outerwear & Coats,Gucci Jackets #1359,Gucci,116.66,Men,SKU-001359,9
+1360,169.75,Tops & Tees,Calvin Klein Tank Tops #1360,Calvin Klein,495.09,Men,SKU-001360,3
+1361,224.17,Leggings,Nike Casual Leggings #1361,Nike,675.59,Kids,SKU-001361,6
+1362,65.16,Accessories,Adidas Bags #1362,Adidas,121.54,Men,SKU-001362,2
+1363,33.84,Fashion Hoodies & Sweatshirts,Reebok Hoodies #1363,Reebok,74.73,Kids,SKU-001363,10
+1364,228.37,Jeans,Burberry Bootcut Jeans #1364,Burberry,622.39,Men,SKU-001364,9
+1365,125.1,Outerwear & Coats,Forever 21 Jackets #1365,Forever 21,329.69,Women,SKU-001365,5
+1366,90.83,Swim,Anthropologie Swimwear #1366,Anthropologie,190.59,Men,SKU-001366,7
+1367,79.25,Fashion Hoodies & Sweatshirts,Reebok Crewneck Sweatshirts #1367,Reebok,215.1,Women,SKU-001367,10
+1368,215.24,Jeans,Columbia Straight Jeans #1368,Columbia,679.89,Kids,SKU-001368,9
+1369,42.57,Tops & Tees,Zara Tank Tops #1369,Zara,106.95,Kids,SKU-001369,5
+1370,198.39,Underwear,Prada Briefs #1370,Prada,450.42,Women,SKU-001370,10
+1371,137.19,Footwear,Prada Sneakers #1371,Prada,391.72,Men,SKU-001371,6
+1372,18.35,Sleep & Lounge,Banana Republic Pajamas #1372,Banana Republic,55.61,Men,SKU-001372,1
+1373,139.46,Blazers & Jackets,UNIQLO Denim Jackets #1373,UNIQLO,389.23,Women,SKU-001373,10
+1374,216.61,Underwear,Gap Briefs #1374,Gap,659.43,Women,SKU-001374,8
+1375,87.4,Suits,Levi's Business Suits #1375,Levi's,187.73,Women,SKU-001375,2
+1376,96.34,Dresses,Puma Mini Dresses #1376,Puma,292.14,Women,SKU-001376,10
+1377,65.58,Active,North Face Athletic Shorts #1377,North Face,119.27,Women,SKU-001377,10
+1378,196.49,Suits,Gucci Business Suits #1378,Gucci,482.81,Men,SKU-001378,8
+1379,113.22,Accessories,Patagonia Belts #1379,Patagonia,280.66,Men,SKU-001379,4
+1380,224.01,Sleep & Lounge,Under Armour Pajamas #1380,Under Armour,530.89,Men,SKU-001380,9
+1381,104.06,Intimates,Burberry Underwear #1381,Burberry,257.65,Women,SKU-001381,5
+1382,209.83,Intimates,Banana Republic Lingerie #1382,Banana Republic,659.51,Kids,SKU-001382,8
+1383,46.61,Outerwear & Coats,J.Crew Coats #1383,J.Crew,146.73,Women,SKU-001383,2
+1384,8.68,Shorts,Tommy Hilfiger Athletic Shorts #1384,Tommy Hilfiger,20.48,Kids,SKU-001384,5
+1385,171.31,Active,Tommy Hilfiger Athletic Shorts #1385,Tommy Hilfiger,352.08,Women,SKU-001385,2
+1386,9.74,Underwear,Versace Briefs #1386,Versace,28.83,Men,SKU-001386,9
+1387,71.47,Footwear,Zara Sandals #1387,Zara,146.62,Kids,SKU-001387,3
+1388,179.71,Fashion Hoodies & Sweatshirts,Abercrombie Hoodies #1388,Abercrombie,332.02,Men,SKU-001388,3
+1389,226.15,Accessories,Calvin Klein Jewelry #1389,Calvin Klein,433.03,Men,SKU-001389,8
+1390,51.4,Tops & Tees,North Face Crop Tops #1390,North Face,137.25,Men,SKU-001390,9
+1391,100.96,Swim,New Balance Cover Ups #1391,New Balance,186.43,Men,SKU-001391,1
+1392,176.01,Footwear,Gucci Boots #1392,Gucci,436.8,Kids,SKU-001392,10
+1393,108.41,Outerwear & Coats,Under Armour Jackets #1393,Under Armour,327.12,Women,SKU-001393,1
+1394,54.24,Fashion Hoodies & Sweatshirts,Gucci Crewneck Sweatshirts #1394,Gucci,146.61,Men,SKU-001394,5
+1395,30.48,Blazers & Jackets,Columbia Leather Jackets #1395,Columbia,62.53,Men,SKU-001395,6
+1396,128.88,Swim,Prada Cover Ups #1396,Prada,289.73,Men,SKU-001396,8
+1397,210.59,Sleep & Lounge,New Balance Robes #1397,New Balance,504.62,Kids,SKU-001397,7
+1398,85.86,Leggings,Patagonia Workout Leggings #1398,Patagonia,167.16,Men,SKU-001398,9
+1399,79.17,Leggings,Ralph Lauren Casual Leggings #1399,Ralph Lauren,195.13,Kids,SKU-001399,3
+1400,248.56,Pants & Capris,North Face Shorts #1400,North Face,713.52,Men,SKU-001400,5
+1401,231.3,Suits,Ralph Lauren Blazers #1401,Ralph Lauren,565.99,Men,SKU-001401,7
+1402,140.27,Swim,J.Crew Cover Ups #1402,J.Crew,352.15,Men,SKU-001402,4
+1403,216.15,Tops & Tees,Hollister Crop Tops #1403,Hollister,474.88,Men,SKU-001403,4
+1404,80.5,Dresses,Banana Republic Maxi Dresses #1404,Banana Republic,254.68,Men,SKU-001404,2
+1405,120.83,Suits,Prada Blazers #1405,Prada,226.17,Women,SKU-001405,2
+1406,103.23,Active,Gap Athletic Shorts #1406,Gap,295.13,Men,SKU-001406,10
+1407,206.44,Fashion Hoodies & Sweatshirts,New Balance Hoodies #1407,New Balance,407.95,Women,SKU-001407,10
+1408,84.8,Accessories,Adidas Bags #1408,Adidas,199.9,Kids,SKU-001408,2
+1409,233.41,Skirts,American Eagle A-Line Skirts #1409,American Eagle,722.8,Men,SKU-001409,1
+1410,80.72,Jeans,Versace Bootcut Jeans #1410,Versace,233.34,Kids,SKU-001410,3
+1411,175.16,Socks,Gucci Ankle Socks #1411,Gucci,447.4,Men,SKU-001411,9
+1412,60.55,Leggings,J.Crew Workout Leggings #1412,J.Crew,116.53,Women,SKU-001412,10
+1413,130.25,Socks,Prada Crew Socks #1413,Prada,404.23,Men,SKU-001413,3
+1414,235.5,Leggings,J.Crew Workout Leggings #1414,J.Crew,689.91,Women,SKU-001414,7
+1415,127.5,Skirts,Forever 21 Midi Skirts #1415,Forever 21,309.55,Men,SKU-001415,2
+1416,211.84,Swim,Nike Swimwear #1416,Nike,657.95,Women,SKU-001416,1
+1417,188.14,Swim,Forever 21 Swimwear #1417,Forever 21,443.8,Women,SKU-001417,2
+1418,180.79,Blazers & Jackets,Nike Leather Jackets #1418,Nike,534.23,Kids,SKU-001418,5
+1419,147.19,Tops & Tees,Patagonia Crop Tops #1419,Patagonia,279.26,Kids,SKU-001419,3
+1420,89.69,Shorts,American Eagle Athletic Shorts #1420,American Eagle,179.99,Men,SKU-001420,10
+1421,190.71,Tops & Tees,Prada Blouses #1421,Prada,384.43,Women,SKU-001421,10
+1422,54.68,Shirts & Tops,Forever 21 Casual Shirts #1422,Forever 21,123.51,Men,SKU-001422,10
+1423,118.68,Dresses,Zara Maxi Dresses #1423,Zara,279.28,Kids,SKU-001423,7
+1424,38.39,Shirts & Tops,Gap Casual Shirts #1424,Gap,109.54,Men,SKU-001424,4
+1425,205.94,Outerwear & Coats,Nike Vests #1425,Nike,384.66,Women,SKU-001425,8
+1426,189.85,Swim,Under Armour Swimwear #1426,Under Armour,582.69,Men,SKU-001426,5
+1427,77.52,Jeans,New Balance Skinny Jeans #1427,New Balance,200.22,Women,SKU-001427,7
+1428,84.24,Footwear,Puma Sneakers #1428,Puma,205.38,Kids,SKU-001428,4
+1429,33.25,Shirts & Tops,Forever 21 T-Shirts #1429,Forever 21,74.69,Women,SKU-001429,4
+1430,30.25,Footwear,Versace Flats #1430,Versace,75.2,Women,SKU-001430,2
+1431,90.37,Intimates,Calvin Klein Lingerie #1431,Calvin Klein,200.39,Men,SKU-001431,7
+1432,134.42,Footwear,Banana Republic Flats #1432,Banana Republic,350.67,Men,SKU-001432,3
+1433,170.12,Outerwear & Coats,Banana Republic Vests #1433,Banana Republic,515.35,Men,SKU-001433,3
+1434,44.04,Blazers & Jackets,Versace Leather Jackets #1434,Versace,111.69,Women,SKU-001434,10
+1435,94.76,Skirts,Anthropologie Mini Skirts #1435,Anthropologie,217.77,Men,SKU-001435,1
+1436,152.06,Pants & Capris,Zara Chinos #1436,Zara,444.57,Kids,SKU-001436,2
+1437,51.87,Footwear,Levi's Sandals #1437,Levi's,158.78,Men,SKU-001437,10
+1438,194.56,Active,Nike Sports Bras #1438,Nike,455.79,Women,SKU-001438,5
+1439,198.94,Sleep & Lounge,Adidas Robes #1439,Adidas,531.76,Men,SKU-001439,5
+1440,148.91,Footwear,Wrangler Sandals #1440,Wrangler,288.93,Kids,SKU-001440,6
+1441,14.21,Accessories,Nike Bags #1441,Nike,40.72,Women,SKU-001441,9
+1442,115.75,Fashion Hoodies & Sweatshirts,Nike Crewneck Sweatshirts #1442,Nike,248.36,Kids,SKU-001442,7
+1443,39.59,Intimates,Levi's Underwear #1443,Levi's,122.13,Women,SKU-001443,1
+1444,123.86,Swim,Burberry Cover Ups #1444,Burberry,304.71,Kids,SKU-001444,3
+1445,133.93,Pants & Capris,Anthropologie Jeans #1445,Anthropologie,344.43,Women,SKU-001445,6
+1446,235.71,Tops & Tees,Prada Blouses #1446,Prada,657.78,Kids,SKU-001446,9
+1447,156.25,Jeans,Gap Skinny Jeans #1447,Gap,489.66,Women,SKU-001447,6
+1448,117.7,Footwear,Hollister Sandals #1448,Hollister,214.77,Women,SKU-001448,7
+1449,40.17,Shorts,Patagonia Bermuda Shorts #1449,Patagonia,84.48,Kids,SKU-001449,7
+1450,209.14,Sleep & Lounge,Under Armour Pajamas #1450,Under Armour,450.0,Women,SKU-001450,9
+1451,86.93,Shorts,Banana Republic Bermuda Shorts #1451,Banana Republic,220.3,Women,SKU-001451,4
+1452,219.75,Fashion Hoodies & Sweatshirts,Zara Crewneck Sweatshirts #1452,Zara,591.12,Men,SKU-001452,1
+1453,14.76,Tops & Tees,Puma Tank Tops #1453,Puma,37.34,Women,SKU-001453,1
+1454,219.45,Blazers & Jackets,Levi's Denim Jackets #1454,Levi's,664.65,Men,SKU-001454,6
+1455,117.71,Suits,New Balance Business Suits #1455,New Balance,332.14,Women,SKU-001455,4
+1456,205.66,Fashion Hoodies & Sweatshirts,Levi's Hoodies #1456,Levi's,589.76,Kids,SKU-001456,3
+1457,218.65,Accessories,Adidas Hats #1457,Adidas,457.32,Men,SKU-001457,9
+1458,171.64,Outerwear & Coats,Calvin Klein Coats #1458,Calvin Klein,341.86,Kids,SKU-001458,4
+1459,67.87,Intimates,Tommy Hilfiger Bras & Bralettes #1459,Tommy Hilfiger,168.04,Men,SKU-001459,1
+1460,244.57,Socks,Hollister Crew Socks #1460,Hollister,693.48,Kids,SKU-001460,2
+1461,20.12,Fashion Hoodies & Sweatshirts,Banana Republic Crewneck Sweatshirts #1461,Banana Republic,52.69,Women,SKU-001461,2
+1462,72.68,Swim,Banana Republic Swimwear #1462,Banana Republic,158.34,Women,SKU-001462,4
+1463,148.06,Swim,American Eagle Cover Ups #1463,American Eagle,277.58,Women,SKU-001463,10
+1464,15.05,Sleep & Lounge,Abercrombie Pajamas #1464,Abercrombie,39.31,Men,SKU-001464,7
+1465,231.15,Intimates,J.Crew Bras & Bralettes #1465,J.Crew,699.92,Kids,SKU-001465,7
+1466,101.11,Leggings,Wrangler Casual Leggings #1466,Wrangler,228.34,Kids,SKU-001466,5
+1467,213.13,Accessories,Prada Belts #1467,Prada,514.88,Women,SKU-001467,9
+1468,174.82,Active,Gucci Athletic Shorts #1468,Gucci,520.62,Men,SKU-001468,5
+1469,126.09,Tops & Tees,Columbia Blouses #1469,Columbia,287.21,Women,SKU-001469,2
+1470,36.97,Underwear,Levi's Boxers #1470,Levi's,87.65,Men,SKU-001470,8
+1471,215.24,Tops & Tees,Tommy Hilfiger Crop Tops #1471,Tommy Hilfiger,617.36,Women,SKU-001471,3
+1472,155.21,Pants & Capris,Versace Shorts #1472,Versace,473.05,Women,SKU-001472,3
+1473,244.0,Outerwear & Coats,Hollister Vests #1473,Hollister,647.26,Women,SKU-001473,8
+1474,10.33,Pants & Capris,Gap Leggings #1474,Gap,31.84,Kids,SKU-001474,4
+1475,115.1,Suits,Anthropologie Blazers #1475,Anthropologie,242.7,Men,SKU-001475,3
+1476,65.12,Footwear,Ralph Lauren Sneakers #1476,Ralph Lauren,152.16,Kids,SKU-001476,4
+1477,248.7,Jeans,American Eagle Skinny Jeans #1477,American Eagle,767.94,Women,SKU-001477,6
+1478,119.41,Active,Forever 21 Sports Bras #1478,Forever 21,320.54,Kids,SKU-001478,8
+1479,20.29,Blazers & Jackets,Burberry Leather Jackets #1479,Burberry,58.51,Women,SKU-001479,7
+1480,116.24,Suits,Reebok Blazers #1480,Reebok,340.05,Women,SKU-001480,6
+1481,214.83,Tops & Tees,Hollister Crop Tops #1481,Hollister,659.94,Men,SKU-001481,10
+1482,220.7,Pants & Capris,Wrangler Leggings #1482,Wrangler,573.37,Kids,SKU-001482,4
+1483,125.45,Intimates,Calvin Klein Lingerie #1483,Calvin Klein,315.42,Kids,SKU-001483,6
+1484,168.99,Leggings,Free People Workout Leggings #1484,Free People,464.21,Men,SKU-001484,5
+1485,53.86,Accessories,Reebok Jewelry #1485,Reebok,137.07,Kids,SKU-001485,7
+1486,81.74,Shirts & Tops,Nike Polo Shirts #1486,Nike,183.39,Men,SKU-001486,2
+1487,94.13,Shirts & Tops,Prada Polo Shirts #1487,Prada,182.2,Men,SKU-001487,8
+1488,35.04,Tops & Tees,North Face Crop Tops #1488,North Face,88.64,Kids,SKU-001488,10
+1489,140.93,Jeans,Zara Skinny Jeans #1489,Zara,373.67,Men,SKU-001489,2
+1490,112.4,Shorts,J.Crew Bermuda Shorts #1490,J.Crew,222.16,Kids,SKU-001490,8
+1491,221.14,Intimates,J.Crew Bras & Bralettes #1491,J.Crew,555.02,Women,SKU-001491,2
+1492,218.93,Active,Gap Athletic Shorts #1492,Gap,451.12,Kids,SKU-001492,7
+1493,195.62,Swim,North Face Cover Ups #1493,North Face,462.7,Women,SKU-001493,8
+1494,70.09,Skirts,Nike A-Line Skirts #1494,Nike,158.91,Men,SKU-001494,3
+1495,184.94,Jeans,Hollister Bootcut Jeans #1495,Hollister,533.67,Women,SKU-001495,10
+1496,147.58,Tops & Tees,Under Armour Crop Tops #1496,Under Armour,265.9,Women,SKU-001496,3
+1497,30.81,Socks,Puma Crew Socks #1497,Puma,96.03,Kids,SKU-001497,8
+1498,94.54,Socks,Gucci Crew Socks #1498,Gucci,280.26,Men,SKU-001498,2
+1499,202.69,Dresses,Hollister Mini Dresses #1499,Hollister,422.4,Women,SKU-001499,5
+1500,179.64,Leggings,Gucci Workout Leggings #1500,Gucci,563.57,Men,SKU-001500,4
+1501,185.6,Pants & Capris,Levi's Shorts #1501,Levi's,501.94,Women,SKU-001501,5
+1502,198.66,Jeans,American Eagle Skinny Jeans #1502,American Eagle,503.61,Women,SKU-001502,7
+1503,143.76,Blazers & Jackets,North Face Blazers #1503,North Face,358.38,Women,SKU-001503,4
+1504,78.72,Active,Wrangler Sports Bras #1504,Wrangler,174.23,Men,SKU-001504,10
+1505,59.47,Outerwear & Coats,New Balance Jackets #1505,New Balance,114.97,Women,SKU-001505,6
+1506,147.14,Tops & Tees,Nike Tank Tops #1506,Nike,304.63,Kids,SKU-001506,2
+1507,233.44,Socks,North Face Ankle Socks #1507,North Face,511.14,Women,SKU-001507,1
+1508,31.84,Blazers & Jackets,Tommy Hilfiger Denim Jackets #1508,Tommy Hilfiger,82.12,Men,SKU-001508,7
+1509,105.21,Accessories,Tommy Hilfiger Jewelry #1509,Tommy Hilfiger,291.0,Women,SKU-001509,4
+1510,226.64,Pants & Capris,Anthropologie Leggings #1510,Anthropologie,707.09,Men,SKU-001510,10
+1511,195.78,Tops & Tees,North Face Crop Tops #1511,North Face,580.08,Women,SKU-001511,1
+1512,183.71,Blazers & Jackets,UNIQLO Leather Jackets #1512,UNIQLO,419.85,Men,SKU-001512,9
+1513,18.27,Footwear,New Balance Sandals #1513,New Balance,36.27,Men,SKU-001513,8
+1514,36.76,Shorts,Wrangler Athletic Shorts #1514,Wrangler,94.68,Women,SKU-001514,1
+1515,35.99,Skirts,UNIQLO Midi Skirts #1515,UNIQLO,73.69,Men,SKU-001515,10
+1516,67.34,Outerwear & Coats,J.Crew Vests #1516,J.Crew,146.76,Men,SKU-001516,2
+1517,124.75,Sleep & Lounge,Versace Pajamas #1517,Versace,336.44,Men,SKU-001517,2
+1518,106.89,Intimates,Forever 21 Lingerie #1518,Forever 21,300.71,Women,SKU-001518,5
+1519,9.75,Outerwear & Coats,Puma Vests #1519,Puma,26.7,Women,SKU-001519,5
+1520,249.34,Dresses,Under Armour Maxi Dresses #1520,Under Armour,797.03,Kids,SKU-001520,3
+1521,56.63,Socks,Calvin Klein Ankle Socks #1521,Calvin Klein,122.4,Men,SKU-001521,8
+1522,132.45,Accessories,Reebok Hats #1522,Reebok,417.57,Men,SKU-001522,4
+1523,212.93,Dresses,Anthropologie Mini Dresses #1523,Anthropologie,642.1,Men,SKU-001523,4
+1524,114.58,Suits,Gap Business Suits #1524,Gap,277.78,Women,SKU-001524,7
+1525,131.87,Sleep & Lounge,Forever 21 Pajamas #1525,Forever 21,328.23,Women,SKU-001525,2
+1526,88.18,Socks,Anthropologie Ankle Socks #1526,Anthropologie,267.58,Women,SKU-001526,8
+1527,198.21,Suits,Gap Business Suits #1527,Gap,592.45,Women,SKU-001527,3
+1528,7.99,Swim,J.Crew Swimwear #1528,J.Crew,16.06,Men,SKU-001528,5
+1529,171.08,Accessories,Forever 21 Bags #1529,Forever 21,438.48,Women,SKU-001529,4
+1530,92.93,Fashion Hoodies & Sweatshirts,Prada Crewneck Sweatshirts #1530,Prada,171.55,Women,SKU-001530,1
+1531,183.26,Accessories,Gucci Bags #1531,Gucci,391.41,Kids,SKU-001531,4
+1532,73.56,Jeans,Burberry Straight Jeans #1532,Burberry,210.21,Kids,SKU-001532,7
+1533,230.47,Suits,J.Crew Blazers #1533,J.Crew,613.71,Kids,SKU-001533,10
+1534,219.4,Sleep & Lounge,New Balance Robes #1534,New Balance,656.62,Kids,SKU-001534,2
+1535,182.81,Socks,Ralph Lauren Ankle Socks #1535,Ralph Lauren,392.43,Men,SKU-001535,3
+1536,51.52,Underwear,Puma Briefs #1536,Puma,154.29,Men,SKU-001536,10
+1537,26.74,Tops & Tees,New Balance Blouses #1537,New Balance,72.37,Women,SKU-001537,9
+1538,103.01,Jeans,Versace Skinny Jeans #1538,Versace,220.59,Men,SKU-001538,5
+1539,152.79,Dresses,Hollister Formal Dresses #1539,Hollister,295.86,Women,SKU-001539,5
+1540,77.35,Shirts & Tops,Reebok Casual Shirts #1540,Reebok,225.17,Women,SKU-001540,8
+1541,168.38,Intimates,Wrangler Underwear #1541,Wrangler,329.91,Men,SKU-001541,5
+1542,71.22,Swim,Prada Cover Ups #1542,Prada,177.46,Kids,SKU-001542,6
+1543,123.21,Shirts & Tops,Free People T-Shirts #1543,Free People,332.26,Men,SKU-001543,5
+1544,201.83,Underwear,Under Armour Boxers #1544,Under Armour,461.75,Men,SKU-001544,4
+1545,106.24,Leggings,Tommy Hilfiger Workout Leggings #1545,Tommy Hilfiger,313.42,Men,SKU-001545,4
+1546,84.68,Socks,Wrangler Ankle Socks #1546,Wrangler,252.7,Kids,SKU-001546,2
+1547,238.4,Suits,Levi's Business Suits #1547,Levi's,500.43,Kids,SKU-001547,1
+1548,13.9,Underwear,Puma Briefs #1548,Puma,36.06,Men,SKU-001548,8
+1549,169.15,Skirts,Abercrombie A-Line Skirts #1549,Abercrombie,406.95,Men,SKU-001549,3
+1550,68.27,Footwear,Calvin Klein Boots #1550,Calvin Klein,152.73,Men,SKU-001550,8
+1551,185.89,Sleep & Lounge,Columbia Robes #1551,Columbia,387.87,Kids,SKU-001551,10
+1552,212.69,Accessories,Wrangler Hats #1552,Wrangler,412.89,Women,SKU-001552,5
+1553,239.14,Underwear,Free People Boxers #1553,Free People,682.73,Men,SKU-001553,3
+1554,25.59,Underwear,Reebok Boxers #1554,Reebok,72.34,Women,SKU-001554,7
+1555,69.66,Leggings,Under Armour Casual Leggings #1555,Under Armour,205.94,Kids,SKU-001555,8
+1556,229.63,Leggings,Abercrombie Casual Leggings #1556,Abercrombie,477.44,Kids,SKU-001556,1
+1557,244.04,Blazers & Jackets,New Balance Blazers #1557,New Balance,577.28,Women,SKU-001557,5
+1558,246.37,Footwear,Wrangler Sneakers #1558,Wrangler,579.33,Kids,SKU-001558,10
+1559,191.83,Shorts,Reebok Bermuda Shorts #1559,Reebok,529.67,Kids,SKU-001559,2
+1560,141.25,Suits,J.Crew Business Suits #1560,J.Crew,345.67,Kids,SKU-001560,1
+1561,20.82,Active,Zara Athletic Shorts #1561,Zara,60.97,Kids,SKU-001561,10
+1562,152.39,Sleep & Lounge,Banana Republic Robes #1562,Banana Republic,409.32,Kids,SKU-001562,2
+1563,100.67,Shirts & Tops,Ralph Lauren Casual Shirts #1563,Ralph Lauren,225.11,Women,SKU-001563,3
+1564,92.68,Blazers & Jackets,Nike Denim Jackets #1564,Nike,294.69,Men,SKU-001564,3
+1565,143.6,Leggings,UNIQLO Casual Leggings #1565,UNIQLO,414.74,Kids,SKU-001565,4
+1566,17.12,Blazers & Jackets,New Balance Blazers #1566,New Balance,36.47,Women,SKU-001566,8
+1567,141.36,Footwear,Free People Boots #1567,Free People,448.58,Women,SKU-001567,1
+1568,232.57,Intimates,North Face Underwear #1568,North Face,501.72,Kids,SKU-001568,1
+1569,92.9,Shirts & Tops,New Balance T-Shirts #1569,New Balance,254.04,Kids,SKU-001569,10
+1570,103.09,Sleep & Lounge,Anthropologie Robes #1570,Anthropologie,311.4,Women,SKU-001570,2
+1571,6.93,Suits,Reebok Business Suits #1571,Reebok,16.69,Women,SKU-001571,8
+1572,194.64,Swim,Free People Cover Ups #1572,Free People,551.27,Kids,SKU-001572,6
+1573,83.94,Blazers & Jackets,Nike Leather Jackets #1573,Nike,229.92,Women,SKU-001573,7
+1574,134.42,Footwear,J.Crew Boots #1574,J.Crew,283.77,Kids,SKU-001574,6
+1575,128.17,Sleep & Lounge,Hollister Robes #1575,Hollister,317.77,Kids,SKU-001575,10
+1576,175.02,Pants & Capris,Ralph Lauren Shorts #1576,Ralph Lauren,384.25,Kids,SKU-001576,3
+1577,144.52,Pants & Capris,Calvin Klein Chinos #1577,Calvin Klein,267.2,Men,SKU-001577,10
+1578,101.01,Outerwear & Coats,Adidas Coats #1578,Adidas,247.41,Kids,SKU-001578,4
+1579,179.45,Suits,Versace Business Suits #1579,Versace,521.67,Men,SKU-001579,7
+1580,199.86,Pants & Capris,Calvin Klein Jeans #1580,Calvin Klein,509.08,Kids,SKU-001580,1
+1581,44.62,Suits,H&M Blazers #1581,H&M,119.08,Men,SKU-001581,5
+1582,128.42,Shorts,Free People Athletic Shorts #1582,Free People,404.45,Men,SKU-001582,1
+1583,33.88,Sleep & Lounge,Tommy Hilfiger Robes #1583,Tommy Hilfiger,78.79,Men,SKU-001583,10
+1584,218.2,Footwear,Hollister Boots #1584,Hollister,585.25,Kids,SKU-001584,7
+1585,128.25,Swim,Burberry Swimwear #1585,Burberry,330.3,Men,SKU-001585,7
+1586,86.57,Blazers & Jackets,Reebok Denim Jackets #1586,Reebok,244.7,Kids,SKU-001586,5
+1587,200.72,Underwear,American Eagle Briefs #1587,American Eagle,533.6,Men,SKU-001587,1
+1588,219.25,Socks,Free People Ankle Socks #1588,Free People,569.81,Women,SKU-001588,4
+1589,65.74,Accessories,J.Crew Sunglasses #1589,J.Crew,168.19,Women,SKU-001589,7
+1590,112.4,Shirts & Tops,Prada Polo Shirts #1590,Prada,303.36,Kids,SKU-001590,5
+1591,136.09,Accessories,UNIQLO Belts #1591,UNIQLO,330.59,Men,SKU-001591,9
+1592,24.49,Intimates,Forever 21 Lingerie #1592,Forever 21,46.58,Men,SKU-001592,7
+1593,239.23,Suits,Under Armour Business Suits #1593,Under Armour,692.83,Men,SKU-001593,3
+1594,87.77,Swim,Abercrombie Cover Ups #1594,Abercrombie,198.11,Men,SKU-001594,6
+1595,99.44,Skirts,Calvin Klein Midi Skirts #1595,Calvin Klein,283.87,Kids,SKU-001595,7
+1596,190.06,Outerwear & Coats,New Balance Vests #1596,New Balance,397.68,Kids,SKU-001596,10
+1597,56.65,Accessories,Anthropologie Belts #1597,Anthropologie,106.58,Women,SKU-001597,5
+1598,125.56,Dresses,Adidas Mini Dresses #1598,Adidas,357.77,Women,SKU-001598,10
+1599,79.05,Fashion Hoodies & Sweatshirts,Anthropologie Hoodies #1599,Anthropologie,201.73,Women,SKU-001599,10
+1600,229.28,Outerwear & Coats,J.Crew Coats #1600,J.Crew,442.4,Women,SKU-001600,4
+1601,209.21,Outerwear & Coats,American Eagle Coats #1601,American Eagle,543.2,Men,SKU-001601,4
+1602,90.02,Shorts,Banana Republic Athletic Shorts #1602,Banana Republic,162.9,Kids,SKU-001602,3
+1603,157.15,Underwear,Columbia Boxers #1603,Columbia,419.08,Kids,SKU-001603,1
+1604,8.55,Pants & Capris,Forever 21 Chinos #1604,Forever 21,18.81,Men,SKU-001604,8
+1605,222.78,Footwear,Wrangler Sneakers #1605,Wrangler,416.4,Kids,SKU-001605,8
+1606,231.68,Tops & Tees,North Face Crop Tops #1606,North Face,443.24,Women,SKU-001606,4
+1607,53.09,Underwear,New Balance Boxers #1607,New Balance,168.62,Women,SKU-001607,10
+1608,63.69,Skirts,Ralph Lauren A-Line Skirts #1608,Ralph Lauren,189.56,Kids,SKU-001608,7
+1609,139.46,Fashion Hoodies & Sweatshirts,Zara Hoodies #1609,Zara,385.3,Women,SKU-001609,4
+1610,229.87,Socks,Abercrombie Crew Socks #1610,Abercrombie,654.99,Women,SKU-001610,4
+1611,235.82,Jeans,Ralph Lauren Skinny Jeans #1611,Ralph Lauren,518.19,Kids,SKU-001611,7
+1612,222.74,Pants & Capris,Anthropologie Leggings #1612,Anthropologie,532.09,Men,SKU-001612,6
+1613,163.08,Fashion Hoodies & Sweatshirts,Reebok Hoodies #1613,Reebok,296.21,Women,SKU-001613,10
+1614,200.69,Underwear,Wrangler Briefs #1614,Wrangler,612.36,Women,SKU-001614,10
+1615,20.56,Dresses,Free People Mini Dresses #1615,Free People,54.87,Women,SKU-001615,9
+1616,133.04,Sleep & Lounge,Banana Republic Robes #1616,Banana Republic,347.67,Kids,SKU-001616,3
+1617,248.95,Swim,Free People Swimwear #1617,Free People,643.13,Women,SKU-001617,9
+1618,61.27,Pants & Capris,Puma Jeans #1618,Puma,172.67,Women,SKU-001618,3
+1619,132.11,Shorts,J.Crew Athletic Shorts #1619,J.Crew,385.93,Men,SKU-001619,2
+1620,6.44,Underwear,Tommy Hilfiger Briefs #1620,Tommy Hilfiger,20.13,Women,SKU-001620,4
+1621,88.13,Tops & Tees,Tommy Hilfiger Tank Tops #1621,Tommy Hilfiger,218.57,Women,SKU-001621,3
+1622,127.79,Footwear,Zara Sandals #1622,Zara,328.23,Men,SKU-001622,8
+1623,148.02,Shorts,Levi's Bermuda Shorts #1623,Levi's,371.48,Women,SKU-001623,4
+1624,96.68,Pants & Capris,Patagonia Jeans #1624,Patagonia,297.57,Women,SKU-001624,10
+1625,63.81,Pants & Capris,Ralph Lauren Jeans #1625,Ralph Lauren,167.81,Kids,SKU-001625,10
+1626,11.9,Dresses,Ralph Lauren Mini Dresses #1626,Ralph Lauren,33.87,Women,SKU-001626,3
+1627,83.9,Tops & Tees,Prada Blouses #1627,Prada,231.7,Women,SKU-001627,4
+1628,191.83,Shirts & Tops,Free People T-Shirts #1628,Free People,459.11,Men,SKU-001628,9
+1629,236.74,Tops & Tees,Anthropologie Tank Tops #1629,Anthropologie,581.43,Women,SKU-001629,8
+1630,154.69,Skirts,Free People A-Line Skirts #1630,Free People,297.37,Kids,SKU-001630,8
+1631,176.97,Skirts,New Balance A-Line Skirts #1631,New Balance,458.04,Men,SKU-001631,7
+1632,193.26,Accessories,Ralph Lauren Bags #1632,Ralph Lauren,481.1,Women,SKU-001632,9
+1633,241.65,Pants & Capris,Zara Jeans #1633,Zara,539.37,Kids,SKU-001633,1
+1634,89.3,Intimates,J.Crew Lingerie #1634,J.Crew,234.79,Women,SKU-001634,3
+1635,28.69,Outerwear & Coats,Versace Jackets #1635,Versace,70.87,Men,SKU-001635,9
+1636,83.4,Dresses,Anthropologie Maxi Dresses #1636,Anthropologie,167.87,Women,SKU-001636,9
+1637,154.18,Leggings,Adidas Workout Leggings #1637,Adidas,367.44,Men,SKU-001637,1
+1638,10.89,Active,Burberry Athletic Shorts #1638,Burberry,32.46,Kids,SKU-001638,9
+1639,186.43,Tops & Tees,North Face Crop Tops #1639,North Face,507.36,Kids,SKU-001639,2
+1640,35.81,Shorts,Free People Bermuda Shorts #1640,Free People,66.95,Men,SKU-001640,5
+1641,222.98,Shorts,Abercrombie Bermuda Shorts #1641,Abercrombie,660.08,Women,SKU-001641,9
+1642,99.7,Fashion Hoodies & Sweatshirts,Gucci Crewneck Sweatshirts #1642,Gucci,201.94,Women,SKU-001642,9
+1643,61.53,Footwear,H&M Sandals #1643,H&M,127.29,Women,SKU-001643,9
+1644,19.6,Swim,Wrangler Swimwear #1644,Wrangler,48.46,Women,SKU-001644,8
+1645,207.22,Intimates,Levi's Bras & Bralettes #1645,Levi's,465.15,Women,SKU-001645,3
+1646,111.98,Outerwear & Coats,Hollister Coats #1646,Hollister,275.0,Women,SKU-001646,2
+1647,224.0,Active,Anthropologie Athletic Shorts #1647,Anthropologie,697.6,Women,SKU-001647,9
+1648,213.96,Outerwear & Coats,Reebok Jackets #1648,Reebok,464.17,Men,SKU-001648,7
+1649,210.61,Shirts & Tops,Calvin Klein Casual Shirts #1649,Calvin Klein,443.92,Men,SKU-001649,5
+1650,177.79,Sleep & Lounge,Banana Republic Pajamas #1650,Banana Republic,462.48,Kids,SKU-001650,5
+1651,183.65,Active,Gucci Yoga Pants #1651,Gucci,497.94,Men,SKU-001651,5
+1652,71.7,Socks,Calvin Klein Crew Socks #1652,Calvin Klein,130.67,Women,SKU-001652,1
+1653,93.28,Suits,Reebok Business Suits #1653,Reebok,234.96,Women,SKU-001653,6
+1654,35.73,Socks,Nike Ankle Socks #1654,Nike,71.92,Men,SKU-001654,9
+1655,241.45,Swim,Patagonia Cover Ups #1655,Patagonia,655.93,Women,SKU-001655,5
+1656,63.36,Socks,Free People Ankle Socks #1656,Free People,120.01,Women,SKU-001656,10
+1657,186.57,Outerwear & Coats,Reebok Vests #1657,Reebok,559.44,Men,SKU-001657,6
+1658,19.53,Jeans,Gucci Bootcut Jeans #1658,Gucci,39.43,Kids,SKU-001658,3
+1659,96.68,Intimates,New Balance Lingerie #1659,New Balance,247.65,Women,SKU-001659,5
+1660,95.55,Shorts,Under Armour Bermuda Shorts #1660,Under Armour,200.4,Kids,SKU-001660,3
+1661,138.81,Footwear,Gucci Flats #1661,Gucci,382.64,Women,SKU-001661,10
+1662,159.21,Shirts & Tops,Burberry Casual Shirts #1662,Burberry,296.52,Women,SKU-001662,5
+1663,232.61,Swim,Columbia Cover Ups #1663,Columbia,508.1,Kids,SKU-001663,1
+1664,201.39,Blazers & Jackets,Hollister Denim Jackets #1664,Hollister,546.34,Women,SKU-001664,1
+1665,182.67,Shirts & Tops,Nike Polo Shirts #1665,Nike,516.15,Kids,SKU-001665,2
+1666,182.93,Blazers & Jackets,Ralph Lauren Blazers #1666,Ralph Lauren,439.5,Kids,SKU-001666,3
+1667,164.38,Shirts & Tops,Prada Casual Shirts #1667,Prada,351.36,Women,SKU-001667,10
+1668,126.11,Blazers & Jackets,Forever 21 Denim Jackets #1668,Forever 21,284.79,Women,SKU-001668,9
+1669,234.15,Jeans,Hollister Skinny Jeans #1669,Hollister,473.45,Women,SKU-001669,1
+1670,145.6,Swim,Levi's Swimwear #1670,Levi's,362.78,Men,SKU-001670,6
+1671,89.2,Fashion Hoodies & Sweatshirts,New Balance Hoodies #1671,New Balance,240.36,Women,SKU-001671,3
+1672,70.5,Accessories,Puma Jewelry #1672,Puma,223.25,Kids,SKU-001672,9
+1673,124.63,Sleep & Lounge,Prada Robes #1673,Prada,347.05,Kids,SKU-001673,5
+1674,158.93,Accessories,Prada Belts #1674,Prada,494.59,Women,SKU-001674,1
+1675,32.08,Dresses,Ralph Lauren Maxi Dresses #1675,Ralph Lauren,71.29,Women,SKU-001675,3
+1676,181.88,Fashion Hoodies & Sweatshirts,Zara Crewneck Sweatshirts #1676,Zara,566.75,Men,SKU-001676,5
+1677,149.91,Tops & Tees,Under Armour Tank Tops #1677,Under Armour,309.07,Kids,SKU-001677,10
+1678,213.54,Skirts,Hollister A-Line Skirts #1678,Hollister,569.03,Kids,SKU-001678,3
+1679,209.77,Intimates,Prada Underwear #1679,Prada,612.76,Women,SKU-001679,8
+1680,217.53,Intimates,Abercrombie Underwear #1680,Abercrombie,449.03,Men,SKU-001680,4
+1681,157.76,Intimates,Calvin Klein Underwear #1681,Calvin Klein,406.6,Men,SKU-001681,6
+1682,131.54,Sleep & Lounge,Banana Republic Pajamas #1682,Banana Republic,290.68,Men,SKU-001682,4
+1683,32.29,Socks,Free People Ankle Socks #1683,Free People,70.02,Women,SKU-001683,1
+1684,245.18,Accessories,Nike Jewelry #1684,Nike,458.71,Women,SKU-001684,2
+1685,22.21,Intimates,Patagonia Bras & Bralettes #1685,Patagonia,59.97,Women,SKU-001685,1
+1686,119.71,Shorts,Prada Athletic Shorts #1686,Prada,348.32,Kids,SKU-001686,3
+1687,66.83,Pants & Capris,Free People Shorts #1687,Free People,148.89,Women,SKU-001687,5
+1688,78.78,Socks,Gucci Crew Socks #1688,Gucci,170.56,Women,SKU-001688,8
+1689,41.22,Suits,Nike Blazers #1689,Nike,87.42,Kids,SKU-001689,3
+1690,24.64,Leggings,Free People Workout Leggings #1690,Free People,77.04,Men,SKU-001690,2
+1691,136.17,Sleep & Lounge,Wrangler Robes #1691,Wrangler,392.48,Kids,SKU-001691,8
+1692,34.9,Socks,Free People Crew Socks #1692,Free People,81.43,Men,SKU-001692,6
+1693,79.84,Suits,Levi's Blazers #1693,Levi's,234.78,Kids,SKU-001693,7
+1694,113.76,Outerwear & Coats,Banana Republic Vests #1694,Banana Republic,213.14,Kids,SKU-001694,3
+1695,189.26,Outerwear & Coats,Calvin Klein Vests #1695,Calvin Klein,468.24,Women,SKU-001695,5
+1696,121.84,Underwear,Calvin Klein Briefs #1696,Calvin Klein,337.76,Women,SKU-001696,1
+1697,139.66,Dresses,Prada Maxi Dresses #1697,Prada,372.04,Men,SKU-001697,5
+1698,45.55,Active,Free People Yoga Pants #1698,Free People,127.98,Women,SKU-001698,4
+1699,128.57,Shirts & Tops,Reebok T-Shirts #1699,Reebok,348.01,Women,SKU-001699,9
+1700,197.83,Intimates,J.Crew Underwear #1700,J.Crew,426.21,Kids,SKU-001700,9
+1701,124.58,Leggings,Puma Workout Leggings #1701,Puma,359.27,Women,SKU-001701,5
+1702,68.51,Sleep & Lounge,Columbia Pajamas #1702,Columbia,150.18,Kids,SKU-001702,2
+1703,207.56,Fashion Hoodies & Sweatshirts,J.Crew Hoodies #1703,J.Crew,415.52,Women,SKU-001703,1
+1704,181.96,Skirts,Anthropologie Mini Skirts #1704,Anthropologie,574.52,Women,SKU-001704,2
+1705,112.27,Socks,Prada Crew Socks #1705,Prada,327.25,Men,SKU-001705,4
+1706,83.91,Shorts,Gap Bermuda Shorts #1706,Gap,239.72,Men,SKU-001706,7
+1707,34.32,Outerwear & Coats,North Face Coats #1707,North Face,74.52,Kids,SKU-001707,6
+1708,248.67,Blazers & Jackets,Wrangler Denim Jackets #1708,Wrangler,467.28,Women,SKU-001708,8
+1709,163.16,Footwear,Levi's Boots #1709,Levi's,519.28,Kids,SKU-001709,4
+1710,38.47,Underwear,Burberry Briefs #1710,Burberry,103.4,Men,SKU-001710,2
+1711,130.56,Footwear,Columbia Sneakers #1711,Columbia,389.22,Women,SKU-001711,3
+1712,115.89,Blazers & Jackets,Gucci Denim Jackets #1712,Gucci,269.14,Kids,SKU-001712,6
+1713,124.52,Sleep & Lounge,Prada Pajamas #1713,Prada,375.92,Women,SKU-001713,4
+1714,212.48,Shorts,Burberry Bermuda Shorts #1714,Burberry,442.32,Men,SKU-001714,4
+1715,76.54,Shorts,Gap Bermuda Shorts #1715,Gap,163.91,Women,SKU-001715,8
+1716,134.96,Swim,Patagonia Swimwear #1716,Patagonia,395.17,Men,SKU-001716,5
+1717,58.15,Dresses,Free People Formal Dresses #1717,Free People,124.19,Men,SKU-001717,1
+1718,83.35,Dresses,Prada Maxi Dresses #1718,Prada,266.42,Kids,SKU-001718,5
+1719,152.78,Shorts,Wrangler Athletic Shorts #1719,Wrangler,359.66,Men,SKU-001719,8
+1720,103.01,Socks,Levi's Ankle Socks #1720,Levi's,260.45,Women,SKU-001720,5
+1721,150.08,Swim,Free People Swimwear #1721,Free People,439.23,Kids,SKU-001721,1
+1722,148.36,Underwear,American Eagle Boxers #1722,American Eagle,322.41,Kids,SKU-001722,10
+1723,234.57,Jeans,Puma Straight Jeans #1723,Puma,541.71,Kids,SKU-001723,10
+1724,186.76,Suits,Gap Blazers #1724,Gap,412.27,Women,SKU-001724,7
+1725,238.93,Accessories,Under Armour Sunglasses #1725,Under Armour,610.23,Women,SKU-001725,3
+1726,27.01,Skirts,Puma A-Line Skirts #1726,Puma,64.92,Women,SKU-001726,10
+1727,58.6,Pants & Capris,Versace Shorts #1727,Versace,170.46,Men,SKU-001727,2
+1728,247.06,Blazers & Jackets,American Eagle Leather Jackets #1728,American Eagle,648.68,Men,SKU-001728,2
+1729,185.57,Tops & Tees,Puma Tank Tops #1729,Puma,340.29,Men,SKU-001729,5
+1730,243.7,Suits,Anthropologie Business Suits #1730,Anthropologie,589.61,Women,SKU-001730,7
+1731,175.52,Sleep & Lounge,Patagonia Robes #1731,Patagonia,349.76,Women,SKU-001731,7
+1732,105.3,Accessories,Calvin Klein Hats #1732,Calvin Klein,323.03,Kids,SKU-001732,7
+1733,149.43,Socks,Adidas Crew Socks #1733,Adidas,467.3,Men,SKU-001733,3
+1734,193.98,Outerwear & Coats,Forever 21 Vests #1734,Forever 21,546.7,Kids,SKU-001734,10
+1735,189.92,Pants & Capris,Reebok Shorts #1735,Reebok,518.49,Men,SKU-001735,6
+1736,23.19,Skirts,Patagonia Mini Skirts #1736,Patagonia,58.09,Women,SKU-001736,8
+1737,39.78,Fashion Hoodies & Sweatshirts,J.Crew Hoodies #1737,J.Crew,107.4,Men,SKU-001737,10
+1738,85.45,Leggings,Under Armour Casual Leggings #1738,Under Armour,234.23,Women,SKU-001738,1
+1739,158.04,Active,Hollister Yoga Pants #1739,Hollister,331.42,Kids,SKU-001739,5
+1740,14.03,Skirts,Gucci A-Line Skirts #1740,Gucci,31.03,Women,SKU-001740,10
+1741,191.94,Footwear,American Eagle Flats #1741,American Eagle,504.67,Kids,SKU-001741,10
+1742,29.3,Socks,American Eagle Ankle Socks #1742,American Eagle,87.82,Kids,SKU-001742,3
+1743,145.49,Underwear,New Balance Boxers #1743,New Balance,440.95,Men,SKU-001743,10
+1744,61.92,Jeans,Anthropologie Bootcut Jeans #1744,Anthropologie,181.38,Men,SKU-001744,7
+1745,61.51,Shorts,Abercrombie Athletic Shorts #1745,Abercrombie,143.02,Men,SKU-001745,4
+1746,103.74,Active,Puma Sports Bras #1746,Puma,189.41,Women,SKU-001746,8
+1747,7.22,Active,Nike Athletic Shorts #1747,Nike,18.65,Men,SKU-001747,2
+1748,145.56,Outerwear & Coats,Calvin Klein Vests #1748,Calvin Klein,281.92,Kids,SKU-001748,8
+1749,163.19,Suits,Hollister Business Suits #1749,Hollister,294.76,Kids,SKU-001749,8
+1750,213.86,Underwear,Puma Boxers #1750,Puma,660.38,Men,SKU-001750,9
+1751,47.67,Fashion Hoodies & Sweatshirts,H&M Crewneck Sweatshirts #1751,H&M,113.45,Kids,SKU-001751,2
+1752,222.45,Skirts,Tommy Hilfiger Midi Skirts #1752,Tommy Hilfiger,572.4,Women,SKU-001752,1
+1753,46.86,Accessories,Nike Jewelry #1753,Nike,147.59,Women,SKU-001753,5
+1754,243.24,Tops & Tees,Burberry Tank Tops #1754,Burberry,578.55,Women,SKU-001754,2
+1755,102.51,Shorts,New Balance Athletic Shorts #1755,New Balance,327.0,Men,SKU-001755,7
+1756,78.18,Active,Abercrombie Athletic Shorts #1756,Abercrombie,164.63,Women,SKU-001756,9
+1757,48.01,Outerwear & Coats,American Eagle Jackets #1757,American Eagle,152.66,Kids,SKU-001757,9
+1758,179.41,Footwear,Patagonia Sneakers #1758,Patagonia,369.97,Kids,SKU-001758,7
+1759,192.72,Underwear,Under Armour Boxers #1759,Under Armour,502.31,Men,SKU-001759,6
+1760,46.03,Blazers & Jackets,Anthropologie Denim Jackets #1760,Anthropologie,96.37,Men,SKU-001760,6
+1761,172.12,Sleep & Lounge,Adidas Robes #1761,Adidas,524.18,Kids,SKU-001761,8
+1762,78.49,Intimates,Abercrombie Lingerie #1762,Abercrombie,158.24,Men,SKU-001762,10
+1763,173.52,Accessories,Tommy Hilfiger Sunglasses #1763,Tommy Hilfiger,508.25,Men,SKU-001763,10
+1764,206.5,Skirts,Banana Republic Midi Skirts #1764,Banana Republic,632.52,Kids,SKU-001764,2
+1765,105.4,Leggings,Banana Republic Workout Leggings #1765,Banana Republic,196.14,Men,SKU-001765,4
+1766,231.54,Shirts & Tops,Adidas Polo Shirts #1766,Adidas,714.22,Women,SKU-001766,10
+1767,235.65,Shorts,Versace Athletic Shorts #1767,Versace,439.5,Men,SKU-001767,3
+1768,230.28,Dresses,Nike Mini Dresses #1768,Nike,636.61,Kids,SKU-001768,7
+1769,45.85,Tops & Tees,Forever 21 Blouses #1769,Forever 21,98.46,Kids,SKU-001769,6
+1770,81.14,Dresses,Nike Mini Dresses #1770,Nike,164.82,Kids,SKU-001770,5
+1771,158.3,Suits,Gap Blazers #1771,Gap,317.71,Kids,SKU-001771,1
+1772,206.0,Dresses,Tommy Hilfiger Maxi Dresses #1772,Tommy Hilfiger,537.21,Kids,SKU-001772,2
+1773,86.66,Pants & Capris,Columbia Chinos #1773,Columbia,198.23,Men,SKU-001773,6
+1774,83.28,Suits,Under Armour Business Suits #1774,Under Armour,233.43,Men,SKU-001774,9
+1775,235.3,Socks,Ralph Lauren Ankle Socks #1775,Ralph Lauren,432.14,Kids,SKU-001775,10
+1776,232.28,Dresses,Levi's Maxi Dresses #1776,Levi's,681.16,Kids,SKU-001776,6
+1777,167.58,Shorts,Adidas Bermuda Shorts #1777,Adidas,346.59,Kids,SKU-001777,2
+1778,104.31,Tops & Tees,Forever 21 Crop Tops #1778,Forever 21,231.48,Women,SKU-001778,3
+1779,157.37,Leggings,Reebok Casual Leggings #1779,Reebok,383.03,Kids,SKU-001779,10
+1780,145.95,Sleep & Lounge,Burberry Pajamas #1780,Burberry,414.29,Kids,SKU-001780,2
+1781,22.51,Fashion Hoodies & Sweatshirts,Calvin Klein Hoodies #1781,Calvin Klein,48.64,Men,SKU-001781,10
+1782,30.61,Swim,H&M Cover Ups #1782,H&M,83.36,Kids,SKU-001782,5
+1783,219.76,Skirts,Patagonia A-Line Skirts #1783,Patagonia,514.02,Women,SKU-001783,9
+1784,137.03,Leggings,Reebok Casual Leggings #1784,Reebok,251.58,Men,SKU-001784,10
+1785,200.02,Shirts & Tops,North Face T-Shirts #1785,North Face,495.55,Men,SKU-001785,1
+1786,187.06,Suits,Wrangler Business Suits #1786,Wrangler,423.88,Kids,SKU-001786,9
+1787,191.36,Underwear,Forever 21 Briefs #1787,Forever 21,601.86,Kids,SKU-001787,10
+1788,144.25,Blazers & Jackets,Adidas Leather Jackets #1788,Adidas,441.82,Women,SKU-001788,8
+1789,217.46,Outerwear & Coats,Reebok Jackets #1789,Reebok,468.39,Women,SKU-001789,2
+1790,227.39,Footwear,Gap Boots #1790,Gap,655.94,Kids,SKU-001790,7
+1791,35.18,Underwear,North Face Briefs #1791,North Face,63.72,Men,SKU-001791,5
+1792,233.28,Accessories,Abercrombie Belts #1792,Abercrombie,430.86,Women,SKU-001792,9
+1793,47.65,Jeans,New Balance Straight Jeans #1793,New Balance,146.34,Men,SKU-001793,4
+1794,133.35,Socks,New Balance Ankle Socks #1794,New Balance,354.94,Men,SKU-001794,5
+1795,112.3,Dresses,Zara Mini Dresses #1795,Zara,246.58,Men,SKU-001795,8
+1796,176.93,Suits,Calvin Klein Blazers #1796,Calvin Klein,339.43,Women,SKU-001796,5
+1797,22.15,Shirts & Tops,Anthropologie Casual Shirts #1797,Anthropologie,68.68,Men,SKU-001797,2
+1798,33.37,Dresses,Calvin Klein Maxi Dresses #1798,Calvin Klein,87.22,Women,SKU-001798,10
+1799,176.57,Accessories,Puma Hats #1799,Puma,562.72,Kids,SKU-001799,8
+1800,160.98,Footwear,Calvin Klein Sneakers #1800,Calvin Klein,335.81,Men,SKU-001800,1
+1801,132.57,Swim,Free People Cover Ups #1801,Free People,288.9,Men,SKU-001801,8
+1802,18.66,Accessories,Forever 21 Sunglasses #1802,Forever 21,48.35,Men,SKU-001802,8
+1803,247.34,Suits,H&M Blazers #1803,H&M,508.25,Women,SKU-001803,4
+1804,201.97,Intimates,Free People Lingerie #1804,Free People,599.18,Women,SKU-001804,1
+1805,128.57,Fashion Hoodies & Sweatshirts,Levi's Hoodies #1805,Levi's,239.49,Kids,SKU-001805,3
+1806,55.69,Accessories,American Eagle Bags #1806,American Eagle,136.47,Women,SKU-001806,5
+1807,249.5,Suits,Forever 21 Business Suits #1807,Forever 21,592.19,Kids,SKU-001807,1
+1808,52.49,Shorts,Patagonia Bermuda Shorts #1808,Patagonia,124.62,Men,SKU-001808,9
+1809,87.07,Blazers & Jackets,American Eagle Blazers #1809,American Eagle,173.57,Men,SKU-001809,6
+1810,172.61,Shirts & Tops,Under Armour Polo Shirts #1810,Under Armour,345.95,Kids,SKU-001810,6
+1811,181.57,Suits,Puma Blazers #1811,Puma,357.19,Kids,SKU-001811,1
+1812,53.07,Accessories,Reebok Sunglasses #1812,Reebok,149.75,Men,SKU-001812,5
+1813,195.65,Fashion Hoodies & Sweatshirts,Abercrombie Crewneck Sweatshirts #1813,Abercrombie,451.21,Men,SKU-001813,7
+1814,248.09,Shirts & Tops,Reebok T-Shirts #1814,Reebok,771.12,Women,SKU-001814,10
+1815,221.3,Active,Hollister Athletic Shorts #1815,Hollister,431.0,Women,SKU-001815,10
+1816,214.88,Suits,Zara Business Suits #1816,Zara,487.32,Men,SKU-001816,7
+1817,189.83,Shorts,Patagonia Athletic Shorts #1817,Patagonia,397.76,Men,SKU-001817,2
+1818,159.81,Shirts & Tops,Patagonia T-Shirts #1818,Patagonia,440.84,Women,SKU-001818,9
+1819,213.52,Pants & Capris,Tommy Hilfiger Jeans #1819,Tommy Hilfiger,549.03,Women,SKU-001819,6
+1820,103.09,Dresses,Under Armour Maxi Dresses #1820,Under Armour,284.99,Kids,SKU-001820,6
+1821,84.27,Tops & Tees,Adidas Tank Tops #1821,Adidas,182.5,Kids,SKU-001821,9
+1822,17.32,Suits,Versace Business Suits #1822,Versace,37.0,Kids,SKU-001822,9
+1823,209.01,Shorts,Patagonia Athletic Shorts #1823,Patagonia,629.71,Kids,SKU-001823,5
+1824,40.79,Footwear,Versace Sneakers #1824,Versace,95.59,Women,SKU-001824,1
+1825,16.88,Sleep & Lounge,Patagonia Robes #1825,Patagonia,46.44,Men,SKU-001825,3
+1826,156.29,Shirts & Tops,Reebok Polo Shirts #1826,Reebok,322.31,Kids,SKU-001826,1
+1827,17.51,Shorts,Puma Athletic Shorts #1827,Puma,54.94,Women,SKU-001827,9
+1828,44.88,Pants & Capris,Calvin Klein Leggings #1828,Calvin Klein,117.22,Women,SKU-001828,4
+1829,114.96,Outerwear & Coats,Hollister Coats #1829,Hollister,262.56,Men,SKU-001829,10
+1830,137.48,Shorts,Prada Bermuda Shorts #1830,Prada,266.93,Women,SKU-001830,3
+1831,197.92,Blazers & Jackets,North Face Leather Jackets #1831,North Face,396.0,Women,SKU-001831,4
+1832,132.42,Socks,Banana Republic Crew Socks #1832,Banana Republic,342.28,Men,SKU-001832,5
+1833,108.5,Intimates,American Eagle Underwear #1833,American Eagle,269.16,Women,SKU-001833,3
+1834,207.57,Accessories,Levi's Bags #1834,Levi's,399.29,Kids,SKU-001834,6
+1835,163.52,Tops & Tees,Tommy Hilfiger Crop Tops #1835,Tommy Hilfiger,412.07,Men,SKU-001835,6
+1836,190.34,Intimates,Wrangler Bras & Bralettes #1836,Wrangler,528.65,Men,SKU-001836,1
+1837,27.93,Pants & Capris,Abercrombie Shorts #1837,Abercrombie,50.41,Kids,SKU-001837,2
+1838,147.24,Socks,Puma Ankle Socks #1838,Puma,418.35,Kids,SKU-001838,4
+1839,87.04,Intimates,North Face Lingerie #1839,North Face,168.29,Kids,SKU-001839,5
+1840,216.98,Jeans,Under Armour Skinny Jeans #1840,Under Armour,442.79,Women,SKU-001840,5
+1841,235.49,Swim,North Face Swimwear #1841,North Face,683.9,Women,SKU-001841,1
+1842,30.14,Tops & Tees,Free People Tank Tops #1842,Free People,57.43,Women,SKU-001842,9
+1843,221.65,Suits,Banana Republic Blazers #1843,Banana Republic,462.66,Kids,SKU-001843,5
+1844,87.59,Outerwear & Coats,Zara Coats #1844,Zara,258.73,Men,SKU-001844,2
+1845,63.51,Dresses,Nike Formal Dresses #1845,Nike,195.43,Men,SKU-001845,9
+1846,109.83,Skirts,UNIQLO A-Line Skirts #1846,UNIQLO,265.14,Men,SKU-001846,7
+1847,241.93,Tops & Tees,Anthropologie Tank Tops #1847,Anthropologie,711.88,Kids,SKU-001847,4
+1848,13.52,Jeans,Forever 21 Skinny Jeans #1848,Forever 21,29.68,Women,SKU-001848,2
+1849,51.7,Skirts,Abercrombie A-Line Skirts #1849,Abercrombie,157.04,Men,SKU-001849,10
+1850,120.67,Underwear,Banana Republic Boxers #1850,Banana Republic,384.28,Kids,SKU-001850,1
+1851,232.37,Pants & Capris,Versace Leggings #1851,Versace,571.04,Women,SKU-001851,1
+1852,223.05,Dresses,Banana Republic Maxi Dresses #1852,Banana Republic,441.9,Women,SKU-001852,7
+1853,26.84,Blazers & Jackets,American Eagle Leather Jackets #1853,American Eagle,84.72,Women,SKU-001853,7
+1854,129.5,Footwear,Gucci Boots #1854,Gucci,326.88,Women,SKU-001854,3
+1855,159.93,Socks,American Eagle Crew Socks #1855,American Eagle,427.64,Men,SKU-001855,10
+1856,243.75,Skirts,J.Crew A-Line Skirts #1856,J.Crew,667.87,Men,SKU-001856,8
+1857,43.46,Outerwear & Coats,Calvin Klein Jackets #1857,Calvin Klein,130.85,Men,SKU-001857,10
+1858,26.25,Dresses,Gap Formal Dresses #1858,Gap,55.72,Kids,SKU-001858,5
+1859,103.71,Intimates,Zara Underwear #1859,Zara,275.88,Kids,SKU-001859,5
+1860,149.18,Jeans,Prada Skinny Jeans #1860,Prada,458.83,Men,SKU-001860,8
+1861,181.75,Footwear,Nike Sandals #1861,Nike,430.63,Men,SKU-001861,6
+1862,227.08,Leggings,Versace Workout Leggings #1862,Versace,690.09,Women,SKU-001862,10
+1863,159.01,Shirts & Tops,Tommy Hilfiger T-Shirts #1863,Tommy Hilfiger,402.5,Women,SKU-001863,2
+1864,50.42,Accessories,New Balance Hats #1864,New Balance,151.79,Women,SKU-001864,3
+1865,111.78,Pants & Capris,Tommy Hilfiger Shorts #1865,Tommy Hilfiger,248.11,Men,SKU-001865,5
+1866,31.6,Swim,Levi's Cover Ups #1866,Levi's,63.36,Men,SKU-001866,7
+1867,22.23,Suits,Levi's Blazers #1867,Levi's,52.31,Men,SKU-001867,5
+1868,220.27,Jeans,Calvin Klein Straight Jeans #1868,Calvin Klein,404.83,Women,SKU-001868,3
+1869,223.83,Tops & Tees,Anthropologie Tank Tops #1869,Anthropologie,707.42,Men,SKU-001869,1
+1870,210.89,Active,Forever 21 Yoga Pants #1870,Forever 21,561.69,Women,SKU-001870,8
+1871,122.05,Leggings,Under Armour Workout Leggings #1871,Under Armour,284.59,Men,SKU-001871,10
+1872,122.97,Socks,Puma Ankle Socks #1872,Puma,357.03,Kids,SKU-001872,5
+1873,129.94,Dresses,Gap Maxi Dresses #1873,Gap,376.26,Men,SKU-001873,2
+1874,161.91,Dresses,Wrangler Formal Dresses #1874,Wrangler,466.06,Men,SKU-001874,2
+1875,243.92,Accessories,Levi's Jewelry #1875,Levi's,493.51,Men,SKU-001875,10
+1876,143.97,Underwear,Under Armour Briefs #1876,Under Armour,429.23,Kids,SKU-001876,9
+1877,104.73,Pants & Capris,Banana Republic Leggings #1877,Banana Republic,269.37,Women,SKU-001877,3
+1878,182.22,Blazers & Jackets,Versace Denim Jackets #1878,Versace,403.07,Women,SKU-001878,1
+1879,40.08,Fashion Hoodies & Sweatshirts,Puma Crewneck Sweatshirts #1879,Puma,116.54,Women,SKU-001879,7
+1880,12.4,Leggings,Reebok Casual Leggings #1880,Reebok,37.09,Women,SKU-001880,5
+1881,229.42,Blazers & Jackets,Versace Blazers #1881,Versace,610.7,Men,SKU-001881,9
+1882,11.28,Skirts,Zara Midi Skirts #1882,Zara,24.45,Women,SKU-001882,6
+1883,123.46,Accessories,Nike Jewelry #1883,Nike,295.01,Kids,SKU-001883,5
+1884,107.98,Blazers & Jackets,Nike Denim Jackets #1884,Nike,282.23,Women,SKU-001884,3
+1885,63.65,Intimates,Levi's Lingerie #1885,Levi's,148.46,Kids,SKU-001885,8
+1886,170.03,Intimates,Prada Underwear #1886,Prada,323.23,Women,SKU-001886,8
+1887,38.71,Fashion Hoodies & Sweatshirts,Versace Crewneck Sweatshirts #1887,Versace,80.61,Kids,SKU-001887,5
+1888,44.86,Socks,North Face Ankle Socks #1888,North Face,142.41,Women,SKU-001888,5
+1889,204.02,Active,Hollister Yoga Pants #1889,Hollister,429.8,Kids,SKU-001889,9
+1890,38.8,Active,Free People Yoga Pants #1890,Free People,114.22,Men,SKU-001890,1
+1891,207.78,Suits,Adidas Business Suits #1891,Adidas,603.5,Men,SKU-001891,1
+1892,8.11,Jeans,Versace Bootcut Jeans #1892,Versace,20.91,Men,SKU-001892,1
+1893,162.12,Sleep & Lounge,Columbia Robes #1893,Columbia,339.74,Women,SKU-001893,9
+1894,130.29,Pants & Capris,Reebok Leggings #1894,Reebok,264.27,Kids,SKU-001894,6
+1895,31.29,Shorts,Gap Bermuda Shorts #1895,Gap,80.1,Women,SKU-001895,7
+1896,44.37,Jeans,Abercrombie Bootcut Jeans #1896,Abercrombie,113.35,Women,SKU-001896,3
+1897,128.94,Leggings,Tommy Hilfiger Workout Leggings #1897,Tommy Hilfiger,303.19,Kids,SKU-001897,6
+1898,213.89,Skirts,Columbia A-Line Skirts #1898,Columbia,632.53,Kids,SKU-001898,8
+1899,247.83,Fashion Hoodies & Sweatshirts,American Eagle Hoodies #1899,American Eagle,680.55,Men,SKU-001899,9
+1900,186.39,Outerwear & Coats,Hollister Coats #1900,Hollister,353.49,Women,SKU-001900,4
+1901,100.21,Fashion Hoodies & Sweatshirts,Calvin Klein Hoodies #1901,Calvin Klein,270.07,Men,SKU-001901,5
+1902,119.25,Tops & Tees,Forever 21 Crop Tops #1902,Forever 21,261.73,Men,SKU-001902,1
+1903,110.4,Socks,North Face Ankle Socks #1903,North Face,344.45,Women,SKU-001903,9
+1904,111.39,Footwear,Hollister Sandals #1904,Hollister,351.44,Men,SKU-001904,2
+1905,102.74,Shirts & Tops,Free People Casual Shirts #1905,Free People,277.73,Men,SKU-001905,7
+1906,169.58,Intimates,Versace Lingerie #1906,Versace,393.1,Men,SKU-001906,9
+1907,191.79,Shorts,Burberry Athletic Shorts #1907,Burberry,541.78,Women,SKU-001907,2
+1908,98.31,Shorts,Wrangler Bermuda Shorts #1908,Wrangler,190.16,Kids,SKU-001908,5
+1909,76.63,Shorts,Nike Bermuda Shorts #1909,Nike,196.0,Men,SKU-001909,1
+1910,184.02,Accessories,Patagonia Sunglasses #1910,Patagonia,511.54,Men,SKU-001910,8
+1911,224.93,Outerwear & Coats,H&M Jackets #1911,H&M,539.45,Kids,SKU-001911,10
+1912,199.8,Tops & Tees,Abercrombie Tank Tops #1912,Abercrombie,584.9,Men,SKU-001912,2
+1913,164.84,Shorts,UNIQLO Athletic Shorts #1913,UNIQLO,369.25,Men,SKU-001913,10
+1914,108.81,Fashion Hoodies & Sweatshirts,Forever 21 Crewneck Sweatshirts #1914,Forever 21,240.92,Kids,SKU-001914,5
+1915,221.27,Socks,Wrangler Crew Socks #1915,Wrangler,483.05,Men,SKU-001915,5
+1916,91.65,Active,Anthropologie Athletic Shorts #1916,Anthropologie,209.53,Kids,SKU-001916,8
+1917,88.87,Outerwear & Coats,UNIQLO Vests #1917,UNIQLO,212.74,Women,SKU-001917,8
+1918,134.71,Sleep & Lounge,North Face Robes #1918,North Face,307.31,Women,SKU-001918,7
+1919,35.65,Pants & Capris,North Face Chinos #1919,North Face,103.59,Women,SKU-001919,4
+1920,57.83,Dresses,UNIQLO Maxi Dresses #1920,UNIQLO,176.56,Men,SKU-001920,7
+1921,127.34,Underwear,American Eagle Briefs #1921,American Eagle,402.5,Kids,SKU-001921,10
+1922,171.55,Blazers & Jackets,Reebok Denim Jackets #1922,Reebok,400.87,Men,SKU-001922,10
+1923,31.8,Skirts,UNIQLO Midi Skirts #1923,UNIQLO,92.42,Men,SKU-001923,2
+1924,14.55,Shorts,Calvin Klein Athletic Shorts #1924,Calvin Klein,35.0,Men,SKU-001924,10
+1925,210.35,Underwear,American Eagle Briefs #1925,American Eagle,412.05,Kids,SKU-001925,8
+1926,206.15,Suits,Forever 21 Blazers #1926,Forever 21,387.94,Men,SKU-001926,1
+1927,29.82,Accessories,Adidas Bags #1927,Adidas,69.66,Kids,SKU-001927,3
+1928,240.54,Skirts,Burberry A-Line Skirts #1928,Burberry,743.96,Kids,SKU-001928,3
+1929,57.6,Blazers & Jackets,Banana Republic Leather Jackets #1929,Banana Republic,168.97,Women,SKU-001929,3
+1930,20.96,Jeans,Puma Skinny Jeans #1930,Puma,49.85,Women,SKU-001930,9
+1931,147.49,Dresses,Forever 21 Maxi Dresses #1931,Forever 21,460.76,Men,SKU-001931,3
+1932,141.3,Swim,Burberry Swimwear #1932,Burberry,376.03,Men,SKU-001932,3
+1933,241.44,Skirts,H&M Midi Skirts #1933,H&M,632.29,Men,SKU-001933,5
+1934,156.57,Blazers & Jackets,Zara Blazers #1934,Zara,489.39,Women,SKU-001934,4
+1935,76.7,Sleep & Lounge,Wrangler Robes #1935,Wrangler,232.39,Men,SKU-001935,7
+1936,173.03,Footwear,Nike Flats #1936,Nike,396.53,Men,SKU-001936,1
+1937,101.36,Skirts,Banana Republic A-Line Skirts #1937,Banana Republic,312.08,Kids,SKU-001937,9
+1938,68.79,Suits,Adidas Business Suits #1938,Adidas,159.89,Women,SKU-001938,9
+1939,156.55,Jeans,UNIQLO Bootcut Jeans #1939,UNIQLO,314.67,Men,SKU-001939,3
+1940,232.08,Swim,American Eagle Swimwear #1940,American Eagle,530.31,Men,SKU-001940,10
+1941,33.26,Shorts,Ralph Lauren Athletic Shorts #1941,Ralph Lauren,72.54,Kids,SKU-001941,1
+1942,236.61,Pants & Capris,Forever 21 Jeans #1942,Forever 21,426.32,Men,SKU-001942,7
+1943,21.58,Fashion Hoodies & Sweatshirts,UNIQLO Crewneck Sweatshirts #1943,UNIQLO,53.94,Women,SKU-001943,5
+1944,162.29,Skirts,Reebok Midi Skirts #1944,Reebok,298.38,Men,SKU-001944,9
+1945,39.71,Shirts & Tops,Patagonia Casual Shirts #1945,Patagonia,75.96,Men,SKU-001945,7
+1946,14.98,Shorts,Levi's Bermuda Shorts #1946,Levi's,35.13,Women,SKU-001946,6
+1947,202.6,Leggings,Anthropologie Workout Leggings #1947,Anthropologie,535.96,Men,SKU-001947,9
+1948,159.9,Intimates,J.Crew Lingerie #1948,J.Crew,309.32,Kids,SKU-001948,7
+1949,29.93,Active,Abercrombie Yoga Pants #1949,Abercrombie,63.29,Kids,SKU-001949,7
+1950,240.05,Dresses,American Eagle Mini Dresses #1950,American Eagle,721.08,Women,SKU-001950,1
+1951,172.79,Fashion Hoodies & Sweatshirts,UNIQLO Crewneck Sweatshirts #1951,UNIQLO,344.74,Women,SKU-001951,4
+1952,11.0,Intimates,Banana Republic Lingerie #1952,Banana Republic,28.59,Men,SKU-001952,7
+1953,52.57,Socks,Puma Ankle Socks #1953,Puma,116.31,Kids,SKU-001953,9
+1954,190.52,Pants & Capris,Versace Leggings #1954,Versace,605.47,Women,SKU-001954,9
+1955,78.99,Accessories,Banana Republic Hats #1955,Banana Republic,251.76,Men,SKU-001955,8
+1956,81.13,Sleep & Lounge,Free People Robes #1956,Free People,178.42,Women,SKU-001956,2
+1957,212.71,Blazers & Jackets,Versace Denim Jackets #1957,Versace,409.48,Men,SKU-001957,10
+1958,46.71,Jeans,Zara Skinny Jeans #1958,Zara,148.0,Women,SKU-001958,10
+1959,33.06,Dresses,Prada Formal Dresses #1959,Prada,90.78,Women,SKU-001959,10
+1960,192.19,Shorts,Zara Athletic Shorts #1960,Zara,382.16,Women,SKU-001960,2
+1961,178.07,Jeans,UNIQLO Straight Jeans #1961,UNIQLO,563.24,Kids,SKU-001961,8
+1962,171.27,Accessories,Wrangler Sunglasses #1962,Wrangler,517.53,Men,SKU-001962,6
+1963,212.03,Pants & Capris,Patagonia Jeans #1963,Patagonia,540.51,Women,SKU-001963,1
+1964,158.54,Underwear,Tommy Hilfiger Boxers #1964,Tommy Hilfiger,304.8,Men,SKU-001964,8
+1965,152.18,Dresses,UNIQLO Formal Dresses #1965,UNIQLO,325.71,Women,SKU-001965,5
+1966,94.58,Accessories,Zara Bags #1966,Zara,178.38,Kids,SKU-001966,6
+1967,24.16,Dresses,Calvin Klein Maxi Dresses #1967,Calvin Klein,62.09,Women,SKU-001967,7
+1968,50.51,Active,Puma Athletic Shorts #1968,Puma,98.52,Women,SKU-001968,9
+1969,176.37,Jeans,J.Crew Straight Jeans #1969,J.Crew,554.68,Women,SKU-001969,9
+1970,235.12,Tops & Tees,Adidas Blouses #1970,Adidas,609.85,Women,SKU-001970,10
+1971,69.82,Underwear,Gap Boxers #1971,Gap,143.09,Women,SKU-001971,5
+1972,186.87,Footwear,Nike Sandals #1972,Nike,449.42,Kids,SKU-001972,2
+1973,174.89,Active,North Face Yoga Pants #1973,North Face,347.68,Women,SKU-001973,10
+1974,72.97,Shorts,Banana Republic Athletic Shorts #1974,Banana Republic,186.55,Kids,SKU-001974,2
+1975,46.16,Fashion Hoodies & Sweatshirts,J.Crew Hoodies #1975,J.Crew,135.02,Kids,SKU-001975,6
+1976,48.25,Sleep & Lounge,Ralph Lauren Pajamas #1976,Ralph Lauren,91.87,Women,SKU-001976,2
+1977,97.47,Shorts,Tommy Hilfiger Bermuda Shorts #1977,Tommy Hilfiger,183.72,Men,SKU-001977,6
+1978,161.42,Pants & Capris,Adidas Chinos #1978,Adidas,415.39,Kids,SKU-001978,2
+1979,126.13,Blazers & Jackets,Nike Leather Jackets #1979,Nike,246.63,Kids,SKU-001979,6
+1980,41.64,Socks,Under Armour Ankle Socks #1980,Under Armour,90.41,Women,SKU-001980,1
+1981,59.7,Active,Adidas Athletic Shorts #1981,Adidas,137.87,Kids,SKU-001981,6
+1982,11.31,Sleep & Lounge,Gucci Pajamas #1982,Gucci,31.88,Men,SKU-001982,8
+1983,176.43,Sleep & Lounge,Patagonia Pajamas #1983,Patagonia,492.55,Women,SKU-001983,10
+1984,183.48,Underwear,Anthropologie Boxers #1984,Anthropologie,367.1,Women,SKU-001984,2
+1985,177.06,Socks,Adidas Ankle Socks #1985,Adidas,498.17,Women,SKU-001985,7
+1986,121.39,Shorts,Versace Bermuda Shorts #1986,Versace,357.4,Kids,SKU-001986,1
+1987,24.42,Accessories,J.Crew Belts #1987,J.Crew,70.82,Men,SKU-001987,7
+1988,55.59,Dresses,Nike Mini Dresses #1988,Nike,142.84,Kids,SKU-001988,3
+1989,178.81,Intimates,Zara Lingerie #1989,Zara,481.4,Men,SKU-001989,10
+1990,196.6,Socks,Abercrombie Ankle Socks #1990,Abercrombie,574.39,Women,SKU-001990,4
+1991,150.55,Pants & Capris,Banana Republic Jeans #1991,Banana Republic,319.42,Kids,SKU-001991,8
+1992,118.35,Socks,Calvin Klein Crew Socks #1992,Calvin Klein,307.12,Kids,SKU-001992,9
+1993,232.8,Shorts,Reebok Bermuda Shorts #1993,Reebok,442.78,Men,SKU-001993,1
+1994,129.33,Tops & Tees,UNIQLO Blouses #1994,UNIQLO,354.21,Women,SKU-001994,9
+1995,8.44,Intimates,Columbia Lingerie #1995,Columbia,26.28,Women,SKU-001995,8
+1996,180.92,Underwear,Ralph Lauren Briefs #1996,Ralph Lauren,547.59,Women,SKU-001996,1
+1997,41.55,Underwear,Reebok Briefs #1997,Reebok,89.09,Men,SKU-001997,10
+1998,84.05,Underwear,Forever 21 Boxers #1998,Forever 21,187.57,Kids,SKU-001998,2
+1999,117.84,Socks,UNIQLO Crew Socks #1999,UNIQLO,319.13,Kids,SKU-001999,5
+2000,34.75,Fashion Hoodies & Sweatshirts,Hollister Crewneck Sweatshirts #2000,Hollister,90.88,Kids,SKU-002000,5

@@ -1,0 +1,48 @@
+[
+  {
+    "run_id": "run_20260601_030947",
+    "trigger": "manual",
+    "start_time": "2026-06-01T03:09:47.018570",
+    "end_time": "2026-06-01T03:09:47.020880",
+    "status": "success",
+    "total_sec": 0.0,
+    "steps": [
+      {
+        "step_name": "data_ingestion",
+        "status": "skipped",
+        "start_time": "2026-06-01T03:09:47.019272",
+        "end_time": "2026-06-01T03:09:47.019867",
+        "duration_sec": 0.0,
+        "error_msg": null,
+        "retries": 0
+      },
+      {
+        "step_name": "elt_transform",
+        "status": "skipped",
+        "start_time": "2026-06-01T03:09:47.019899",
+        "end_time": "2026-06-01T03:09:47.020268",
+        "duration_sec": 0.0,
+        "error_msg": null,
+        "retries": 0
+      },
+      {
+        "step_name": "quality_tests",
+        "status": "skipped",
+        "start_time": "2026-06-01T03:09:47.020284",
+        "end_time": "2026-06-01T03:09:47.020571",
+        "duration_sec": 0.0,
+        "error_msg": null,
+        "retries": 0
+      },
+      {
+        "step_name": "analysis",
+        "status": "skipped",
+        "start_time": "2026-06-01T03:09:47.020584",
+        "end_time": "2026-06-01T03:09:47.020870",
+        "duration_sec": 0.0,
+        "error_msg": null,
+        "retries": 0
+      }
+    ]
+  }
+]

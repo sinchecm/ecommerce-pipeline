@@ -1,0 +1,24 @@
+2026-06-01 03:09:47,018 [INFO] ============================================================
+2026-06-01 03:09:47,018 [INFO] Pipeline Run: run_20260601_030947  Trigger: manual
+2026-06-01 03:09:47,019 [INFO] ============================================================
+2026-06-01 03:09:47,019 [INFO]   ▶ Step: data_ingestion
+2026-06-01 03:09:47,019 [INFO]     Script: /home/user/ecommerce-pipeline/scripts/ingestion/generate_thelook_data.py
+2026-06-01 03:09:47,019 [INFO]     [DRY RUN] Skipping execution
+2026-06-01 03:09:47,019 [INFO]   ▶ Step: elt_transform
+2026-06-01 03:09:47,020 [INFO]     Script: /home/user/ecommerce-pipeline/scripts/transformations/elt_pipeline.py
+2026-06-01 03:09:47,020 [INFO]     [DRY RUN] Skipping execution
+2026-06-01 03:09:47,020 [INFO]   ▶ Step: quality_tests
+2026-06-01 03:09:47,020 [INFO]     Script: /home/user/ecommerce-pipeline/scripts/quality/data_quality_tests.py
+2026-06-01 03:09:47,020 [INFO]     [DRY RUN] Skipping execution
+2026-06-01 03:09:47,020 [INFO]   ▶ Step: analysis
+2026-06-01 03:09:47,020 [INFO]     Script: /home/user/ecommerce-pipeline/scripts/analysis/eda_analysis.py
+2026-06-01 03:09:47,020 [INFO]     [DRY RUN] Skipping execution
+2026-06-01 03:09:47,020 [INFO] 
+── Run Summary ──
+2026-06-01 03:09:47,021 [INFO]   ⏭ data_ingestion            skipped    0.0s
+2026-06-01 03:09:47,021 [INFO]   ⏭ elt_transform             skipped    0.0s
+2026-06-01 03:09:47,021 [INFO]   ⏭ quality_tests             skipped    0.0s
+2026-06-01 03:09:47,021 [INFO]   ⏭ analysis                  skipped    0.0s
+2026-06-01 03:09:47,021 [INFO] 
+  Status: SUCCESS   Total: 0.0s
+2026-06-01 03:09:47,022 [INFO]   Run history saved → /home/user/ecommerce-pipeline/logs/run_history.json
