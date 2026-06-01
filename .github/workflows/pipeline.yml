@@ -23,7 +23,6 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  # ── Job 1: Run the full ELT pipeline ────────────────────────
   run-pipeline:
     name: Run Pipeline
     runs-on: ubuntu-latest
@@ -115,7 +114,6 @@ jobs:
           git diff --staged --quiet || git commit -m "chore: update dashboard data [skip ci]"
           git push || true
 
-  # ── Job 2: Deploy Dashboard to Cloudflare Pages ─────────────
   deploy-dashboard:
     name: Deploy Dashboard
     needs: run-pipeline
@@ -161,7 +159,6 @@ jobs:
           command: pages deploy dist --project-name thelook-dashboard --branch main
           workingDirectory: dashboard
 
-  # ── Job 3: Summary ───────────────────────────────────────────
   notify:
     name: Pipeline Summary
     needs: [run-pipeline, deploy-dashboard]
@@ -181,6 +178,5 @@ jobs:
           echo "|-----|--------|" >> $GITHUB_STEP_SUMMARY
           echo "| Run Pipeline     | $PIPELINE_RESULT |" >> $GITHUB_STEP_SUMMARY
           echo "| Deploy Dashboard | $DEPLOY_RESULT   |" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
           echo "**Triggered by:** $TRIGGER" >> $GITHUB_STEP_SUMMARY
           echo "**Run ID:** $RUN_ID" >> $GITHUB_STEP_SUMMARY
