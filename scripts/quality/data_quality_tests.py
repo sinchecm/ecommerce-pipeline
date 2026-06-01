@@ -22,26 +22,28 @@ Date: 2026-06-01
 import duckdb
 import json
 import os
+from pathlib import Path
+BASE_DIR = Path(__file__).resolve().parents[2]
 import logging
 from datetime import datetime
 from dataclasses import dataclass, field
 from typing import List, Optional, Tuple
 
 # ─── Logging ─────────────────────────────────────────────────────────────────
-os.makedirs("/home/user/ecommerce-pipeline/logs", exist_ok=True)
-os.makedirs("/home/user/ecommerce-pipeline/reports", exist_ok=True)
+os.makedirs(BASE_DIR / "logs",    exist_ok=True)
+os.makedirs(BASE_DIR / "reports", exist_ok=True)
 
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
     handlers=[
-        logging.FileHandler("/home/user/ecommerce-pipeline/logs/quality.log"),
+        logging.FileHandler(BASE_DIR / "logs" / "quality.log"),
         logging.StreamHandler()
     ]
 )
 log = logging.getLogger(__name__)
 
-DB_PATH = "/home/user/ecommerce-pipeline/data/warehouse/ecommerce.duckdb"
+DB_PATH = str(BASE_DIR / "data" / "warehouse" / "ecommerce.duckdb")
 
 # ─── Data Structures ─────────────────────────────────────────────────────────
 
@@ -551,7 +553,7 @@ def save_json_report(results: List[TestResult], summary: dict):
             for r in results
         ]
     }
-    path = "/home/user/ecommerce-pipeline/reports/quality_report.json"
+    path = str(BASE_DIR / "reports" / "quality_report.json")
     with open(path, "w") as f:
         json.dump(report, f, indent=2)
     log.info(f"Quality report saved → {path}")

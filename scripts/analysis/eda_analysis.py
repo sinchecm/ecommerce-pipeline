@@ -31,15 +31,20 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker as mticker
 import matplotlib.patches as mpatches
 import seaborn as sns
+from pathlib import Path
 from sqlalchemy import create_engine, text
 from scipy import stats
 import logging
 
 warnings.filterwarnings("ignore")
 
+# ─── Dynamic Base Directory (works on any machine) ───────────────────────────
+# scripts/analysis/eda_analysis.py  →  go up 2 levels = project root
+BASE_DIR = Path(__file__).resolve().parents[2]
+
 # ─── Config ──────────────────────────────────────────────────────────────────
-DB_PATH      = "/home/user/ecommerce-pipeline/data/warehouse/ecommerce.duckdb"
-REPORTS_DIR  = "/home/user/ecommerce-pipeline/reports"
+DB_PATH      = str(BASE_DIR / "data" / "warehouse" / "ecommerce.duckdb")
+REPORTS_DIR  = str(BASE_DIR / "reports")
 os.makedirs(REPORTS_DIR, exist_ok=True)
 
 logging.basicConfig(level=logging.INFO,

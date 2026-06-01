@@ -31,24 +31,27 @@ import os
 import time
 import logging
 import schedule
+from pathlib import Path
 from datetime import datetime
 from dataclasses import dataclass, field, asdict
 from typing import List, Optional, Callable
 
+# ─── Dynamic base directory (works on any machine / any clone location) ───────
+BASE_DIR      = Path(__file__).resolve().parents[2]
+PIPELINE_BASE = str(BASE_DIR)
+RUN_HISTORY   = str(BASE_DIR / "logs" / "run_history.json")
+
 # ─── Logging ─────────────────────────────────────────────────────────────────
-os.makedirs("/home/user/ecommerce-pipeline/logs", exist_ok=True)
+os.makedirs(BASE_DIR / "logs", exist_ok=True)
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
     handlers=[
-        logging.FileHandler("/home/user/ecommerce-pipeline/logs/orchestrator.log"),
+        logging.FileHandler(str(BASE_DIR / "logs" / "orchestrator.log")),
         logging.StreamHandler(),
     ]
 )
 log = logging.getLogger(__name__)
-
-PIPELINE_BASE = "/home/user/ecommerce-pipeline"
-RUN_HISTORY   = f"{PIPELINE_BASE}/logs/run_history.json"
 
 
 # ─── Data Classes ─────────────────────────────────────────────────────────────
@@ -79,28 +82,28 @@ class PipelineRun:
 PIPELINE_STEPS = [
     {
         "name":        "data_ingestion",
-        "script":      f"{PIPELINE_BASE}/scripts/ingestion/generate_thelook_data.py",
+        "script":      str(BASE_DIR / "scripts" / "ingestion" / "generate_thelook_data.py"),
         "description": "Ingest raw data from source → DuckDB raw schema",
         "max_retries": 2,
         "critical":    True,
     },
     {
         "name":        "elt_transform",
-        "script":      f"{PIPELINE_BASE}/scripts/transformations/elt_pipeline.py",
+        "script":      str(BASE_DIR / "scripts" / "transformations" / "elt_pipeline.py"),
         "description": "ELT: raw → staging → dim/fact → mart",
         "max_retries": 3,
         "critical":    True,
     },
     {
         "name":        "quality_tests",
-        "script":      f"{PIPELINE_BASE}/scripts/quality/data_quality_tests.py",
+        "script":      str(BASE_DIR / "scripts" / "quality" / "data_quality_tests.py"),
         "description": "Run 31 data quality tests across all layers",
         "max_retries": 1,
         "critical":    True,
     },
     {
         "name":        "analysis",
-        "script":      f"{PIPELINE_BASE}/scripts/analysis/eda_analysis.py",
+        "script":      str(BASE_DIR / "scripts" / "analysis" / "eda_analysis.py"),
         "description": "EDA, KPI computation, chart generation",
         "max_retries": 1,
         "critical":    False,

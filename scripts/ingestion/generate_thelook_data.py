@@ -41,23 +41,26 @@ import pyarrow.parquet as pq
 import json
 import os
 import random
+from pathlib import Path
 from faker import Faker
 from datetime import datetime, timedelta
 import logging
 
+# ─── Dynamic Base Directory (works on any machine) ───────────────────────────
+# scripts/ingestion/generate_thelook_data.py  →  go up 2 levels = project root
+BASE_DIR = Path(__file__).resolve().parents[2]
+
 # ─── Logging Setup ──────────────────────────────────────────────────────────
+os.makedirs(BASE_DIR / "logs", exist_ok=True)
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
     handlers=[
-        logging.FileHandler("/home/user/ecommerce-pipeline/logs/ingestion.log"),
+        logging.FileHandler(BASE_DIR / "logs" / "ingestion.log"),
         logging.StreamHandler()
     ]
 )
 log = logging.getLogger(__name__)
-
-# Ensure logs dir exists
-os.makedirs("/home/user/ecommerce-pipeline/logs", exist_ok=True)
 
 fake = Faker()
 Faker.seed(42)
@@ -65,8 +68,8 @@ np.random.seed(42)
 random.seed(42)
 
 # ─── Constants ───────────────────────────────────────────────────────────────
-RAW_DATA_DIR   = "/home/user/ecommerce-pipeline/data/raw"      # Parquet lake root
-DB_PATH        = "/home/user/ecommerce-pipeline/data/warehouse/ecommerce.duckdb"
+RAW_DATA_DIR   = str(BASE_DIR / "data" / "raw")       # Parquet lake root
+DB_PATH        = str(BASE_DIR / "data" / "warehouse" / "ecommerce.duckdb")
 PARQUET_COMPRESSION = "snappy"   # Options: snappy | gzip | brotli | zstd
 N_USERS        = 10_000
 N_PRODUCTS     = 2_000

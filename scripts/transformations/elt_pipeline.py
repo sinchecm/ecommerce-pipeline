@@ -38,21 +38,26 @@ Date: 2026-06-01
 import duckdb
 import logging
 import os
+from pathlib import Path
 from datetime import datetime
 
+# ─── Dynamic Base Directory (works on any machine) ───────────────────────────
+# scripts/transformations/elt_pipeline.py  →  go up 2 levels = project root
+BASE_DIR = Path(__file__).resolve().parents[2]
+
 # ─── Logging ─────────────────────────────────────────────────────────────────
-os.makedirs("/home/user/ecommerce-pipeline/logs", exist_ok=True)
+os.makedirs(BASE_DIR / "logs", exist_ok=True)
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
     handlers=[
-        logging.FileHandler("/home/user/ecommerce-pipeline/logs/elt.log"),
+        logging.FileHandler(BASE_DIR / "logs" / "elt.log"),
         logging.StreamHandler()
     ]
 )
 log = logging.getLogger(__name__)
 
-DB_PATH = "/home/user/ecommerce-pipeline/data/warehouse/ecommerce.duckdb"
+DB_PATH = str(BASE_DIR / "data" / "warehouse" / "ecommerce.duckdb")
 
 
 def run_sql(con, label: str, sql: str):
