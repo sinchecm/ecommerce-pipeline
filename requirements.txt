@@ -1,0 +1,9 @@
+duckdb==1.5.3
+pandas==2.2.3
+numpy==1.26.4
+faker==40.19.1
+pyarrow==24.0.0
+matplotlib==3.10.3
+sqlalchemy==2.0.50
+duckdb-engine==0.17.0
+schedule==1.2.2
