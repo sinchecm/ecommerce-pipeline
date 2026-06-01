@@ -44,5 +44,33 @@
         "retries": 0
       }
     ]
+  },
+  {
+    "run_id": "run_20260601_032928",
+    "trigger": "manual",
+    "start_time": "2026-06-01T03:29:28.914838",
+    "end_time": "2026-06-01T03:29:38.189724",
+    "status": "success",
+    "total_sec": 9.27,
+    "steps": [
+      {
+        "step_name": "quality_tests",
+        "status": "success",
+        "start_time": "2026-06-01T03:29:28.915257",
+        "end_time": "2026-06-01T03:29:29.376312",
+        "duration_sec": 0.46,
+        "error_msg": null,
+        "retries": 0
+      },
+      {
+        "step_name": "analysis",
+        "status": "success",
+        "start_time": "2026-06-01T03:29:29.376616",
+        "end_time": "2026-06-01T03:29:38.189237",
+        "duration_sec": 8.81,
+        "error_msg": null,
+        "retries": 0
+      }
+    ]
   }
 ]

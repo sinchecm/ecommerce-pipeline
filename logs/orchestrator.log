@@ -22,3 +22,19 @@
 2026-06-01 03:09:47,021 [INFO] 
   Status: SUCCESS   Total: 0.0s
 2026-06-01 03:09:47,022 [INFO]   Run history saved → /home/user/ecommerce-pipeline/logs/run_history.json
+2026-06-01 03:29:28,914 [INFO] ============================================================
+2026-06-01 03:29:28,915 [INFO] Pipeline Run: run_20260601_032928  Trigger: manual
+2026-06-01 03:29:28,915 [INFO] ============================================================
+2026-06-01 03:29:28,915 [INFO]   ▶ Step: quality_tests
+2026-06-01 03:29:28,915 [INFO]     Script: /home/user/ecommerce-pipeline/scripts/quality/data_quality_tests.py
+2026-06-01 03:29:29,376 [INFO]     ✅ quality_tests succeeded in 0.5s
+2026-06-01 03:29:29,376 [INFO]   ▶ Step: analysis
+2026-06-01 03:29:29,376 [INFO]     Script: /home/user/ecommerce-pipeline/scripts/analysis/eda_analysis.py
+2026-06-01 03:29:38,189 [INFO]     ✅ analysis succeeded in 8.8s
+2026-06-01 03:29:38,189 [INFO] 
+── Run Summary ──
+2026-06-01 03:29:38,189 [INFO]   ✅ quality_tests             success    0.5s
+2026-06-01 03:29:38,190 [INFO]   ✅ analysis                  success    8.8s
+2026-06-01 03:29:38,190 [INFO] 
+  Status: SUCCESS   Total: 9.3s
+2026-06-01 03:29:38,192 [INFO]   Run history saved → /home/user/ecommerce-pipeline/logs/run_history.json

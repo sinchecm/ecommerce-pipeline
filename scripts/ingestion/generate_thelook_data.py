@@ -6,14 +6,28 @@ Source: BigQuery Public Dataset - bigquery-public-data.thelook_ecommerce
 Method: Synthetic data generation replicating the schema and statistical
         distributions of the original BigQuery dataset.
 
+Output Format: Apache Parquet (columnar, compressed with Snappy)
+  - 3-10x smaller than CSV
+  - Enforced schema types (no stringly-typed data)
+  - Partition strategy:
+      orders/order_items/events → partitioned by year/month (Hive-style)
+      users/products/inventory  → single Parquet file (slowly changing)
+
 Tables ingested:
   - users (customers)
   - products
-  - orders
-  - order_items
-  - events (web events)
+  - orders             [partitioned: year= / month=]
+  - order_items        [partitioned: year= / month=]
+  - events             [partitioned: year= / month=]
   - inventory_items
   - distribution_centers
+
+Why Parquet over CSV?
+  ✓ Column pruning  — DuckDB only reads columns you query
+  ✓ Type safety     — dates are dates, ints are ints (no casting)
+  ✓ Compression     — Snappy codec, 3-10x size reduction
+  ✓ Partitioning    — incremental loads, partition pruning
+  ✓ Industry standard for data lakes (S3, GCS, ADLS)
 
 Author: Data Engineering Team
 Date: 2026-06-01
@@ -22,7 +36,8 @@ Date: 2026-06-01
 
 import pandas as pd
 import numpy as np
-import sqlite3
+import pyarrow as pa
+import pyarrow.parquet as pq
 import json
 import os
 import random
@@ -50,8 +65,9 @@ np.random.seed(42)
 random.seed(42)
 
 # ─── Constants ───────────────────────────────────────────────────────────────
-RAW_DATA_DIR   = "/home/user/ecommerce-pipeline/data/raw"
+RAW_DATA_DIR   = "/home/user/ecommerce-pipeline/data/raw"      # Parquet lake root
 DB_PATH        = "/home/user/ecommerce-pipeline/data/warehouse/ecommerce.duckdb"
+PARQUET_COMPRESSION = "snappy"   # Options: snappy | gzip | brotli | zstd
 N_USERS        = 10_000
 N_PRODUCTS     = 2_000
 N_ORDERS       = 35_000
@@ -345,28 +361,259 @@ def generate_events(users_df: pd.DataFrame, n_events: int) -> pd.DataFrame:
     return pd.DataFrame(records)
 
 # ═══════════════════════════════════════════════════════════════════════════════
+# PARQUET SCHEMA DEFINITIONS  — enforced column types per table
+# ═══════════════════════════════════════════════════════════════════════════════
+
+PARQUET_SCHEMAS = {
+    "distribution_centers": pa.schema([
+        pa.field("id",        pa.int32()),
+        pa.field("name",      pa.string()),
+        pa.field("latitude",  pa.float64()),
+        pa.field("longitude", pa.float64()),
+    ]),
+    "users": pa.schema([
+        pa.field("id",             pa.int32()),
+        pa.field("first_name",     pa.string()),
+        pa.field("last_name",      pa.string()),
+        pa.field("email",          pa.string()),
+        pa.field("age",            pa.int16()),
+        pa.field("gender",         pa.string()),
+        pa.field("country",        pa.string()),
+        pa.field("city",           pa.string()),
+        pa.field("state",          pa.string()),
+        pa.field("postal_code",    pa.string()),
+        pa.field("street_address", pa.string()),
+        pa.field("latitude",       pa.float64()),
+        pa.field("longitude",      pa.float64()),
+        pa.field("traffic_source", pa.string()),
+        pa.field("created_at",     pa.timestamp("us")),
+    ]),
+    "products": pa.schema([
+        pa.field("id",                     pa.int32()),
+        pa.field("cost",                   pa.float64()),
+        pa.field("category",               pa.string()),
+        pa.field("name",                   pa.string()),
+        pa.field("brand",                  pa.string()),
+        pa.field("retail_price",           pa.float64()),
+        pa.field("department",             pa.string()),
+        pa.field("sku",                    pa.string()),
+        pa.field("distribution_center_id", pa.int32()),
+    ]),
+    "orders": pa.schema([
+        pa.field("order_id",     pa.int32()),
+        pa.field("user_id",      pa.int32()),
+        pa.field("status",       pa.string()),
+        pa.field("gender",       pa.string()),
+        pa.field("created_at",   pa.timestamp("us")),
+        pa.field("returned_at",  pa.timestamp("us")),
+        pa.field("shipped_at",   pa.timestamp("us")),
+        pa.field("delivered_at", pa.timestamp("us")),
+        pa.field("num_of_item",  pa.int8()),
+        pa.field("order_total",  pa.float64()),
+        pa.field("year",         pa.int16()),
+        pa.field("month",        pa.int8()),
+    ]),
+    "order_items": pa.schema([
+        pa.field("id",                 pa.int32()),
+        pa.field("order_id",           pa.int32()),
+        pa.field("user_id",            pa.int32()),
+        pa.field("product_id",         pa.int32()),
+        pa.field("inventory_item_id",  pa.int32()),
+        pa.field("status",             pa.string()),
+        pa.field("created_at",         pa.timestamp("us")),
+        pa.field("shipped_at",         pa.timestamp("us")),
+        pa.field("delivered_at",       pa.timestamp("us")),
+        pa.field("returned_at",        pa.timestamp("us")),
+        pa.field("sale_price",         pa.float64()),
+        pa.field("year",               pa.int16()),
+        pa.field("month",              pa.int8()),
+    ]),
+    "events": pa.schema([
+        pa.field("id",              pa.int32()),
+        pa.field("user_id",         pa.int32()),
+        pa.field("sequence_number", pa.int16()),
+        pa.field("session_id",      pa.string()),
+        pa.field("created_at",      pa.timestamp("us")),
+        pa.field("ip_address",      pa.string()),
+        pa.field("city",            pa.string()),
+        pa.field("state",           pa.string()),
+        pa.field("postal_code",     pa.string()),
+        pa.field("browser",         pa.string()),
+        pa.field("traffic_source",  pa.string()),
+        pa.field("uri",             pa.string()),
+        pa.field("event_type",      pa.string()),
+        pa.field("year",            pa.int16()),
+        pa.field("month",           pa.int8()),
+    ]),
+    "inventory_items": pa.schema([
+        pa.field("id",                               pa.int32()),
+        pa.field("product_id",                       pa.int32()),
+        pa.field("created_at",                       pa.timestamp("us")),
+        pa.field("sold_at",                          pa.timestamp("us")),
+        pa.field("cost",                             pa.float64()),
+        pa.field("product_category",                 pa.string()),
+        pa.field("product_name",                     pa.string()),
+        pa.field("product_brand",                    pa.string()),
+        pa.field("product_retail_price",             pa.float64()),
+        pa.field("product_department",               pa.string()),
+        pa.field("product_sku",                      pa.string()),
+        pa.field("product_distribution_center_id",   pa.int32()),
+    ]),
+}
+
+# ═══════════════════════════════════════════════════════════════════════════════
 # SAVE + LOAD TO DATABASE
 # ═══════════════════════════════════════════════════════════════════════════════
 
-def save_raw_csv(df: pd.DataFrame, name: str):
-    path = f"{RAW_DATA_DIR}/{name}.csv"
-    df.to_csv(path, index=False)
-    log.info(f"  Saved {name}.csv  → {len(df):,} rows  ({os.path.getsize(path)/1024:.1f} KB)")
+def _enforce_types(df: pd.DataFrame, schema: pa.Schema) -> pd.DataFrame:
+    """Cast DataFrame columns to match the PyArrow schema types."""
+    df = df.copy()
+    for field in schema:
+        col = field.name
+        if col not in df.columns:
+            continue
+        if pa.types.is_timestamp(field.type):
+            df[col] = pd.to_datetime(df[col], errors="coerce")
+        elif pa.types.is_floating(field.type):
+            df[col] = pd.to_numeric(df[col], errors="coerce").astype("float64")
+        elif pa.types.is_integer(field.type):
+            df[col] = pd.to_numeric(df[col], errors="coerce").astype("Int64")
+        elif pa.types.is_string(field.type):
+            df[col] = df[col].astype(str).where(df[col].notna(), None)
+    return df
 
-def load_into_duckdb(dfs: dict):
-    """Load all raw DataFrames into DuckDB as raw_* tables."""
+# Alias kept for backward compat calls
+_enforce_timestamps = _enforce_types
+
+
+def save_parquet_flat(df: pd.DataFrame, name: str):
+    """
+    Save a non-partitioned table as a single Parquet file.
+    Used for: distribution_centers, users, products, inventory_items
+    """
+    out_dir = f"{RAW_DATA_DIR}/{name}"
+    os.makedirs(out_dir, exist_ok=True)
+    path = f"{out_dir}/{name}.parquet"
+
+    schema = PARQUET_SCHEMAS.get(name)
+    df     = _enforce_types(df, schema) if schema else df
+    table  = pa.Table.from_pandas(df, schema=schema, preserve_index=False,
+                                   safe=False)
+    pq.write_table(table, path, compression=PARQUET_COMPRESSION)
+
+    size_kb = os.path.getsize(path) / 1024
+    log.info(f"  Saved {name}/ (flat)        → {len(df):>8,} rows  "
+             f"{size_kb:>8.1f} KB  (snappy)")
+
+
+def save_parquet_partitioned(df: pd.DataFrame, name: str,
+                              partition_cols: list = None):
+    """
+    Save a partitioned Parquet dataset using Hive-style partitioning.
+    Directory layout example:
+        raw/orders/year=2023/month=4/part-0.parquet
+
+    Used for: orders, order_items, events
+    Enables partition pruning: queries filtered by year/month
+    skip irrelevant files entirely.
+    """
+    if partition_cols is None:
+        partition_cols = ["year", "month"]
+
+    out_dir = f"{RAW_DATA_DIR}/{name}"
+    os.makedirs(out_dir, exist_ok=True)
+
+    schema = PARQUET_SCHEMAS.get(name)
+    df     = _enforce_types(df, schema) if schema else df
+    table  = pa.Table.from_pandas(df, schema=schema, preserve_index=False,
+                                   safe=False)
+
+    pq.write_to_dataset(
+        table,
+        root_path=out_dir,
+        partition_cols=partition_cols,
+        compression=PARQUET_COMPRESSION,
+        existing_data_behavior="overwrite_or_ignore",
+    )
+
+    # Count files and total size
+    total_size = sum(
+        os.path.getsize(os.path.join(root, f))
+        for root, _, files in os.walk(out_dir)
+        for f in files if f.endswith(".parquet")
+    )
+    n_partitions = sum(
+        1 for root, _, files in os.walk(out_dir)
+        for f in files if f.endswith(".parquet")
+    )
+    log.info(f"  Saved {name}/ (partitioned) → {len(df):>8,} rows  "
+             f"{total_size/1024:>8.1f} KB  "
+             f"{n_partitions} partition files  "
+             f"[by {', '.join(partition_cols)}]")
+
+
+def load_parquet_into_duckdb(raw_dir: str):
+    """
+    Load all Parquet datasets into DuckDB raw schema.
+    DuckDB natively reads Parquet (including partitioned datasets)
+    via glob patterns — no intermediate DataFrame needed.
+    """
     import duckdb
-    log.info(f"Loading raw tables into DuckDB → {DB_PATH}")
+    log.info(f"Loading Parquet → DuckDB  ({DB_PATH})")
     con = duckdb.connect(DB_PATH)
     con.execute("CREATE SCHEMA IF NOT EXISTS raw")
-    for name, df in dfs.items():
+
+    # Map table name → glob pattern
+    tables = {
+        "distribution_centers": f"{raw_dir}/distribution_centers/distribution_centers.parquet",
+        "users":                f"{raw_dir}/users/users.parquet",
+        "products":             f"{raw_dir}/products/products.parquet",
+        "inventory_items":      f"{raw_dir}/inventory_items/inventory_items.parquet",
+        "orders":               f"{raw_dir}/orders/**/*.parquet",
+        "order_items":          f"{raw_dir}/order_items/**/*.parquet",
+        "events":               f"{raw_dir}/events/**/*.parquet",
+    }
+
+    for name, glob in tables.items():
         tbl = f"raw.{name}"
         con.execute(f"DROP TABLE IF EXISTS {tbl}")
-        con.execute(f"CREATE TABLE {tbl} AS SELECT * FROM df")
+        # DuckDB reads partitioned Parquet natively with HIVE_PARTITIONING
+        if "**" in glob:
+            con.execute(f"""
+                CREATE TABLE {tbl} AS
+                SELECT * FROM read_parquet('{glob}',
+                    hive_partitioning = true,
+                    hive_types_autocast = true)
+            """)
+        else:
+            con.execute(f"""
+                CREATE TABLE {tbl} AS
+                SELECT * FROM read_parquet('{glob}')
+            """)
         count = con.execute(f"SELECT COUNT(*) FROM {tbl}").fetchone()[0]
-        log.info(f"  Loaded {tbl}: {count:,} rows")
+        log.info(f"  Loaded raw.{name}: {count:,} rows")
+
     con.close()
-    log.info("DuckDB load complete.")
+    log.info("DuckDB Parquet load complete.")
+
+
+def print_size_comparison(raw_dir: str):
+    """Show CSV vs Parquet size savings."""
+    log.info("\n── File Size Comparison (CSV vs Parquet) ──")
+    log.info(f"  {'Table':<25} {'Parquet':>12}  Notes")
+    log.info(f"  {'─'*25} {'─'*12}  {'─'*30}")
+    for table in ["distribution_centers", "users", "products",
+                  "inventory_items", "orders", "order_items", "events"]:
+        table_dir = os.path.join(raw_dir, table)
+        if not os.path.exists(table_dir):
+            continue
+        pq_size = sum(
+            os.path.getsize(os.path.join(root, f))
+            for root, _, files in os.walk(table_dir)
+            for f in files if f.endswith(".parquet")
+        )
+        note = "partitioned by year/month" if table in ("orders","order_items","events") else "flat file"
+        log.info(f"  {table:<25} {pq_size/1024:>9.1f} KB  {note}")
 
 # ═══════════════════════════════════════════════════════════════════════════════
 # MAIN
@@ -395,14 +642,33 @@ def main():
         "events":               events_df,
     }
 
-    # 2. Save raw CSVs
-    log.info("\n── Saving raw CSVs ──")
-    for name, df in all_dfs.items():
-        save_raw_csv(df, name)
+    # 2. Add partition columns to time-series tables before writing
+    log.info("\n── Adding partition columns (year, month) ──")
+    for name in ["orders", "order_items", "events"]:
+        df = all_dfs[name]
+        date_col = "created_at"
+        df[date_col] = pd.to_datetime(df[date_col])
+        df["year"]   = df[date_col].dt.year.astype("int16")
+        df["month"]  = df[date_col].dt.month.astype("int8")
+        all_dfs[name] = df
+        log.info(f"  {name}: added year/month partition columns")
 
-    # 3. Load into DuckDB
-    log.info("\n── Loading into DuckDB ──")
-    load_into_duckdb(all_dfs)
+    # 3. Save as Parquet
+    log.info("\n── Writing Parquet files ──")
+    FLAT_TABLES        = ["distribution_centers", "users", "products", "inventory_items"]
+    PARTITIONED_TABLES = ["orders", "order_items", "events"]
+
+    for name in FLAT_TABLES:
+        save_parquet_flat(all_dfs[name], name)
+
+    for name in PARTITIONED_TABLES:
+        save_parquet_partitioned(all_dfs[name], name)
+
+    print_size_comparison(RAW_DATA_DIR)
+
+    # 4. Load into DuckDB from Parquet
+    log.info("\n── Loading Parquet → DuckDB ──")
+    load_parquet_into_duckdb(RAW_DATA_DIR)
 
     # 4. Summary
     log.info("\n── Ingestion Summary ──")

@@ -25,6 +25,11 @@ Why Star Schema?
   ✓ Aggregation-friendly grain design
   ✓ Supports additive facts (SUM, COUNT) across all dimensions
 
+Raw Layer Source:
+  Reads directly from Parquet files (flat + partitioned) via DuckDB
+  native read_parquet() with hive_partitioning=true.
+  The raw.* tables in DuckDB ARE loaded from Parquet — no CSV involved.
+
 Author: Data Engineering Team
 Date: 2026-06-01
 =============================================================================

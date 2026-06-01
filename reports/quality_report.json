@@ -1,5 +1,5 @@
 {
-  "run_timestamp": "2026-06-01T03:06:19.709534",
+  "run_timestamp": "2026-06-01T03:29:29.318668",
   "summary": {
     "total": 31,
     "passed": 31,
@@ -20,7 +20,7 @@
       "threshold": 0.0,
       "critical": true,
       "details": "0 rows failed (rate: 0.0000%, threshold: 0.0000%)",
-      "duration_ms": 1.46
+      "duration_ms": 1.66
     },
     {
       "name": "no_null_product_id_in_items",
@@ -34,7 +34,7 @@
       "threshold": 0.0,
       "critical": true,
       "details": "0 rows failed (rate: 0.0000%, threshold: 0.0000%)",
-      "duration_ms": 1.36
+      "duration_ms": 0.9
     },
     {
       "name": "no_null_email_in_customers",
@@ -48,7 +48,7 @@
       "threshold": 0.01,
       "critical": false,
       "details": "0 rows failed (rate: 0.0000%, threshold: 1.0000%)",
-      "duration_ms": 3.94
+      "duration_ms": 4.92
     },
     {
       "name": "no_null_sale_price_in_items",
@@ -62,7 +62,7 @@
       "threshold": 0.0,
       "critical": true,
       "details": "0 rows failed (rate: 0.0000%, threshold: 0.0000%)",
-      "duration_ms": 0.83
+      "duration_ms": 1.18
     },
     {
       "name": "no_null_customer_key_in_fact",
@@ -76,7 +76,7 @@
       "threshold": 0.0,
       "critical": true,
       "details": "0 rows failed (rate: 0.0000%, threshold: 0.0000%)",
-      "duration_ms": 0.86
+      "duration_ms": 0.87
     },
     {
       "name": "no_null_product_key_in_fact",
@@ -90,7 +90,7 @@
       "threshold": 0.0,
       "critical": true,
       "details": "0 rows failed (rate: 0.0000%, threshold: 0.0000%)",
-      "duration_ms": 0.8
+      "duration_ms": 0.77
     },
     {
       "name": "no_null_date_key_in_fact",
@@ -104,7 +104,7 @@
       "threshold": 0.0,
       "critical": true,
       "details": "0 rows failed (rate: 0.0000%, threshold: 0.0000%)",
-      "duration_ms": 0.79
+      "duration_ms": 0.75
     },
     {
       "name": "unique_user_ids",
@@ -118,7 +118,7 @@
       "threshold": 0.0,
       "critical": true,
       "details": "0 rows failed (rate: 0.0000%, threshold: 0.0000%)",
-      "duration_ms": 6.4
+      "duration_ms": 6.13
     },
     {
       "name": "unique_product_ids",
@@ -132,7 +132,7 @@
       "threshold": 0.0,
       "critical": true,
       "details": "0 rows failed (rate: 0.0000%, threshold: 0.0000%)",
-      "duration_ms": 2.6
+      "duration_ms": 2.41
     },
     {
       "name": "unique_order_item_ids",
@@ -146,7 +146,7 @@
       "threshold": 0.0,
       "critical": true,
       "details": "0 rows failed (rate: 0.0000%, threshold: 0.0000%)",
-      "duration_ms": 11.4
+      "duration_ms": 11.16
     },
     {
       "name": "unique_dim_customer_keys",
@@ -160,7 +160,7 @@
       "threshold": 0.0,
       "critical": true,
       "details": "0 rows failed (rate: 0.0000%, threshold: 0.0000%)",
-      "duration_ms": 2.96
+      "duration_ms": 2.99
     },
     {
       "name": "unique_date_keys_in_dimdate",
@@ -174,7 +174,7 @@
       "threshold": 0.0,
       "critical": true,
       "details": "0 rows failed (rate: 0.0000%, threshold: 0.0000%)",
-      "duration_ms": 2.3
+      "duration_ms": 2.09
     },
     {
       "name": "unique_customer_emails",
@@ -188,7 +188,7 @@
       "threshold": 0.005,
       "critical": false,
       "details": "0 rows failed (rate: 0.0000%, threshold: 0.5000%)",
-      "duration_ms": 5.11
+      "duration_ms": 5.85
     },
     {
       "name": "fact_customer_fk_integrity",
@@ -202,7 +202,7 @@
       "threshold": 0.0,
       "critical": true,
       "details": "0 rows failed (rate: 0.0000%, threshold: 0.0000%)",
-      "duration_ms": 4.74
+      "duration_ms": 4.55
     },
     {
       "name": "fact_product_fk_integrity",
@@ -216,7 +216,7 @@
       "threshold": 0.0,
       "critical": true,
       "details": "0 rows failed (rate: 0.0000%, threshold: 0.0000%)",
-      "duration_ms": 4.0
+      "duration_ms": 3.53
     },
     {
       "name": "fact_date_fk_integrity",
@@ -230,7 +230,7 @@
       "threshold": 0.0,
       "critical": true,
       "details": "0 rows failed (rate: 0.0000%, threshold: 0.0000%)",
-      "duration_ms": 3.35
+      "duration_ms": 3.1
     },
     {
       "name": "order_items_order_fk_integrity",
@@ -244,7 +244,7 @@
       "threshold": 0.0,
       "critical": true,
       "details": "0 rows failed (rate: 0.0000%, threshold: 0.0000%)",
-      "duration_ms": 7.52
+      "duration_ms": 6.09
     },
     {
       "name": "positive_sale_prices",
@@ -258,7 +258,7 @@
       "threshold": 0.0,
       "critical": true,
       "details": "0 rows failed (rate: 0.0000%, threshold: 0.0000%)",
-      "duration_ms": 1.01
+      "duration_ms": 0.78
     },
     {
       "name": "valid_age_range",
@@ -272,7 +272,7 @@
       "threshold": 0.01,
       "critical": false,
       "details": "0 rows failed (rate: 0.0000%, threshold: 1.0000%)",
-      "duration_ms": 0.99
+      "duration_ms": 0.77
     },
     {
       "name": "valid_gender_values",
@@ -286,7 +286,7 @@
       "threshold": 0.0,
       "critical": true,
       "details": "0 rows failed (rate: 0.0000%, threshold: 0.0000%)",
-      "duration_ms": 1.18
+      "duration_ms": 1.39
     },
     {
       "name": "valid_order_status_values",
@@ -300,7 +300,7 @@
       "threshold": 0.0,
       "critical": true,
       "details": "0 rows failed (rate: 0.0000%, threshold: 0.0000%)",
-      "duration_ms": 4.97
+      "duration_ms": 2.08
     },
     {
       "name": "retail_price_geq_cost",
@@ -314,7 +314,7 @@
       "threshold": 0.0,
       "critical": true,
       "details": "0 rows failed (rate: 0.0000%, threshold: 0.0000%)",
-      "duration_ms": 0.85
+      "duration_ms": 0.86
     },
     {
       "name": "date_keys_in_valid_range",
@@ -328,7 +328,7 @@
       "threshold": 0.0,
       "critical": true,
       "details": "0 rows failed (rate: 0.0000%, threshold: 0.0000%)",
-      "duration_ms": 0.87
+      "duration_ms": 0.8
     },
     {
       "name": "sale_price_not_exceed_retail",
@@ -342,7 +342,7 @@
       "threshold": 0.02,
       "critical": false,
       "details": "0 rows failed (rate: 0.0000%, threshold: 2.0000%)",
-      "duration_ms": 2.43
+      "duration_ms": 2.27
     },
     {
       "name": "order_total_matches_items",
@@ -356,7 +356,7 @@
       "threshold": 0.02,
       "critical": false,
       "details": "0 rows failed (rate: 0.0000%, threshold: 2.0000%)",
-      "duration_ms": 14.32
+      "duration_ms": 16.84
     },
     {
       "name": "returned_orders_have_return_date",
@@ -370,7 +370,7 @@
       "threshold": 0.05,
       "critical": false,
       "details": "0 rows failed (rate: 0.0000%, threshold: 5.0000%)",
-      "duration_ms": 1.34
+      "duration_ms": 1.5
     },
     {
       "name": "shipped_after_order_date",
@@ -384,7 +384,7 @@
       "threshold": 0.0,
       "critical": true,
       "details": "0 rows failed (rate: 0.0000%, threshold: 0.0000%)",
-      "duration_ms": 1.53
+      "duration_ms": 2.01
     },
     {
       "name": "delivered_after_shipped",
@@ -398,7 +398,7 @@
       "threshold": 0.0,
       "critical": true,
       "details": "0 rows failed (rate: 0.0000%, threshold: 0.0000%)",
-      "duration_ms": 1.45
+      "duration_ms": 3.04
     },
     {
       "name": "dim_customer_segment_populated",
@@ -412,7 +412,7 @@
       "threshold": 0.0,
       "critical": true,
       "details": "0 rows failed (rate: 0.0000%, threshold: 0.0000%)",
-      "duration_ms": 1.09
+      "duration_ms": 1.4
     },
     {
       "name": "minimum_order_volume",
@@ -426,7 +426,7 @@
       "threshold": 0.0,
       "critical": true,
       "details": "0 rows failed (rate: 0.0000%, threshold: 0.0000%)",
-      "duration_ms": 9.32
+      "duration_ms": 5.21
     },
     {
       "name": "minimum_customer_volume",
@@ -440,7 +440,7 @@
       "threshold": 0.0,
       "critical": true,
       "details": "0 rows failed (rate: 0.0000%, threshold: 0.0000%)",
-      "duration_ms": 0.8
+      "duration_ms": 1.0
     }
   ]
 }
